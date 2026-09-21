@@ -1,421 +1,250 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36" version="24.7.17" pages="2">
-  <diagram id="tecs-overview-v1154" name="第1页_TECS总体控制框图">
-    <mxGraphModel dx="3755" dy="1558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="1500" math="0" shadow="0">
+  <diagram id="tecs-main-official" name="第1页_官方扩展版主图">
+    <mxGraphModel dx="1502" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="p1_title" value="&lt;b&gt;PX4 v1.15.4 固定翼 TECS 总体控制框图（参数对应版）&lt;/b&gt;&lt;br&gt;主线：高度/空速外环 → SPE/SKE → SEB/STE → Pitch/Throttle" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontSize=24;fontStyle=1;fontSize=24;align=center;" parent="1" vertex="1">
-          <mxGeometry x="80" y="20" width="2280" height="60" as="geometry" />
+        <mxCell id="title1" value="&lt;b&gt;PX4 v1.15.4 固定翼 TECS 控制系统框图（官方扩展版）&lt;/b&gt;&lt;br&gt;主图尽量保留官方 TECS 骨架，仅对关键参数做有限外挂扩展" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontSize=24;fontStyle=1;fontSize=24;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="20" width="2260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="alt_sp" value="&lt;b&gt;高度目标 / 高度率输入&lt;/b&gt;&lt;br&gt;Altitude SP / Height-rate SP&lt;br&gt;Mission / Position / Altitude 等" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="60" y="140" width="280" height="100" as="geometry" />
+        <mxCell id="vmin" value="&lt;b&gt;V_min&lt;/b&gt;&lt;br&gt;最低空速约束" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="180" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="alt_state" value="&lt;b&gt;高度状态反馈&lt;/b&gt;&lt;br&gt;altitude&lt;br&gt;altitude_rate" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="60" y="300" width="280" height="90" as="geometry" />
+        <mxCell id="vsp" value="&lt;b&gt;V_sp&lt;/b&gt;&lt;br&gt;TAS airspeed setpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="280" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="air_sp" value="&lt;b&gt;空速目标&lt;/b&gt;&lt;br&gt;Equivalent Airspeed SP&lt;br&gt;转换为 TAS setpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="60" y="560" width="280" height="90" as="geometry" />
+        <mxCell id="hsp" value="&lt;b&gt;h_sp&lt;/b&gt;&lt;br&gt;height setpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontSize=15;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="500" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="air_state" value="&lt;b&gt;空速测量 / 导数&lt;/b&gt;&lt;br&gt;equivalent_airspeed&lt;br&gt;speed_deriv_forward" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="60" y="720" width="280" height="90" as="geometry" />
+        <mxCell id="states" value="&lt;b&gt;状态反馈&lt;/b&gt;&lt;br&gt;h, hdot, TAS, TASdot&lt;br&gt;load factor" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="690" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="roll_state" value="&lt;b&gt;横滚 / 载荷因子&lt;/b&gt;&lt;br&gt;getLoadFactor()&lt;br&gt;供转弯能量补偿" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="60" y="1040" width="280" height="85" as="geometry" />
+        <mxCell id="vlim" value="&lt;b&gt;目标空速整形&lt;/b&gt;&lt;br&gt;V_sp / V_min&lt;br&gt;underspeed aware" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;align=center;" parent="1" vertex="1">
+          <mxGeometry x="320" y="220" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="alt_ref" value="&lt;b&gt;高度参考模型&lt;/b&gt;&lt;br&gt;TECSAltitudeReferenceModel::update()&lt;br&gt;FW_T_CLMB_R_SP / FW_T_SINK_R_SP&lt;br&gt;FW_T_VERT_ACC&lt;br&gt;输出：altitude_reference / height_rate_reference" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="420" y="120" width="350" height="190" as="geometry" />
+        <mxCell id="energybg" value="&lt;b&gt;Common Energy Calculations&lt;/b&gt;&lt;br&gt;公共能量计算：由高度/空速参考与状态形成能量量&lt;br&gt;（保留官方骨架，细节参数通过外挂注释补充）" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#e0e0e0;strokeColor=#7f7f7f;fontSize=16;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="160" width="560" height="620" as="geometry" />
         </mxCell>
-        <mxCell id="alt_outer" value="&lt;b&gt;高度外环&lt;/b&gt;&lt;br&gt;TECSControl::_calcAltitudeControlOutput()&lt;br&gt;(h_ref - h) × (1/FW_T_ALT_TC)&lt;br&gt;+ FW_T_HRATE_FF × hdot_ref&lt;br&gt;限幅：FW_T_CLMB_MAX / FW_T_SINK_MAX" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="840" y="120" width="380" height="200" as="geometry" />
+        <mxCell id="spe_sp" value="&lt;b&gt;SPE_sp&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#d9e7f7;strokeColor=#8ea9db;fontSize=16;align=center;" parent="1" vertex="1">
+          <mxGeometry x="660" y="260" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hr_sp" value="&lt;b&gt;Altitude Rate SP&lt;/b&gt;&lt;br&gt;height_rate_setpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1280" y="170" width="240" height="90" as="geometry" />
+        <mxCell id="ske_sp" value="&lt;b&gt;SKE_sp&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#d9e7f7;strokeColor=#8ea9db;fontSize=16;align=center;" parent="1" vertex="1">
+          <mxGeometry x="860" y="260" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="air_filter" value="&lt;b&gt;TECS 空速滤波&lt;/b&gt;&lt;br&gt;TECSAirspeedFilter::update()&lt;br&gt;FW_T_SPD_STD&lt;br&gt;FW_T_SPD_DEV_STD&lt;br&gt;FW_T_SPD_PRC_STD&lt;br&gt;输出：filtered TAS / TAS rate" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="420" y="610" width="350" height="210" as="geometry" />
+        <mxCell id="ste_sp" value="&lt;b&gt;STE_sp&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#d9e7f7;strokeColor=#8ea9db;fontSize=16;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="350" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="air_outer" value="&lt;b&gt;空速外环&lt;/b&gt;&lt;br&gt;TECSControl::_calcAirspeedControlOutput()&lt;br&gt;(TAS_sp - TAS) × (1/FW_T_TAS_TC)&lt;br&gt;TAS rate 限幅由 STE 性能边界派生" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="840" y="600" width="380" height="170" as="geometry" />
+        <mxCell id="spe" value="&lt;b&gt;SPE&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#d9e7f7;strokeColor=#8ea9db;fontSize=16;align=center;" parent="1" vertex="1">
+          <mxGeometry x="660" y="470" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="tas_rate_sp" value="&lt;b&gt;TAS Rate SP&lt;/b&gt;&lt;br&gt;true_airspeed_derivative_sp" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1280" y="635" width="240" height="90" as="geometry" />
+        <mxCell id="ske" value="&lt;b&gt;SKE&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#d9e7f7;strokeColor=#8ea9db;fontSize=16;align=center;" parent="1" vertex="1">
+          <mxGeometry x="860" y="470" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="energy_conv" value="&lt;b&gt;能量率转换&lt;/b&gt;&lt;br&gt;TECSControl::_calcSpecificEnergyRates()&lt;br&gt;SPE_rate_sp = height_rate_sp × g&lt;br&gt;SKE_rate_sp = TAS × TAS_rate_sp&lt;br&gt;估计值来自 altitude_rate / filtered TAS rate" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1580" y="360" width="390" height="220" as="geometry" />
+        <mxCell id="ste" value="&lt;b&gt;STE&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#d9e7f7;strokeColor=#8ea9db;fontSize=16;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="560" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="underspeed" value="&lt;b&gt;欠速检测与权重&lt;/b&gt;&lt;br&gt;_detectUnderspeed()&lt;br&gt;_updateSpeedAltitudeWeights()&lt;br&gt;FW_T_SPDWEIGHT&lt;br&gt;FW_AIRSPD_MIN / FW_AIRSPD_TRIM&lt;br&gt;欠速时速度权重逐步趋向 2" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1580" y="90" width="390" height="210" as="geometry" />
+        <mxCell id="energy_note" value="高度/空速外环、参考模型与状态估计共同服务于该公共能量层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="620" y="660" width="420" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="seb" value="&lt;b&gt;SEB Rate（能量平衡率）&lt;/b&gt;&lt;br&gt;_calcPitchControlSebRate()&lt;br&gt;SEB = w_SPE·SPE - w_SKE·SKE" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2040" y="90" width="340" height="115" as="geometry" />
+        <mxCell id="fallback" value="&lt;b&gt;Low Energy Fallback&lt;/b&gt;&lt;br&gt;underspeed&lt;br&gt;uncommanded descent" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#666666;fontSize=16;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="220" width="240" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="pitch_ctrl" value="&lt;b&gt;Pitch 能量平衡控制&lt;/b&gt;&lt;br&gt;_calcPitchControlOutput()&lt;br&gt;FW_T_PTCH_DAMP：SEB rate 误差反馈&lt;br&gt;FW_T_SEB_R_FF：SEB rate 前馈&lt;br&gt;FW_T_I_GAIN_PIT：积分" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2040" y="245" width="340" height="175" as="geometry" />
+        <mxCell id="sum_thr" value="Σ" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#666666;fontFamily=Microsoft YaHei;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="365" width="34" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="pitch_limit" value="&lt;b&gt;Pitch 变化率与角度边界&lt;/b&gt;&lt;br&gt;FW_T_VERT_ACC → pitch increment limit&lt;br&gt;FW_P_LIM_MIN / FW_P_LIM_MAX" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#999999;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2040" y="455" width="340" height="120" as="geometry" />
+        <mxCell id="thr_int" value="&lt;b&gt;K_I&lt;/b&gt;&lt;br&gt;FW_T_THR_INTEG" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#fce4d6;strokeColor=#d79b00;fontSize=15;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="280" width="90" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="pitch_sp" value="&lt;b&gt;Pitch Setpoint&lt;/b&gt;&lt;br&gt;tecs_status.pitch_sp_rad&lt;br&gt;继续进入固定翼姿态控制器" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2040" y="610" width="340" height="100" as="geometry" />
+        <mxCell id="thr_damp" value="&lt;b&gt;K_D&lt;/b&gt;&lt;br&gt;FW_T_THR_DAMPING" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#fce4d6;strokeColor=#d79b00;fontSize=15;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="445" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ste" value="&lt;b&gt;STE Rate（总能量率）&lt;/b&gt;&lt;br&gt;_calcThrottleControlSteRate()&lt;br&gt;STE = SPE + SKE&lt;br&gt;+ FW_T_RLL2THR × (load_factor - 1)&lt;br&gt;限幅由 CLMB/SINK 性能换算" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1580" y="790" width="390" height="170" as="geometry" />
+        <mxCell id="thr_gain" value="&lt;b&gt;K_{Ė→ΔT}&lt;/b&gt;&lt;br&gt;energy rate → throttle&lt;br&gt;含 FW_T_STE_R_TC" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#fce4d6;strokeColor=#d79b00;fontSize=14;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="445" width="170" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="ste_filter" value="&lt;b&gt;STE Rate Estimate Filter&lt;/b&gt;&lt;br&gt;FW_T_STE_R_TC&lt;br&gt;_ste_rate_estimate_filter" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2040" y="785" width="340" height="105" as="geometry" />
+        <mxCell id="thr_ff" value="&lt;b&gt;T_FF&lt;/b&gt;&lt;br&gt;trim throttle&lt;br&gt;+ energy FF" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#fce4d6;strokeColor=#d79b00;fontSize=14;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="560" width="170" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="thr_ctrl" value="&lt;b&gt;Throttle 总能量控制&lt;/b&gt;&lt;br&gt;_calcThrottleControlOutput()&lt;br&gt;预测油门：FW_THR_TRIM + STE rate 映射&lt;br&gt;FW_T_THR_DAMPING：STE rate 误差反馈&lt;br&gt;FW_T_THR_INTEG：积分" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2040" y="930" width="340" height="190" as="geometry" />
+        <mxCell id="thr_cmd" value="&lt;b&gt;Throttle Command Synthesis&lt;/b&gt;&lt;br&gt;预测油门 + 反馈 + 积分&lt;br&gt;含 FW_T_RLL2THR" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#fce4d6;strokeColor=#d79b00;fontSize=15;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1820" y="350" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="thr_limit" value="&lt;b&gt;Throttle 变化率与边界&lt;/b&gt;&lt;br&gt;FW_THR_SLEW_MAX&lt;br&gt;FW_THR_MIN / FW_THR_MAX" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#999999;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2040" y="1150" width="340" height="105" as="geometry" />
+        <mxCell id="thr_sat" value="&lt;b&gt;Throttle Limit / Slew&lt;/b&gt;&lt;br&gt;FW_THR_MIN / TRIM / MAX&lt;br&gt;FW_THR_SLEW_MAX" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#444444;fontSize=14;align=center;" parent="1" vertex="1">
+          <mxGeometry x="2110" y="360" width="210" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="thr_sp" value="&lt;b&gt;Throttle Setpoint&lt;/b&gt;&lt;br&gt;tecs_status.throttle_sp&lt;br&gt;输出到推进系统" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2040" y="1290" width="340" height="95" as="geometry" />
+        <mxCell id="tsp" value="&lt;b&gt;T_sp&lt;/b&gt;&lt;br&gt;throttle setpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#444444;fontSize=16;align=center;" parent="1" vertex="1">
+          <mxGeometry x="2360" y="375" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="perf" value="&lt;b&gt;PerformanceModel（外围性能模型）&lt;/b&gt;&lt;br&gt;FW_AIRSPD_STALL / MIN / TRIM / MAX&lt;br&gt;FW_T_CLMB_MAX → getMaximumClimbRate()&lt;br&gt;FW_T_SINK_MIN → getMinimumSinkRate()&lt;br&gt;WEIGHT_BASE / WEIGHT_GROSS / FW_SERVICE_CEIL&lt;br&gt;FW_THR_TRIM / MIN / MAX / FW_THR_ASPD_MIN/MAX&lt;br&gt;注意：CLMB_MAX、SINK_MIN、Trim airspeed/Throttle 可在进入 TECS 前被重量/密度修正" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#e2f0d9;strokeColor=#70ad47;fontSize=13;align=left;" parent="1" vertex="1">
-          <mxGeometry x="420" y="1020" width="970" height="270" as="geometry" />
+        <mxCell id="sum_pitch" value="Σ" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#666666;fontFamily=Microsoft YaHei;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="1010" width="34" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="tecs_update" value="&lt;b&gt;TECS::update() 主调用&lt;/b&gt;&lt;br&gt;Reference Model → Airspeed Filter → TECSControl::update()" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;align=center;" parent="1" vertex="1">
-          <mxGeometry x="840" y="390" width="680" height="90" as="geometry" />
+        <mxCell id="spd_weight" value="&lt;b&gt;Speed / Altitude Weight&lt;/b&gt;&lt;br&gt;FW_T_SPDWEIGHT&lt;br&gt;欠速时动态增大空速权重" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#e2f0d9;strokeColor=#70ad47;fontSize=15;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="870" width="260" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="e01" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="alt_sp" target="alt_ref" edge="1">
+        <mxCell id="seb_calc" value="&lt;b&gt;SEB&lt;/b&gt;&lt;br&gt;energy balance" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#e2f0d9;strokeColor=#70ad47;fontSize=16;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="1015" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="pit_int" value="&lt;b&gt;K_I&lt;/b&gt;&lt;br&gt;FW_T_I_GAIN_PIT" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#e2f0d9;strokeColor=#70ad47;fontSize=15;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="915" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="pit_damp" value="&lt;b&gt;K_D&lt;/b&gt;&lt;br&gt;FW_T_PTCH_DAMP" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#e2f0d9;strokeColor=#70ad47;fontSize=15;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pit_ff" value="&lt;b&gt;θ_FF&lt;/b&gt;&lt;br&gt;FW_T_SEB_R_FF" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#e2f0d9;strokeColor=#70ad47;fontSize=14;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="1185" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="pit_cmd" value="&lt;b&gt;Pitch Command Synthesis&lt;/b&gt;&lt;br&gt;SEB 反馈 + 前馈 + 积分&lt;br&gt;受垂向加速度限制" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#e2f0d9;strokeColor=#70ad47;fontSize=15;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1820" y="995" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pit_sat" value="&lt;b&gt;Pitch Limit&lt;/b&gt;&lt;br&gt;FW_P_LIM_MIN / MAX&lt;br&gt;FW_T_VERT_ACC" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#444444;fontSize=14;align=center;" parent="1" vertex="1">
+          <mxGeometry x="2110" y="1005" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="thsp" value="&lt;b&gt;θ_sp&lt;/b&gt;&lt;br&gt;pitch setpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#444444;fontSize=16;align=center;" parent="1" vertex="1">
+          <mxGeometry x="2360" y="1020" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" value="&lt;b&gt;① 高度 / 空速外环参数&lt;/b&gt;&lt;br&gt;FW_T_ALT_TC：高度误差时间常数&lt;br&gt;FW_T_HRATE_FF：高度率前馈&lt;br&gt;FW_T_TAS_TC：空速误差时间常数" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=left;fontSize=13;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="840" width="390" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" value="&lt;b&gt;② 参考轨迹与纵向性能边界&lt;/b&gt;&lt;br&gt;FW_T_CLMB_R_SP / FW_T_SINK_R_SP&lt;br&gt;FW_T_CLMB_MAX / FW_T_SINK_MIN / FW_T_SINK_MAX&lt;br&gt;这些量通过参考模型 / 性能边界进入 TECS" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=left;fontSize=13;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="985" width="430" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="note3" value="&lt;b&gt;③ Throttle 支路对应参数&lt;/b&gt;&lt;br&gt;FW_T_THR_DAMPING, FW_T_THR_INTEG, FW_T_STE_R_TC&lt;br&gt;FW_T_RLL2THR, FW_THR_MIN / TRIM / MAX&lt;br&gt;FW_THR_SLEW_MAX" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=left;fontSize=13;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1860" y="185" width="470" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="note4" value="&lt;b&gt;④ Pitch 支路对应参数&lt;/b&gt;&lt;br&gt;FW_T_SPDWEIGHT, FW_T_PTCH_DAMP&lt;br&gt;FW_T_I_GAIN_PIT, FW_T_SEB_R_FF&lt;br&gt;FW_P_LIM_MIN / MAX, FW_T_VERT_ACC" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=left;fontSize=13;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1840" y="1165" width="470" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="note5" value="&lt;b&gt;⑤ PerformanceModel / 空速边界&lt;/b&gt;&lt;br&gt;FW_AIRSPD_STALL / MIN / TRIM / MAX&lt;br&gt;实际进入 TECS 前，部分量可经 PerformanceModel 做重量/密度修正&lt;br&gt;主图不展开细节，只标明其为外围边界来源" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=left;fontSize=13;align=left;" parent="1" vertex="1">
+          <mxGeometry x="580" y="860" width="540" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="vmin" target="vlim" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e02" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="alt_ref" target="alt_outer" edge="1">
+        <mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="vsp" target="vlim" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e03" value="反馈" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="alt_state" target="alt_outer" edge="1">
+        <mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="vlim" target="energybg" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e04" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="alt_outer" target="hr_sp" edge="1">
+        <mxCell id="e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="hsp" target="energybg" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e05" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="air_state" target="air_filter" edge="1">
+        <mxCell id="e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="states" target="energybg" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e06" value="Filtered TAS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="air_filter" target="air_outer" edge="1">
+        <mxCell id="e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="energybg" target="fallback" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e07" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="air_sp" target="air_outer" edge="1">
+        <mxCell id="e7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="ste_sp" target="sum_thr" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e08" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="air_outer" target="tas_rate_sp" edge="1">
+        <mxCell id="e8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="ste" target="sum_thr" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e09" value="SPE rate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="hr_sp" target="energy_conv" edge="1">
+        <mxCell id="e9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="sum_thr" target="thr_int" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e10" value="SKE rate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="tas_rate_sp" target="energy_conv" edge="1">
+        <mxCell id="e10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="sum_thr" target="thr_damp" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e11" value="SPE/SKE estimates" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="energy_conv" target="underspeed" edge="1">
+        <mxCell id="e11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="thr_damp" target="thr_gain" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e12" value="SPE/SKE rate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="energy_conv" target="seb" edge="1">
+        <mxCell id="e12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="thr_gain" target="thr_cmd" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e13" value="权重" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="underspeed" target="seb" edge="1">
+        <mxCell id="e13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="thr_ff" target="thr_cmd" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="seb" target="pitch_ctrl" edge="1">
+        <mxCell id="e14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="thr_int" target="thr_cmd" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="pitch_ctrl" target="pitch_limit" edge="1">
+        <mxCell id="e15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="fallback" target="thr_cmd" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="pitch_limit" target="pitch_sp" edge="1">
+        <mxCell id="e16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="thr_cmd" target="thr_sat" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e17" value="SPE + SKE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="energy_conv" target="ste" edge="1">
+        <mxCell id="e17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="thr_sat" target="tsp" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e18" value="load factor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="roll_state" target="ste" edge="1">
+        <mxCell id="e18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="spe_sp" target="spd_weight" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e19" value="STE estimate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="ste" target="ste_filter" edge="1">
+        <mxCell id="e19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="ske_sp" target="spd_weight" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="ste_filter" target="thr_ctrl" edge="1">
+        <mxCell id="e20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="spd_weight" target="seb_calc" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e21" value="STE setpoint" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="ste" target="thr_ctrl" edge="1">
+        <mxCell id="e21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="seb_calc" target="sum_pitch" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="thr_ctrl" target="thr_limit" edge="1">
+        <mxCell id="e22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="sum_pitch" target="pit_int" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="thr_limit" target="thr_sp" edge="1">
+        <mxCell id="e23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="sum_pitch" target="pit_damp" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e24" value="目标/性能边界" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;dashed=1;strokeColor=#70ad47;" parent="1" source="perf" target="alt_ref" edge="1">
+        <mxCell id="e24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="pit_int" target="pit_cmd" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e25" value="空速边界/Trim" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;dashed=1;strokeColor=#70ad47;" parent="1" source="perf" target="air_outer" edge="1">
+        <mxCell id="e25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="pit_damp" target="pit_cmd" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e26" value="Trim/Min/Max Throttle" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;dashed=1;strokeColor=#70ad47;" parent="1" source="perf" target="thr_ctrl" edge="1">
+        <mxCell id="e26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="pit_ff" target="pit_cmd" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e27" value="控制调用顺序" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;dashed=1;strokeColor=#6c8ebf;" parent="1" source="tecs_update" target="energy_conv" edge="1">
+        <mxCell id="e27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="pit_cmd" target="pit_sat" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;" parent="1" source="pit_sat" target="thsp" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="en1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;dashed=1;strokeColor=#999999;" parent="1" source="note1" target="energybg" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="en2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;dashed=1;strokeColor=#999999;" parent="1" source="note2" target="energybg" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="en3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;dashed=1;strokeColor=#999999;" parent="1" source="note3" target="thr_cmd" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="en4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;dashed=1;strokeColor=#999999;" parent="1" source="note4" target="pit_cmd" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="en5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.4;dashed=1;strokeColor=#999999;" parent="1" source="note5" target="energybg" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="tecs-param-source-map-v1154" name="第2页_参数源码对应">
-    <mxGraphModel dx="3004" dy="1246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2550" pageHeight="2300" math="0" shadow="0">
+  <diagram id="tecs-param-index" name="第2页_参数索引">
+    <mxGraphModel dx="1800" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="p2_title" value="&lt;b&gt;PX4 v1.15.4 TECS 参数—源码—信号对应图&lt;/b&gt;&lt;br&gt;以 v1.15.4 tag 源码为准；用于查参数落点与日志字段" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontSize=24;fontStyle=1;fontSize=24;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="20" width="2300" height="60" as="geometry" />
+        <mxCell id="title2" value="&lt;b&gt;PX4 v1.15.4 固定翼 TECS 参数索引（配套主图）&lt;/b&gt;&lt;br&gt;第1页看控制骨架；本页只做分类索引，不展开源码细节" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=none;fontSize=24;fontStyle=1;fontSize=24;align=center;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="120" y="20" width="2140" height="60" />
         </mxCell>
-        <mxCell id="h_param" value="&lt;b&gt;PX4 参数&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="105" width="360" height="50" as="geometry" />
+        <mxCell id="idx1" value="&lt;b&gt;1. 高度控制 / 参考轨迹&lt;/b&gt;&lt;br&gt;FW_T_ALT_TC&lt;br&gt;FW_T_HRATE_FF&lt;br&gt;FW_T_CLMB_R_SP&lt;br&gt;FW_T_SINK_R_SP&lt;br&gt;FW_T_CLMB_MAX&lt;br&gt;FW_T_SINK_MIN&lt;br&gt;FW_T_SINK_MAX&lt;br&gt;FW_T_VERT_ACC" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;fontSize=14;align=left;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="140" y="150" width="460" height="290" />
         </mxCell>
-        <mxCell id="h_map" value="&lt;b&gt;进入 TECS / 性能模型&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;align=center;" parent="1" vertex="1">
-          <mxGeometry x="470" y="105" width="520" height="50" as="geometry" />
+        <mxCell id="idx2" value="&lt;b&gt;2. 空速控制 / 估计&lt;/b&gt;&lt;br&gt;FW_T_TAS_TC&lt;br&gt;FW_T_SPD_STD&lt;br&gt;FW_T_SPD_DEV_STD&lt;br&gt;FW_T_SPD_PRC_STD&lt;br&gt;FW_AIRSPD_STALL&lt;br&gt;FW_AIRSPD_MIN&lt;br&gt;FW_AIRSPD_TRIM&lt;br&gt;FW_AIRSPD_MAX" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;fontSize=14;align=left;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="700" y="150" width="460" height="290" />
         </mxCell>
-        <mxCell id="h_func" value="&lt;b&gt;内部字段 / 关键函数&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="105" width="720" height="50" as="geometry" />
+        <mxCell id="idx3" value="&lt;b&gt;3. Pitch / SEB 支路&lt;/b&gt;&lt;br&gt;FW_T_SPDWEIGHT&lt;br&gt;FW_T_PTCH_DAMP&lt;br&gt;FW_T_I_GAIN_PIT&lt;br&gt;FW_T_SEB_R_FF&lt;br&gt;FW_P_LIM_MIN&lt;br&gt;FW_P_LIM_MAX" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;fontSize=14;align=left;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="1260" y="150" width="460" height="260" />
         </mxCell>
-        <mxCell id="h_sig" value="&lt;b&gt;输出 / tecs_status&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1790" y="105" width="560" height="50" as="geometry" />
+        <mxCell id="idx4" value="&lt;b&gt;4. Throttle / STE 支路&lt;/b&gt;&lt;br&gt;FW_T_THR_DAMPING&lt;br&gt;FW_T_THR_INTEG&lt;br&gt;FW_T_STE_R_TC&lt;br&gt;FW_T_RLL2THR&lt;br&gt;FW_THR_MIN&lt;br&gt;FW_THR_TRIM&lt;br&gt;FW_THR_MAX&lt;br&gt;FW_THR_SLEW_MAX" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;fontSize=14;align=left;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="1820" y="150" width="420" height="290" />
         </mxCell>
-        <mxCell id="p2_p0" value="&lt;b&gt;高度参考轨迹&lt;/b&gt;&lt;br&gt;FW_T_CLMB_R_SP&lt;br&gt;FW_T_SINK_R_SP&lt;br&gt;FW_T_VERT_ACC" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="185" width="360" height="135" as="geometry" />
+        <mxCell id="idx5" value="&lt;b&gt;5. 外围性能模型&lt;/b&gt;&lt;br&gt;PerformanceModel&lt;br&gt;部分 CLMB/SINK/Trim airspeed&lt;br&gt;部分空速边界&lt;br&gt;会先经过重量/密度等修正&lt;br&gt;再进入 TECS" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;fontSize=14;align=left;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="360" y="560" width="620" height="220" />
         </mxCell>
-        <mxCell id="p2_m0" value="&lt;b&gt;initControlParams() / set_vertical_accel_limit()&lt;/b&gt;&lt;br&gt;target_climbrate / target_sinkrate&lt;br&gt;vert_accel_limit" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="470" y="185" width="520" height="135" as="geometry" />
+        <mxCell id="idx6" value="&lt;b&gt;6. 阅读建议&lt;/b&gt;&lt;br&gt;先看第1页：主控制骨架&lt;br&gt;再回到本页：按类别查参数&lt;br&gt;若后续需要，可再扩展第3页&lt;br&gt;专门做 参数—源码—ulog 对应图" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;fontSize=14;align=left;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="1120" y="560" width="760" height="220" />
         </mxCell>
-        <mxCell id="p2_f0" value="&lt;b&gt;TECSAltitudeReferenceModel::update()&lt;/b&gt;&lt;br&gt;VelocitySmoothing&lt;br&gt;目标爬升/下降率受 max rate 约束" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="185" width="720" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_s0" value="&lt;b&gt;参考轨迹&lt;/b&gt;&lt;br&gt;altitude_reference&lt;br&gt;height_rate_reference" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1790" y="185" width="560" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_p0" target="p2_m0" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_m0" target="p2_f0" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_f0" target="p2_s0" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_p1" value="&lt;b&gt;高度误差反馈&lt;/b&gt;&lt;br&gt;FW_T_ALT_TC&lt;br&gt;FW_T_HRATE_FF" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="355" width="360" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_m1" value="&lt;b&gt;set_altitude_error_time_constant()&lt;/b&gt;&lt;br&gt;altitude_error_gain = 1/max(T,0.1)&lt;br&gt;set_altitude_rate_ff() → altitude_setpoint_gain_ff" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="470" y="355" width="520" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_f1" value="&lt;b&gt;_calcAltitudeControlOutput()&lt;/b&gt;&lt;br&gt;(h_ref-h)×gain + FF×hdot_ref&lt;br&gt;constrain[-max_sink,+max_climb]" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="355" width="720" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_s1" value="&lt;b&gt;高度率目标&lt;/b&gt;&lt;br&gt;height_rate_setpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1790" y="355" width="560" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_p1" target="p2_m1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_m1" target="p2_f1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_f1" target="p2_s1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_p2" value="&lt;b&gt;空速滤波&lt;/b&gt;&lt;br&gt;FW_T_SPD_STD&lt;br&gt;FW_T_SPD_DEV_STD&lt;br&gt;FW_T_SPD_PRC_STD" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="525" width="360" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_m2" value="&lt;b&gt;set_airspeed_*_std_dev()&lt;/b&gt;&lt;br&gt;TECSAirspeedFilter::Param" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="470" y="525" width="520" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_f2" value="&lt;b&gt;TECSAirspeedFilter::update()&lt;/b&gt;&lt;br&gt;稳态 Kalman filter&lt;br&gt;speed / speed_rate" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="525" width="720" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_s2" value="&lt;b&gt;滤波状态&lt;/b&gt;&lt;br&gt;true_airspeed_filtered&lt;br&gt;true_airspeed_derivative" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1790" y="525" width="560" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_p2" target="p2_m2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_m2" target="p2_f2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_f2" target="p2_s2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_p3" value="&lt;b&gt;空速误差反馈&lt;/b&gt;&lt;br&gt;FW_T_TAS_TC" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="695" width="360" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_m3" value="&lt;b&gt;set_airspeed_error_time_constant()&lt;/b&gt;&lt;br&gt;airspeed_error_gain = 1/max(T,0.1)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="470" y="695" width="520" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_f3" value="&lt;b&gt;_calcAirspeedControlOutput()&lt;/b&gt;&lt;br&gt;(TAS_sp-TAS)×gain&lt;br&gt;rate limit 由 STE rate 性能边界派生" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="695" width="720" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_s3" value="&lt;b&gt;空速变化率目标&lt;/b&gt;&lt;br&gt;true_airspeed_derivative_sp" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1790" y="695" width="560" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_p3" target="p2_m3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_m3" target="p2_f3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_f3" target="p2_s3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_p4" value="&lt;b&gt;Pitch 能量权重&lt;/b&gt;&lt;br&gt;FW_T_SPDWEIGHT" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="865" width="360" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_m4" value="&lt;b&gt;set_speed_weight()&lt;/b&gt;&lt;br&gt;pitch_speed_weight&lt;br&gt;欠速时动态趋向 2" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="470" y="865" width="520" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_f4" value="&lt;b&gt;_detectUnderspeed()&lt;/b&gt;&lt;br&gt;_updateSpeedAltitudeWeights()&lt;br&gt;_calcPitchControlSebRate()" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="865" width="720" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_s4" value="&lt;b&gt;SEB rate&lt;/b&gt;&lt;br&gt;total_energy_balance_rate_sp&lt;br&gt;total_energy_balance_rate" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1790" y="865" width="560" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_p4" target="p2_m4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_m4" target="p2_f4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_f4" target="p2_s4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_p5" value="&lt;b&gt;Pitch 控制&lt;/b&gt;&lt;br&gt;FW_T_PTCH_DAMP&lt;br&gt;FW_T_SEB_R_FF&lt;br&gt;FW_T_I_GAIN_PIT" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1035" width="360" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_m5" value="&lt;b&gt;set_pitch_damping()&lt;/b&gt;&lt;br&gt;pitch_damping_gain&lt;br&gt;seb_rate_ff&lt;br&gt;integrator_gain_pitch" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="470" y="1035" width="520" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_f5" value="&lt;b&gt;_calcPitchControlUpdate()&lt;/b&gt;&lt;br&gt;_calcPitchControlOutput()&lt;br&gt;feedback + FF + integrator" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="1035" width="720" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_s5" value="&lt;b&gt;Pitch 输出&lt;/b&gt;&lt;br&gt;pitch_integ&lt;br&gt;pitch_sp_rad" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1790" y="1035" width="560" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_p5" target="p2_m5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_m5" target="p2_f5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_f5" target="p2_s5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_p6" value="&lt;b&gt;总能量与转弯补偿&lt;/b&gt;&lt;br&gt;FW_T_RLL2THR&lt;br&gt;FW_T_STE_R_TC" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1205" width="360" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_m6" value="&lt;b&gt;set_roll_throttle_compensation()&lt;/b&gt;&lt;br&gt;load_factor_correction&lt;br&gt;set_ste_rate_time_const()" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="470" y="1205" width="520" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_f6" value="&lt;b&gt;_calcThrottleControlSteRate()&lt;/b&gt;&lt;br&gt;STE = SPE + SKE + load-factor correction&lt;br&gt;STE estimate LPF" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="1205" width="720" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_s6" value="&lt;b&gt;STE rate&lt;/b&gt;&lt;br&gt;total_energy_rate_sp&lt;br&gt;total_energy_rate" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1790" y="1205" width="560" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_p6" target="p2_m6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_m6" target="p2_f6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_f6" target="p2_s6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_p7" value="&lt;b&gt;Throttle 控制&lt;/b&gt;&lt;br&gt;FW_T_THR_DAMPING&lt;br&gt;FW_T_THR_INTEG&lt;br&gt;FW_THR_SLEW_MAX" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1375" width="360" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_m7" value="&lt;b&gt;set_throttle_damp()&lt;/b&gt;&lt;br&gt;throttle_damping_gain&lt;br&gt;integrator_gain_throttle&lt;br&gt;throttle_slewrate" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="470" y="1375" width="520" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_f7" value="&lt;b&gt;_calcThrottleControlUpdate()&lt;/b&gt;&lt;br&gt;_calcThrottleControlOutput()&lt;br&gt;predicted + damping feedback + integrator" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="1375" width="720" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_s7" value="&lt;b&gt;Throttle 输出&lt;/b&gt;&lt;br&gt;throttle_integ&lt;br&gt;throttle_sp" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1790" y="1375" width="560" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_p7" target="p2_m7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_m7" target="p2_f7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_f7" target="p2_s7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_p8" value="&lt;b&gt;爬升/下沉性能&lt;/b&gt;&lt;br&gt;FW_T_CLMB_MAX&lt;br&gt;FW_T_SINK_MIN&lt;br&gt;FW_T_SINK_MAX" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#e2f0d9;strokeColor=#70ad47;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1545" width="360" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_m8" value="&lt;b&gt;PerformanceModel / direct setter&lt;/b&gt;&lt;br&gt;CLMB_MAX → getMaximumClimbRate()&lt;br&gt;SINK_MIN → getMinimumSinkRate()&lt;br&gt;SINK_MAX → set_max_sink_rate()" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#e2f0d9;strokeColor=#70ad47;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="470" y="1545" width="520" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_f8" value="&lt;b&gt;_calculateTotalEnergyRateLimit()&lt;/b&gt;&lt;br&gt;STE_rate_max = max_climb_rate×g&lt;br&gt;STE_rate_min = -min_sink_rate×g&lt;br&gt;高度外环另用 max_sink_rate" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#e2f0d9;strokeColor=#70ad47;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="1545" width="720" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_s8" value="&lt;b&gt;性能边界&lt;/b&gt;&lt;br&gt;影响 height-rate clamp&lt;br&gt;影响 STE rate limits" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1790" y="1545" width="560" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_p8" target="p2_m8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_m8" target="p2_f8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_f8" target="p2_s8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_p9" value="&lt;b&gt;空速性能&lt;/b&gt;&lt;br&gt;FW_AIRSPD_STALL&lt;br&gt;FW_AIRSPD_MIN&lt;br&gt;FW_AIRSPD_TRIM&lt;br&gt;FW_AIRSPD_MAX" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#e2f0d9;strokeColor=#70ad47;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1715" width="360" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_m9" value="&lt;b&gt;PerformanceModel&lt;/b&gt;&lt;br&gt;载荷/重量修正最低空速&lt;br&gt;Trim EAS 可按重量修正" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#e2f0d9;strokeColor=#70ad47;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="470" y="1715" width="520" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_f9" value="&lt;b&gt;set_equivalent_airspeed_min/trim()&lt;/b&gt;&lt;br&gt;tas_min / equivalent_airspeed_trim&lt;br&gt;欠速检测与目标空速" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#e2f0d9;strokeColor=#70ad47;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="1715" width="720" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_s9" value="&lt;b&gt;空速边界&lt;/b&gt;&lt;br&gt;equivalent_airspeed_sp&lt;br&gt;underspeed_ratio" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1790" y="1715" width="560" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_p9" target="p2_m9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_m9" target="p2_f9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_f9" target="p2_s9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_p10" value="&lt;b&gt;Pitch / Throttle 边界&lt;/b&gt;&lt;br&gt;FW_P_LIM_MIN/MAX&lt;br&gt;FW_THR_MIN/TRIM/MAX" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#999999;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1885" width="360" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_m10" value="&lt;b&gt;tecs_update_pitch_throttle()&lt;/b&gt;&lt;br&gt;initControlParams()" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#999999;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="470" y="1885" width="520" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_f10" value="&lt;b&gt;TECSControl::Param&lt;/b&gt;&lt;br&gt;pitch_min/max&lt;br&gt;throttle_min/trim/max" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#999999;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="1885" width="720" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2_s10" value="&lt;b&gt;最终限幅&lt;/b&gt;&lt;br&gt;pitch_sp_rad&lt;br&gt;throttle_sp" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1790" y="1885" width="560" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_p10" target="p2_m10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_m10" target="p2_f10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="p2e132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="p2_f10" target="p2_s10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="call_order" value="&lt;b&gt;v1.15.4 关键调用顺序&lt;/b&gt;&lt;br&gt;FixedwingPositionControl::parameters_update()&lt;br&gt;→ tecs_update_pitch_throttle()&lt;br&gt;→ TECS::update()&lt;br&gt;→ TECSAltitudeReferenceModel::update() + TECSAirspeedFilter::update()&lt;br&gt;→ TECSControl::update()&lt;br&gt;→ _calcAirspeedControlOutput() / _calcAltitudeControlOutput()&lt;br&gt;→ _calcSpecificEnergyRates()&lt;br&gt;→ _calcPitchControl() + _calcThrottleControl()&lt;br&gt;→ get_pitch_setpoint() / get_throttle_setpoint()" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.5;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;align=left;" parent="1" vertex="1">
-          <mxGeometry x="70" y="2085" width="2280" height="170" as="geometry" />
+        <mxCell id="footer2" value="&lt;b&gt;说明&lt;/b&gt;&lt;br&gt;本次重做优先解决“主图可读性差”的问题，因此不再把大量源码细节压进主图。&lt;br&gt;如果你认可这一版风格，下一轮可以在此基础上继续精细化，例如把第3页补成源码映射页。" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Microsoft YaHei;fontSize=14;strokeWidth=1.4;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;align=left;fontSize=14;align=left;" parent="1" vertex="1">
+          <mxGeometry as="geometry" x="300" y="880" width="1700" height="110" />
         </mxCell>
       </root>
     </mxGraphModel>
