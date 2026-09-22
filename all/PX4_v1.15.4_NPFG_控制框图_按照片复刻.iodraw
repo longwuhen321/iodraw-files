@@ -1,2 +1,838 @@
-<?xml version='1.0' encoding='utf-8'?>
-<mxfile host="www.iodraw.com" modified="2026-09-22T08:30:00.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" etag="NPFG_LAYOUT_REPLICA_V1" version="13.3.6" type="device"><diagram id="NPFG-LAYOUT-001" name="NPFG 控制框图">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</diagram></mxfile>
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram id="NPFG-LAYOUT-001" name="NPFG 控制框图">
+    <mxGraphModel dx="1843" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1080" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3" value="非线性航迹跟踪制导 (NPFG) —— 控制框图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=30;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="360" y="16" width="900" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF6FF;strokeColor=#2D8CFF;dashed=1;dashPattern=8 5;arcSize=10;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="10" y="80" width="340" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF9F2;strokeColor=#27AE60;dashed=1;dashPattern=8 5;arcSize=10;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="360" y="105" width="470" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E8;strokeColor=#F39C12;dashed=1;dashPattern=8 5;arcSize=10;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="840" y="105" width="330" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#FF5A5A;dashed=1;dashPattern=8 5;arcSize=10;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="120" width="410" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F0FF;strokeColor=#7C4DFF;dashed=1;dashPattern=8 5;arcSize=10;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="520" y="360" width="630" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F6F7;strokeColor=#BFC7CF;strokeWidth=0.8;dashed=0;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#111111;align=center;verticalAlign=middle;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="10" y="610" width="1580" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="注：NPFG 的主要输出为横滚角设定值 φ&lt;sub&gt;sp&lt;/sub&gt;，用于横向控制；同时可在强风情况下生成空速参考 V&lt;sub&gt;A,ref&lt;/sub&gt; 供 TECS 使用（仅用于空速控制，不控制横滚角）。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#E53935;" parent="1" vertex="1">
+          <mxGeometry x="10" y="985" width="980" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="本框图基于 PX4 v1.15.4 固定翼 NPFG 实现及 Stastny &amp;amp; Siegwart (2019) 论文进行整理。" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=12;fontStyle=0;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="985" width="590" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="航迹几何与误差计算" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;fontColor=#1565C0;" parent="1" vertex="1">
+          <mxGeometry x="24" y="90" width="220" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="航迹误差整形与前视逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=17;fontStyle=1;fontColor=#1B8E4B;" parent="1" vertex="1">
+          <mxGeometry x="372" y="118" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="风场可行性分析与航向修正" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=17;fontStyle=1;fontColor=#D87800;" parent="1" vertex="1">
+          <mxGeometry x="852" y="118" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="横向制导与横滚指令生成&#xa;（主输出：横滚角设定值）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;fontColor=#F44336;" parent="1" vertex="1">
+          <mxGeometry x="1192" y="132" width="300" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="空速参考生成（强风补偿与航迹保持）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;fontColor=#4735F2;" parent="1" vertex="1">
+          <mxGeometry x="540" y="372" width="330" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="飞机位置" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="26" y="137" width="62" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="r" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="44" y="162" width="24" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="航迹定义&#xa;（航点 / 直线 / 曲线）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="24" y="230" width="150" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="航迹切向量" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="26" y="312" width="85" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="t̂&lt;sub&gt;P&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="42" y="338" width="40" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="航迹曲率" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="26" y="382" width="70" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="κ&lt;sub&gt;P&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="42" y="402" width="42" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="计算航迹上&#xa;最近点&#xa;p" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#333333;strokeWidth=1.2;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#111111;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="128" y="132" width="118" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#333333;strokeWidth=1.3;" parent="1" vertex="1">
+          <mxGeometry x="258" y="180" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="+" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=12;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="266" y="171" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="−" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=16;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="262" y="183" width="18" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="+" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=12;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="266" y="197" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="e" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="300" y="153" width="24" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="横向航迹误差&#xa;（有符号）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="274" y="213" width="70" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="误差&#xa;归一化" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#333333;strokeWidth=1.2;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#111111;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="385" y="160" width="82" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="e" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="345" y="154" width="24" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="ē" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="483" y="145" width="26" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="前视角&#xa;计算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#333333;strokeWidth=1.2;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#111111;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="510" y="160" width="88" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="θ&lt;sub&gt;l&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="607" y="145" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="36" value="目标航向&#xa;计算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#333333;strokeWidth=1.2;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#111111;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="637" y="160" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="i" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="748" y="145" width="18" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="38" value="目标地速航向&#xa;（bearing）&#xa;χ&lt;sub&gt;ref&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="730" y="190" width="92" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="e&lt;sub&gt;b&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="408" y="272" width="28" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="误差边界" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="390" y="297" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="可行的目标航向&#xa;χ*&lt;sub&gt;ref&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=16;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="920" y="298" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="地速&#xa;v&lt;sub&gt;G&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="858" y="55" width="38" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="43" value="空速&#xa;V&lt;sub&gt;A&lt;/sub&gt; (TAS)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="958" y="55" width="60" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="44" value="风速&#xa;w" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="55" width="38" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="45" value="计算风速比&#xa;和夹角" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#333333;strokeWidth=1.2;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#111111;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="862" y="160" width="102" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="46" value="β, λ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=16;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="985" y="145" width="52" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="47" value="航向可行性&#xa;判断" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#333333;strokeWidth=1.2;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#111111;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1018" y="160" width="94" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="48" value="f&lt;sub&gt;feas&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=16;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1124" y="145" width="55" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="49" value="航向可行度&#xa;(0 ~ 1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1115" y="190" width="55" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="50" value="κ&lt;sub&gt;P&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="170" width="32" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="51" value="航迹曲率" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1222" y="192" width="64" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="52" value="a&lt;sub&gt;y,FF&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1368" y="166" width="60" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="53" value="横向加速度前馈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="190" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="54" value="横向加速度&#xa;指令计算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#333333;strokeWidth=1.2;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#111111;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1212" y="238" width="100" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="55" value="a&lt;sub&gt;y,sp&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1318" y="238" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="56" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#333333;strokeWidth=1.3;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="245" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="57" value="横滚角指令&#xa;生成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#333333;strokeWidth=1.2;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#111111;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="227" width="92" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="58" value="φ&lt;sub&gt;sp&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=24;fontStyle=1;fontColor=#E53935;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="232" width="42" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="59" value="主输出：&#xa;横滚角设定值&#xa;φ&lt;sub&gt;sp&lt;/sub&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8F8;strokeColor=#FF6961;strokeWidth=1.5;dashed=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#F44336;align=center;verticalAlign=middle;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1498" y="275" width="78" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="60" value="空速&#xa;V&lt;sub&gt;A&lt;/sub&gt;&#xa;(TAS)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="573" y="415" width="60" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="61" value="风速&#xa;w" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="575" y="480" width="40" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="62" value="航迹误差&#xa;|e|" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="558" y="525" width="70" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="63" value="航向可行度&#xa;f&lt;sub&gt;feas&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="552" y="570" width="80" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="64" value="超额风速补偿" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#333333;strokeWidth=1.2;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#111111;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="780" y="412" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="65" value="航迹保持补偿" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#333333;strokeWidth=1.2;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#111111;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="780" y="468" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="66" value="最小前向地速保护" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#333333;strokeWidth=1.2;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#111111;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="770" y="524" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="67" value="Δv*&lt;sub&gt;λ&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=16;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="916" y="407" width="44" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="68" value="Δv*&lt;sub&gt;e&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=16;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="916" y="463" width="44" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="69" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#333333;strokeWidth=1.3;" parent="1" vertex="1">
+          <mxGeometry x="1004" y="468" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="70" value="V&lt;sub&gt;A,ref&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1065" y="456" width="70" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="71" value="空速参考&#xa;(TAS)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1048" y="478" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="72" value="v&lt;sub&gt;G,min&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=18;fontStyle=1;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="848" y="564" width="52" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="73" value="最小前向地速" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="915" y="558" width="86" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="74" value="辅助输出：空速参考&#xa;V&lt;sub&gt;A,ref&lt;/sub&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE9FF;strokeColor=#7C4DFF;strokeWidth=0.8;dashed=0;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#3D2FFF;align=center;verticalAlign=middle;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="445" width="215" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="75" value="输出至 TECS&#xa;（空速设定值）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#666666;strokeWidth=1.2;dashed=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#111111;align=center;verticalAlign=middle;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="458" width="110" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="76" value="注：TECS 仅使用空速参考，&#xa;不控制横滚角。" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF6FF;strokeColor=#2B7BFF;strokeWidth=1.2;dashed=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#1565C0;align=center;verticalAlign=middle;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1223" y="535" width="260" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="77" value="符号说明" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="18" y="615" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="78" value="一、航迹几何与误差" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF4FF;strokeColor=#B7D8FF;strokeWidth=0.6;dashed=1;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#1565C0;align=center;verticalAlign=middle;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="30" y="650" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="79" value="二、误差整形与制导逻辑" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF9F2;strokeColor=#CBEFD7;strokeWidth=0.6;dashed=1;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#1B8E4B;align=center;verticalAlign=middle;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="370" y="650" width="420" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="80" value="三、风场与可行性" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7E8;strokeColor=#F9E9BF;strokeWidth=0.6;dashed=1;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#D87800;align=center;verticalAlign=middle;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="370" y="792" width="420" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="81" value="四、空速参考生成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F0FF;strokeColor=#DED3FF;strokeWidth=0.6;dashed=1;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#4735F2;align=center;verticalAlign=middle;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="810" y="650" width="330" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="82" value="五、横向制导输出" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#FFE2E2;strokeWidth=0.6;dashed=1;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#F44336;align=center;verticalAlign=middle;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1155" y="650" width="425" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="83" value="六、典型 NPFG 参数 (PX4 v1.15.4)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F9FA;strokeColor=#E1E7EC;strokeWidth=0.6;dashed=1;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#274C77;align=center;verticalAlign=middle;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1155" y="748" width="425" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="84" value="&lt;b&gt;r&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="34" y="690" width="56" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="85" value="飞机当前位置" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="90" y="690" width="190" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="86" value="[m]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="280" y="690" width="46" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="87" value="&lt;b&gt;p&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="34" y="732" width="56" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="88" value="航迹上最近点" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="90" y="732" width="190" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="89" value="[m]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="280" y="732" width="46" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="90" value="&lt;b&gt;e&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="34" y="774" width="56" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="91" value="横向航迹误差（有符号）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="90" y="774" width="190" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="92" value="[m]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="280" y="774" width="46" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="93" value="&lt;b&gt;e_b&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="34" y="816" width="56" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="94" value="航迹误差边界" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="90" y="816" width="190" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="95" value="[m]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="280" y="816" width="46" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="96" value="&lt;b&gt;t̂_P&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="34" y="858" width="56" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="97" value="航迹单位切向量" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="90" y="858" width="190" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="98" value="[—]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="280" y="858" width="46" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="99" value="&lt;b&gt;κ_P&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="34" y="900" width="56" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="100" value="航迹曲率" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="90" y="900" width="190" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="101" value="[m⁻¹]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="280" y="900" width="46" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="102" value="&lt;b&gt;ē&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="386" y="690" width="70" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="103" value="归一化航迹误差" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="456" y="690" width="230" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="104" value="[—]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="686" y="690" width="60" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="105" value="&lt;b&gt;θ_l&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="386" y="722" width="70" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="106" value="前视角" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="456" y="722" width="230" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="107" value="[rad]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="686" y="722" width="60" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="108" value="&lt;b&gt;i&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="386" y="754" width="70" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="109" value="目标航向单位向量" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="456" y="754" width="230" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="110" value="[—]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="686" y="754" width="60" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="111" value="&lt;b&gt;χ_ref&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="386" y="786" width="70" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="112" value="目标地速航向 (bearing)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="456" y="786" width="230" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="113" value="[rad]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="686" y="786" width="60" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="114" value="&lt;b&gt;χ*_ref&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="386" y="818" width="70" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="115" value="可行的目标航向" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="456" y="818" width="230" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="116" value="[rad]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="686" y="818" width="60" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="117" value="&lt;b&gt;v_G&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="386" y="825" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="118" value="地速 (GSP)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="456" y="825" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="119" value="[m/s]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="686" y="825" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="120" value="&lt;b&gt;v_A&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="386" y="851" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="121" value="空速 (TAS)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="456" y="851" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="122" value="[m/s]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="686" y="851" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="123" value="&lt;b&gt;w&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="386" y="877" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="124" value="风速" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="456" y="877" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="125" value="[m/s]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="686" y="877" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="126" value="&lt;b&gt;β&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="386" y="903" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="127" value="风速比 (w / v_A)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="456" y="903" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="128" value="[—]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="686" y="903" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="129" value="&lt;b&gt;λ&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="386" y="929" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="130" value="风向与目标航向的夹角" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="456" y="929" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="131" value="[rad]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="686" y="929" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="132" value="&lt;b&gt;f_feas&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="386" y="955" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="133" value="航向可行度" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="456" y="955" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="134" value="[—]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="686" y="955" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="135" value="&lt;b&gt;v_G,min&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="820" y="690" width="88" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="136" value="最小前向地速" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="908" y="690" width="180" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="137" value="[m/s]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1088" y="690" width="60" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="138" value="&lt;b&gt;Δv*_λ&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="820" y="728" width="88" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="139" value="强风超额空速补偿量" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="908" y="728" width="180" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="140" value="[m/s]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1088" y="728" width="60" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="141" value="&lt;b&gt;Δv*_e&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="820" y="766" width="88" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="142" value="航迹保持空速补偿量" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="908" y="766" width="180" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="143" value="[m/s]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1088" y="766" width="60" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="144" value="&lt;b&gt;v_A,ref&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="820" y="804" width="88" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="145" value="空速参考 (TAS)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="908" y="804" width="180" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="146" value="[m/s]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1088" y="804" width="60" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="147" value="&lt;b&gt;a_y,FF&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="690" width="74" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="148" value="横向加速度前馈" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1244" y="690" width="180" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="149" value="[m/s²]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1424" y="690" width="70" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="150" value="&lt;b&gt;a_y,sp&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="724" width="74" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="151" value="横向加速度设定值" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1244" y="724" width="180" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="152" value="[m/s²]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1424" y="724" width="70" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="153" value="&lt;b&gt;φ_sp&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="758" width="74" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="154" value="横滚角设定值" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1244" y="758" width="180" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="155" value="[rad]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1424" y="758" width="70" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="156" value="&lt;b&gt;T_NPFG&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=12;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="790" width="108" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="157" value="NPFG 名义周期" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1278" y="790" width="200" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="158" value="[s]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1478" y="790" width="75" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="159" value="&lt;b&gt;ξ_NPFG&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=12;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="811" width="108" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="160" value="NPFG 阻尼比" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1278" y="811" width="200" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="161" value="[—]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1478" y="811" width="75" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="162" value="&lt;b&gt;κ_P&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=12;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="832" width="108" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="163" value="横滚响应时间常数" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1278" y="832" width="200" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="164" value="[s]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1478" y="832" width="75" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="165" value="&lt;b&gt;V_A,nom&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=12;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="853" width="108" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="166" value="名义空速" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1278" y="853" width="200" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="167" value="[m/s]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1478" y="853" width="75" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="168" value="&lt;b&gt;V_A,max&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=12;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="874" width="108" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="169" value="最大空速" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1278" y="874" width="200" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="170" value="[m/s]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1478" y="874" width="75" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="171" value="&lt;b&gt;NPFG_WIND_BCG&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=12;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="895" width="108" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="172" value="强风补偿增益" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1278" y="895" width="200" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="173" value="[—]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1478" y="895" width="75" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="174" value="&lt;b&gt;NPFG_TRACK_KEEP&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=12;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="916" width="108" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="175" value="航迹保持增益" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1278" y="916" width="200" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="176" value="[—]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1478" y="916" width="75" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="177" value="&lt;b&gt;NPFG_EN_MIN_GSP&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=12;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="937" width="108" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="178" value="最小前向地速使能" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1278" y="937" width="200" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="179" value="[—]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1478" y="937" width="75" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="180" value="&lt;b&gt;NPFG_GSP_MAX_TK&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=12;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="958" width="108" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="181" value="航迹保持最大地速" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1278" y="958" width="200" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="182" value="[m/s]" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontStyle=0;fontColor=#111111;" parent="1" vertex="1">
+          <mxGeometry x="1478" y="958" width="75" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="183" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="84" y="175" />
+              <mxPoint x="128" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="184" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="174" y="286" />
+              <mxPoint x="174" y="218" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="185" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="340" />
+              <mxPoint x="258" y="340" />
+              <mxPoint x="258" y="194" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="186" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="95" y="410" />
+              <mxPoint x="258" y="410" />
+              <mxPoint x="258" y="208" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="187" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="246" y="175" />
+              <mxPoint x="258" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="188" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="286" y="194" />
+              <mxPoint x="385" y="194" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="189" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="467" y="194" />
+              <mxPoint x="510" y="194" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="190" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="598" y="194" />
+              <mxPoint x="637" y="194" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="191" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="727" y="194" />
+              <mxPoint x="840" y="194" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="192" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="402" y="317" />
+              <mxPoint x="402" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="193" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="682" y="230" />
+              <mxPoint x="682" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="194" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="727" y="300" />
+              <mxPoint x="1180" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="195" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="868" y="99" />
+              <mxPoint x="868" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="196" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="983" y="99" />
+              <mxPoint x="983" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="197" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1078" y="99" />
+              <mxPoint x="1078" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="198" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="964" y="191" />
+              <mxPoint x="1018" y="191" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="199" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1065" y="222" />
+              <mxPoint x="1065" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="200" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1112" y="191" />
+              <mxPoint x="1180" y="191" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="201" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1248" y="196" />
+              <mxPoint x="1248" y="238" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="202" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1390" y="194" />
+              <mxPoint x="1374" y="194" />
+              <mxPoint x="1374" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="203" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1312" y="270" />
+              <mxPoint x="1360" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="204" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1388" y="259" />
+              <mxPoint x="1420" y="259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="205" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1512" y="259" />
+              <mxPoint x="1578" y="259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="206" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="632" y="435" />
+              <mxPoint x="780" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="207" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="614" y="492" />
+              <mxPoint x="780" y="492" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="208" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="629" y="546" />
+              <mxPoint x="770" y="546" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="209" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="632" y="590" />
+              <mxPoint x="632" y="544" />
+              <mxPoint x="770" y="544" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="210" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="432" />
+              <mxPoint x="1004" y="432" />
+              <mxPoint x="1004" y="468" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="211" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="488" />
+              <mxPoint x="1004" y="488" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="212" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="544" />
+              <mxPoint x="1004" y="544" />
+              <mxPoint x="1004" y="498" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="213" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=none;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="855" y="564" />
+              <mxPoint x="855" y="564" />
+              <mxPoint x="855" y="564" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="214" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=none;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="855" y="564" />
+              <mxPoint x="855" y="564" />
+              <mxPoint x="855" y="564" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="215" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="590" />
+              <mxPoint x="840" y="564" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="216" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;strokeColor=#7C4DFF;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1034" y="483" />
+              <mxPoint x="1210" y="483" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="217" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.5;endArrow=block;endFill=1;strokeColor=#7C4DFF;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1425" y="483" />
+              <mxPoint x="1450" y="483" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
