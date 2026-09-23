@@ -1,0 +1,184 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram id="PX4-FW-MODE-HIER-001" name="固定翼控制层级与模式入口">
+    <mxGraphModel dx="1235" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="920" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBFBFC;strokeColor=#B9C0C8;strokeWidth=1.2;dashed=1;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="342" y="218" width="1405" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="v37" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7F8FA;strokeColor=#D0D5DB;strokeWidth=1.0;dashed=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="70" y="500" width="1685" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="v47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#D0D5DB;strokeWidth=0.8;dashed=0;fontFamily=Microsoft YaHei;fontSize=14;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="70" y="690" width="1685" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="e21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#202020;strokeWidth=1.8;endArrow=block;endFill=1;" parent="1" source="v14" target="v15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#202020;strokeWidth=1.8;endArrow=block;endFill=1;" parent="1" source="v15" target="v16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e23" value="外环输出" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#202020;strokeWidth=1.8;endArrow=block;endFill=1;" parent="1" source="v16" target="v17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#202020;strokeWidth=1.8;endArrow=block;endFill=1;" parent="1" source="v17" target="v18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e25" value="控制作用" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#202020;strokeWidth=1.8;endArrow=block;endFill=1;" parent="1" source="v18" target="v19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#202020;strokeWidth=1.8;endArrow=block;endFill=1;" parent="1" source="v19" target="v20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#202020;strokeWidth=1.8;endArrow=block;endFill=1;strokeColor=#76B58B;strokeWidth=2.2;" parent="1" source="v6" target="v14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#202020;strokeWidth=1.8;endArrow=block;endFill=1;strokeColor=#7EA6D8;strokeWidth=2.2;" parent="1" source="v7" target="v15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#202020;strokeWidth=1.8;endArrow=block;endFill=1;strokeColor=#D9A24C;strokeWidth=2.2;" parent="1" source="v8" target="v17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#202020;strokeWidth=1.8;endArrow=block;endFill=1;strokeColor=#D96868;strokeWidth=2.2;" parent="1" source="v9" target="v19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v2" value="PX4 固定翼控制层级与模式入口" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=30;fontColor=#111111;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="360" y="26" width="1080" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="v3" value="模式决定“从哪一层进入控制链”；越往下，控制器越共享" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#4B5563;fontStyle=0;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="470" y="72" width="860" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v5" value="共享控制链" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#4B5563;fontStyle=1;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="360" y="226" width="120" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="v6" value="Altitude / Position / Auto&#xa;高度 / 航迹 / 任务目标" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDF7F0;strokeColor=#76B58B;strokeWidth=1.5;dashed=0;fontFamily=Microsoft YaHei;fontSize=17;fontStyle=1;fontColor=#216E3A;align=center;verticalAlign=middle;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="70" y="118" width="250" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="v7" value="Stabilized&#xa;姿态稳定手动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2FB;strokeColor=#7EA6D8;strokeWidth=1.5;dashed=0;fontFamily=Microsoft YaHei;fontSize=17;fontStyle=1;fontColor=#2A5F98;align=center;verticalAlign=middle;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="430" y="118" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="v8" value="Acro&#xa;角速度手动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF5E5;strokeColor=#D9A24C;strokeWidth=1.5;dashed=0;fontFamily=Microsoft YaHei;fontSize=17;fontStyle=1;fontColor=#9A6411;align=center;verticalAlign=middle;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="835" y="118" width="200" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="v9" value="Manual&#xa;完全手动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCEEEE;strokeColor=#D96868;strokeWidth=1.5;dashed=0;fontFamily=Microsoft YaHei;fontSize=17;fontStyle=1;fontColor=#A13A3A;align=center;verticalAlign=middle;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1335" y="118" width="200" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="v10" value="从“高度 / 航迹目标”进入" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#216E3A;fontStyle=0;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="72" y="192" width="245" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="v11" value="从“姿态目标”进入" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#2A5F98;fontStyle=0;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="430" y="192" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="v12" value="从“角速度目标”进入" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#9A6411;fontStyle=0;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="835" y="192" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="v13" value="从“直接控制量”进入" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#A13A3A;fontStyle=0;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1335" y="192" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="v14" value="高度 / 航迹控制&#xa;TECS / NPFG / Position Control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4F4F4;strokeColor=#555555;strokeWidth=1.4;dashed=0;fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;fontColor=#111111;align=center;verticalAlign=middle;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="90" y="286" width="240" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="v15" value="Attitude Setpoint&#xa;姿态设定值&#xa;φ_sp , θ_sp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAF2FB;strokeColor=#7EA6D8;strokeWidth=1.4;dashed=0;fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;fontColor=#1F4E7A;align=center;verticalAlign=middle;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="390" y="286" width="190" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="v16" value="Attitude Controller&#xa;姿态外环" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4F4F4;strokeColor=#555555;strokeWidth=1.4;dashed=0;fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;fontColor=#111111;align=center;verticalAlign=middle;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="635" y="286" width="190" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="v17" value="Body Rate Setpoint&#xa;机体系角速度设定值&#xa;p_sp , q_sp , r_sp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5E5;strokeColor=#D9A24C;strokeWidth=1.4;dashed=0;fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;fontColor=#85560C;align=center;verticalAlign=middle;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="885" y="286" width="215" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="v18" value="Rate Controller&#xa;角速度内环" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4F4F4;strokeColor=#555555;strokeWidth=1.4;dashed=0;fontFamily=Microsoft YaHei;fontSize=16;fontStyle=1;fontColor=#111111;align=center;verticalAlign=middle;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="286" width="185" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="v19" value="Torque / Control Setpoint&#xa;控制量 / 力矩设定值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCEEEE;strokeColor=#D96868;strokeWidth=1.4;dashed=0;fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;fontColor=#8A3030;align=center;verticalAlign=middle;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="286" width="185" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="v20" value="Control Allocation&#xa;控制分配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4F4F4;strokeColor=#555555;strokeWidth=1.4;dashed=0;fontFamily=Microsoft YaHei;fontSize=15;fontStyle=1;fontColor=#111111;align=center;verticalAlign=middle;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1605" y="286" width="150" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="v31" value="FW_R_LIM / FW_P_LIM_*&#xa;FW_PN_R_SLEW_MAX" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#4B5563;fontStyle=0;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="95" y="390" width="230" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="v32" value="Stabilized：FW_MAN_R_MAX / FW_MAN_P_MAX&#xa;Pitch 基准：FW_PSP_OFF" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#4B5563;fontStyle=0;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="382" y="390" width="210" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="v33" value="共享外环 Rate SP 限制&#xa;FW_R_RMAX / FW_P_RMAX_*&#xa;FW_Y_RMAX" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#4B5563;fontStyle=0;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="615" y="390" width="235" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="v34" value="Acro：FW_ACRO_X/Y/Z_MAX" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#4B5563;fontStyle=0;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="885" y="390" width="215" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="v35" value="FW_RR_* / FW_PR_* / FW_YR_*&#xa;决定角速度跟踪动态" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#4B5563;fontStyle=0;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1138" y="390" width="210" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="v36" value="Manual：FW_MAN_*_SC" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#4B5563;fontStyle=0;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1370" y="390" width="205" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="v38" value="控制器设计理念" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#111111;fontStyle=1;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="90" y="512" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v39" value="1. 模式差异在入口层级" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#1F2937;fontStyle=1;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="95" y="550" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v40" value="Manual / Acro / Stabilized / Altitude·Position·Auto&#xa;核心区别：从控制链的不同层级接入。" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4B5563;fontStyle=0;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="95" y="582" width="350" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="v41" value="2. 外环生成目标" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#1F2937;fontStyle=1;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="505" y="550" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v42" value="高度 / 航迹控制 → 姿态目标&#xa;姿态外环 → 角速度目标。" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4B5563;fontStyle=0;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="505" y="582" width="350" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="v43" value="3. 内环负责跟踪" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#1F2937;fontStyle=1;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="915" y="550" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v44" value="Rate Controller 不关心上游模式，&#xa;只负责跟踪 Body Rate Setpoint。" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4B5563;fontStyle=0;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="915" y="582" width="350" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="v45" value="4. 下游控制器复用" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#1F2937;fontStyle=1;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1325" y="550" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v46" value="模式越“高级”，只是增加更上游的控制层；&#xa;姿态、角速度、控制分配尽量共享。" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#4B5563;fontStyle=0;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1325" y="582" width="350" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="v48" value="符号 / 术语说明" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#111111;fontStyle=1;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="90" y="702" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="v49" value="φ_sp , θ_sp" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#111111;fontStyle=1;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="742" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v50" value="Roll / Pitch 姿态设定值" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#4B5563;fontStyle=0;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="770" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="v51" value="p_sp , q_sp , r_sp" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#111111;fontStyle=1;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="420" y="742" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v52" value="机体系 Roll / Pitch / Yaw 角速度设定值" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#4B5563;fontStyle=0;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="420" y="770" width="320" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="v53" value="Attitude Controller" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#111111;fontStyle=1;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="800" y="742" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v54" value="姿态外环：姿态误差 → Body Rate Setpoint" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#4B5563;fontStyle=0;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="800" y="770" width="300" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="v55" value="Rate Controller" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#111111;fontStyle=1;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="742" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v56" value="角速度内环：Rate Error → 控制作用 / 力矩需求" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#4B5563;fontStyle=0;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="770" width="270" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="v57" value="Control Allocation" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=14;fontColor=#111111;fontStyle=1;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="742" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="v58" value="把控制器的力矩 / 推力需求分配到实际舵面或执行器" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#4B5563;fontStyle=0;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="770" width="300" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="v59" value="注：本图聚焦固定翼姿态 / 角速度控制主链，省略油门、TECS 能量内部结构、舵面配平与特殊飞行阶段细节。" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;rounded=0;fontFamily=Microsoft YaHei;fontSize=13;fontColor=#6B7280;fontStyle=0;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="75" y="858" width="1660" height="28" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
