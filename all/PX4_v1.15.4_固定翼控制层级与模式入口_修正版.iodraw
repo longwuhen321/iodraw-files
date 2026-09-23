@@ -41,7 +41,7 @@
           <mxGeometry x="30" y="520" width="210" height="250" as="geometry" />
         </mxCell>
         <mxCell id="14" value="NPFG（航迹控制）&lt;br&gt;→ φ_sp&lt;br&gt;&lt;br&gt;TECS（高度控制）&lt;br&gt;→ θ_sp&lt;br&gt;&lt;br&gt;Mission（任务）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B7D7C2;strokeWidth=1;fontSize=14;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="42" y="588" width="186" height="140" as="geometry" />
+          <mxGeometry x="42" y="610" width="186" height="140" as="geometry" />
         </mxCell>
         <mxCell id="15" value="Pilot stick / 摇杆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#1f2937;" parent="1" vertex="1">
           <mxGeometry x="248" y="132" width="170" height="24" as="geometry" />
