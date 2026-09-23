@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="PX4-FW-HIER-REV2" name="PX4 固定翼控制层级与模式入口">
-    <mxGraphModel dx="1400" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1615" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="7" value="Attitude Controller&lt;br&gt;姿态外环" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#6AA0E6;strokeWidth=2;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="690" y="360" width="220" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="Rate Controller&lt;br&gt;角速度内环" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+        <mxCell id="8" value="Rate Controller&lt;br&gt;角速度内环" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1030" y="360" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9" value="Control Allocation&lt;br&gt;控制分配&lt;br&gt;（执行器）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
