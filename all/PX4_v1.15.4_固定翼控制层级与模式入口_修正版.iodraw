@@ -59,7 +59,7 @@
           <mxGeometry x="228" y="400" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="20" value="FW_MAN_R_MAX&amp;nbsp;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;FW_MAN_P_MAX&lt;/span&gt;&lt;/div&gt;FW_MAN_YR_MAX&lt;/div&gt;&lt;div&gt;FW_PSP_OFF&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" parent="1" vertex="1">
-          <mxGeometry x="406" y="437" width="140" height="70" as="geometry" />
+          <mxGeometry x="406" y="450" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="21" value="φ_sp , θ_sp&lt;br&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;(Attitude Setpoint)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" parent="1" vertex="1">
           <mxGeometry x="555" y="390" width="120" height="34" as="geometry" />
