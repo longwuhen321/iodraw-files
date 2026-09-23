@@ -16,7 +16,7 @@
         <mxCell id="5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F9FAFB;strokeColor=#CBD5E1;dashed=1;dashPattern=8 8;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="530" y="210" width="1000" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="共享控制链&lt;br&gt;&lt;span style=&quot;font-size:14px;&quot;&gt;(Shared Control Chain)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#374151;" parent="1" vertex="1">
+        <mxCell id="6" value="姿态控制" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#374151;" parent="1" vertex="1">
           <mxGeometry x="575" y="222" width="250" height="44" as="geometry" />
         </mxCell>
         <mxCell id="7" value="Attitude Controller&lt;br&gt;姿态外环" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#6AA0E6;strokeWidth=2;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
