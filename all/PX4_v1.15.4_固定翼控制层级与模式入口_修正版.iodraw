@@ -59,10 +59,10 @@
           <mxGeometry x="248" y="402" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="20" value="FW_MAN_R_MAX / FW_MAN_P_MAX&lt;br&gt;FW_PSP_OFF&lt;br&gt;（可选）FW_MAN_YR_MAX" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" parent="1" vertex="1">
-          <mxGeometry x="246" y="438" width="290" height="52" as="geometry" />
+          <mxGeometry x="251" y="460" width="290" height="52" as="geometry" />
         </mxCell>
         <mxCell id="21" value="φ_sp , θ_sp&lt;br&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;(Attitude Setpoint)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" parent="1" vertex="1">
-          <mxGeometry x="546" y="392" width="120" height="34" as="geometry" />
+          <mxGeometry x="555" y="390" width="120" height="34" as="geometry" />
         </mxCell>
         <mxCell id="23" value="p_sp , q_sp , r_sp&lt;br&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;(Body Rate Setpoint)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" parent="1" vertex="1">
           <mxGeometry x="875" y="370" width="150" height="34" as="geometry" />
