@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mxfile host="www.iodraw.com" modified="2026-09-23T05:28:00.000Z" agent="Mozilla/5.0" version="13.3.6" type="device">
+  <diagram id="PX4-FW-HIER-REV2" name="PX4 固定翼控制层级与模式入口">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="PX4 固定翼控制层级与模式入口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=28;fontStyle=1;fontColor=#111827;" vertex="1" parent="1">
+          <mxGeometry x="430" y="20" width="740" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="PX4 Fixed-wing Control Hierarchy &amp;amp; Mode Entry Points" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#475569;" vertex="1" parent="1">
+          <mxGeometry x="420" y="60" width="760" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="模式决定“从哪一层进入控制链”；越往下，控制器越共享" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#64748B;" vertex="1" parent="1">
+          <mxGeometry x="420" y="88" width="760" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F9FAFB;strokeColor=#CBD5E1;dashed=1;dashPattern=8 8;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="560" y="210" width="920" height="430" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="共享控制链&lt;br&gt;&lt;span style=&quot;font-size:14px;&quot;&gt;(Shared Control Chain)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="575" y="222" width="250" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Attitude Controller&lt;br&gt;姿态外环" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#6AA0E6;strokeWidth=2;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="690" y="360" width="220" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Rate Controller&lt;br&gt;角速度内环" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4B5563;strokeWidth=2;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="360" width="200" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Control Allocation&lt;br&gt;控制分配&lt;br&gt;（执行器）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4B5563;strokeWidth=2;fontSize=17;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="360" width="200" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Manual 手动&lt;br&gt;直接控制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDECEC;strokeColor=#D97777;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#B91C1C;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="30" y="120" width="210" height="78" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="Acro 特技角速度&lt;br&gt;角速度手动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2E2;strokeColor=#E8A546;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#A16207;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="30" y="250" width="210" height="88" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Stabilized&lt;br&gt;姿态稳定手动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F1FF;strokeColor=#6AA0E6;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#1D4ED8;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="30" y="390" width="210" height="88" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="Altitude / Position / Auto&lt;br&gt;高度 / 位置 / 自动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7ED;strokeColor=#63B67A;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#15803D;align=center;verticalAlign=top;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="30" y="520" width="210" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="NPFG（航迹控制）&lt;br&gt;→ φ_sp&lt;br&gt;&lt;br&gt;TECS（高度控制）&lt;br&gt;→ θ_sp&lt;br&gt;&lt;br&gt;Mission（任务）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B7D7C2;strokeWidth=1;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="42" y="565" width="186" height="102" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="Pilot stick / 摇杆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#1f2937;" vertex="1" parent="1">
+          <mxGeometry x="248" y="132" width="170" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" value="FW_MAN_R_SC / FW_MAN_P_SC / FW_MAN_Y_SC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="246" y="168" width="300" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="Pilot stick / 摇杆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#1f2937;" vertex="1" parent="1">
+          <mxGeometry x="248" y="262" width="170" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="FW_ACRO_X_MAX / FW_ACRO_Y_MAX /&lt;br&gt;FW_ACRO_Z_MAX" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="246" y="298" width="290" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="19" value="Pilot stick / 摇杆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#1f2937;" vertex="1" parent="1">
+          <mxGeometry x="248" y="402" width="170" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="20" value="FW_MAN_R_MAX / FW_MAN_P_MAX&lt;br&gt;FW_PSP_OFF&lt;br&gt;（可选）FW_MAN_YR_MAX" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="246" y="438" width="290" height="52" as="geometry"/>
+        </mxCell>
+        <mxCell id="21" value="φ_sp , θ_sp&lt;br&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;(Attitude Setpoint)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="520" y="372" width="120" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="22" value="φ_sp , θ_sp&lt;br&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;(Attitude Setpoint)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="520" y="535" width="120" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="23" value="p_sp , q_sp , r_sp&lt;br&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;(Body Rate Setpoint)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="875" y="370" width="150" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="24" value="p_sp , q_sp , r_sp&lt;br&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;(Body Rate Setpoint)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="910" y="247" width="150" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="25" value="直接控制量&lt;br&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;(Control Setpoint)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="130" width="160" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="26" value="φ , θ&lt;br&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;（姿态反馈）&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="760" y="545" width="90" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="27" value="p , q , r&lt;br&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;（角速度反馈）&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="545" width="90" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="28" value="共享外环 Rate SP 限制&lt;br&gt;FW_R_RMAX / FW_P_RMAX_*&lt;br&gt;FW_Y_RMAX" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="930" y="437" width="110" height="56" as="geometry"/>
+        </mxCell>
+        <mxCell id="29" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="30" y="700" width="1470" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="30" value="控制器设计理念" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#111827;" vertex="1" parent="1">
+          <mxGeometry x="55" y="718" width="180" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="31" value="1. 模式差异在接入层级&lt;br&gt;&lt;span style=&quot;font-size:11px;&quot;&gt;Manual / Acro / Stabilized / Altitude·Position·Auto&lt;br&gt;从控制链的不同层级接入。&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=14;fontStyle=1;fontColor=#111827;" vertex="1" parent="1">
+          <mxGeometry x="55" y="748" width="390" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="32" value="2. 下游控制器共享&lt;br&gt;&lt;span style=&quot;font-size:11px;&quot;&gt;姿态外环、角速度内环、控制分配&lt;br&gt;在多个模式间共享。&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=14;fontStyle=1;fontColor=#111827;" vertex="1" parent="1">
+          <mxGeometry x="520" y="748" width="360" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="33" value="3. 外环生成目标，内环负责跟踪&lt;br&gt;&lt;span style=&quot;font-size:11px;&quot;&gt;外环（NPFG / TECS 或手动姿态）生成姿态目标，&lt;br&gt;内环跟踪角速度目标，最终由控制分配驱动执行器。&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=14;fontStyle=1;fontColor=#111827;" vertex="1" parent="1">
+          <mxGeometry x="970" y="748" width="470" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;strokeWidth=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="30" y="830" width="1470" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="35" value="符号 / 术语说明" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#111827;" vertex="1" parent="1">
+          <mxGeometry x="55" y="846" width="180" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="36" value="φ_sp , θ_sp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="885" width="180" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="37" value="Roll / Pitch 姿态设定值 [rad]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="55" y="907" width="240" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="38" value="p_sp , q_sp , r_sp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="885" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="39" value="机体系 Roll / Pitch / Yaw 角速度设定值 [rad/s]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="335" y="907" width="300" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="40" value="φ , θ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="885" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="41" value="实际姿态（来自 EKF）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="690" y="907" width="180" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="42" value="p , q , r" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="925" y="885" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="43" value="实际角速度（来自陀螺仪）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="925" y="907" width="200" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="44" value="Control Allocation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="885" width="220" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="45" value="将控制量分配到舵面（升降舵 / 副翼 / 方向舵）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="907" width="280" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="46" value="注：本图聚焦固定翼姿态 / 角速度控制主链，省略油门、TECS 能量内部结构、舵面配平与特殊飞行阶段细节。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="40" y="955" width="900" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#EF4444;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="10" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="159"/>
+              <mxPoint x="1420" y="159"/>
+              <mxPoint x="1420" y="360"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#F59E0B;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="11" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="294"/>
+              <mxPoint x="1128" y="294"/>
+              <mxPoint x="1128" y="360"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#60A5FA;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="12" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="434"/>
+              <mxPoint x="690" y="434"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4ADE80;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="13" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="598"/>
+              <mxPoint x="570" y="598"/>
+              <mxPoint x="570" y="434"/>
+              <mxPoint x="690" y="434"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111827;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111827;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1" source="8" target="9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="53" value="" style="ellipse;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="520" width="1" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="54" value="" style="ellipse;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="520" width="1" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7280;strokeWidth=2;endArrow=block;endFill=1;dashed=0;" edge="1" parent="1" source="53" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="520"/>
+              <mxPoint x="790" y="460"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6B7280;strokeWidth=2;endArrow=block;endFill=1;dashed=0;" edge="1" parent="1" source="54" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="520"/>
+              <mxPoint x="1125" y="460"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
