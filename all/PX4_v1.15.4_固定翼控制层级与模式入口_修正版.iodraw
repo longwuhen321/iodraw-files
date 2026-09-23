@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="PX4-FW-HIER-REV2" name="PX4 固定翼控制层级与模式入口">
-    <mxGraphModel dx="1750" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1000" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,58 +86,58 @@
           <mxGeometry x="930" y="437" width="110" height="56" as="geometry" />
         </mxCell>
         <mxCell id="29" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;strokeWidth=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="30" y="700" width="1470" height="110" as="geometry" />
+          <mxGeometry x="30" y="784" width="1470" height="110" as="geometry" />
         </mxCell>
         <mxCell id="30" value="控制器设计理念" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#111827;" parent="1" vertex="1">
-          <mxGeometry x="55" y="718" width="180" height="24" as="geometry" />
+          <mxGeometry x="55" y="802" width="180" height="24" as="geometry" />
         </mxCell>
         <mxCell id="31" value="1. 模式差异在接入层级&lt;br&gt;&lt;span style=&quot;font-size:11px;&quot;&gt;Manual / Acro / Stabilized / Altitude·Position·Auto&lt;br&gt;从控制链的不同层级接入。&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=14;fontStyle=1;fontColor=#111827;" parent="1" vertex="1">
-          <mxGeometry x="55" y="748" width="390" height="50" as="geometry" />
+          <mxGeometry x="55" y="832" width="390" height="50" as="geometry" />
         </mxCell>
         <mxCell id="32" value="2. 下游控制器共享&lt;br&gt;&lt;span style=&quot;font-size:11px;&quot;&gt;姿态外环、角速度内环、控制分配&lt;br&gt;在多个模式间共享。&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=14;fontStyle=1;fontColor=#111827;" parent="1" vertex="1">
-          <mxGeometry x="520" y="748" width="360" height="50" as="geometry" />
+          <mxGeometry x="520" y="832" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="33" value="3. 外环生成目标，内环负责跟踪&lt;br&gt;&lt;span style=&quot;font-size:11px;&quot;&gt;外环（NPFG / TECS 或手动姿态）生成姿态目标，&lt;br&gt;内环跟踪角速度目标，最终由控制分配驱动执行器。&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=14;fontStyle=1;fontColor=#111827;" parent="1" vertex="1">
-          <mxGeometry x="970" y="748" width="470" height="50" as="geometry" />
+          <mxGeometry x="970" y="832" width="470" height="50" as="geometry" />
         </mxCell>
         <mxCell id="34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;strokeWidth=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="30" y="830" width="1470" height="120" as="geometry" />
+          <mxGeometry x="30" y="914" width="1470" height="120" as="geometry" />
         </mxCell>
         <mxCell id="35" value="符号 / 术语说明" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#111827;" parent="1" vertex="1">
-          <mxGeometry x="55" y="846" width="180" height="24" as="geometry" />
+          <mxGeometry x="55" y="930" width="180" height="24" as="geometry" />
         </mxCell>
         <mxCell id="36" value="φ_sp , θ_sp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="55" y="885" width="180" height="20" as="geometry" />
+          <mxGeometry x="55" y="969" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="37" value="Roll / Pitch 姿态设定值 [rad]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" parent="1" vertex="1">
-          <mxGeometry x="55" y="907" width="240" height="18" as="geometry" />
+          <mxGeometry x="55" y="991" width="240" height="18" as="geometry" />
         </mxCell>
         <mxCell id="38" value="p_sp , q_sp , r_sp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="335" y="885" width="220" height="20" as="geometry" />
+          <mxGeometry x="335" y="969" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="39" value="机体系 Roll / Pitch / Yaw 角速度设定值 [rad/s]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" parent="1" vertex="1">
-          <mxGeometry x="335" y="907" width="300" height="18" as="geometry" />
+          <mxGeometry x="335" y="991" width="300" height="18" as="geometry" />
         </mxCell>
         <mxCell id="40" value="φ , θ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="690" y="885" width="120" height="20" as="geometry" />
+          <mxGeometry x="690" y="969" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="41" value="实际姿态（来自 EKF）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" parent="1" vertex="1">
-          <mxGeometry x="690" y="907" width="180" height="18" as="geometry" />
+          <mxGeometry x="690" y="991" width="180" height="18" as="geometry" />
         </mxCell>
         <mxCell id="42" value="p , q , r" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="925" y="885" width="120" height="20" as="geometry" />
+          <mxGeometry x="925" y="969" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="43" value="实际角速度（来自陀螺仪）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" parent="1" vertex="1">
-          <mxGeometry x="925" y="907" width="200" height="18" as="geometry" />
+          <mxGeometry x="925" y="991" width="200" height="18" as="geometry" />
         </mxCell>
         <mxCell id="44" value="Control Allocation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1180" y="885" width="220" height="20" as="geometry" />
+          <mxGeometry x="1180" y="969" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="45" value="将控制量分配到舵面（升降舵 / 副翼 / 方向舵）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" parent="1" vertex="1">
-          <mxGeometry x="1180" y="907" width="280" height="18" as="geometry" />
+          <mxGeometry x="1180" y="991" width="280" height="18" as="geometry" />
         </mxCell>
         <mxCell id="46" value="注：本图聚焦固定翼姿态 / 角速度控制主链，省略油门、TECS 能量内部结构、舵面配平与特殊飞行阶段细节。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#6B7280;" parent="1" vertex="1">
-          <mxGeometry x="40" y="955" width="900" height="18" as="geometry" />
+          <mxGeometry x="40" y="1039" width="900" height="18" as="geometry" />
         </mxCell>
         <mxCell id="47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#EF4444;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="10" target="9" edge="1">
           <mxGeometry relative="1" as="geometry">
