@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="PX4-FW-HIER-REV2" name="PX4 固定翼控制层级与模式入口">
-    <mxGraphModel dx="1615" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1105" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,7 +62,7 @@
           <mxGeometry x="246" y="438" width="290" height="52" as="geometry" />
         </mxCell>
         <mxCell id="21" value="φ_sp , θ_sp&lt;br&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;(Attitude Setpoint)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" parent="1" vertex="1">
-          <mxGeometry x="520" y="372" width="120" height="34" as="geometry" />
+          <mxGeometry x="546" y="392" width="120" height="34" as="geometry" />
         </mxCell>
         <mxCell id="22" value="φ_sp , θ_sp&lt;br&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;(Attitude Setpoint)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" parent="1" vertex="1">
           <mxGeometry x="520" y="535" width="120" height="34" as="geometry" />
