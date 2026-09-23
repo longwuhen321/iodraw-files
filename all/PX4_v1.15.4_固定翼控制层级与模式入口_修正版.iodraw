@@ -59,7 +59,7 @@
           <mxGeometry x="228" y="400" width="170" height="24" as="geometry" />
         </mxCell>
         <mxCell id="20" value="FW_MAN_R_MAX / FW_MAN_P_MAX&lt;br&gt;FW_PSP_OFF&lt;br&gt;（可选）FW_MAN_YR_MAX" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" parent="1" vertex="1">
-          <mxGeometry x="230" y="494.5" width="290" height="52" as="geometry" />
+          <mxGeometry x="410" y="450" width="290" height="52" as="geometry" />
         </mxCell>
         <mxCell id="21" value="φ_sp , θ_sp&lt;br&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;(Attitude Setpoint)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#374151;" parent="1" vertex="1">
           <mxGeometry x="555" y="390" width="120" height="34" as="geometry" />
@@ -165,8 +165,8 @@
         <mxCell id="50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4ADE80;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="13" target="7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="310" y="650" />
-              <mxPoint x="310" y="434" />
+              <mxPoint x="400" y="650" />
+              <mxPoint x="400" y="434" />
             </Array>
           </mxGeometry>
         </mxCell>
