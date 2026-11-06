@@ -128,17 +128,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RPM1" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.7950310559006211;exitPerimeter=0;entryX=0.0;entryY=0.5135135135135135;entryPerimeter=0;" parent="wires" source="connector" target="engine_rpm1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="212" y="328" as="sourcePoint" />
-            <mxPoint x="468" y="495" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="288" y="328" />
-              <mxPoint x="288" y="495" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RPM2" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.84472049689441;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;" parent="wires" source="connector" target="engine_rpm2" edge="1">
+        <mxCell id="RPM2" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.84472049689441;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;" parent="wires" source="connector" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="212" y="336" as="sourcePoint" />
             <mxPoint x="467.5" y="544" as="targetPoint" />
@@ -294,30 +284,6 @@
         <mxCell id="ground_station_text_line_2" value="UAV_GCS50" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="ground_station_text" vertex="1">
           <mxGeometry y="17.925" width="78.8" height="12.75" as="geometry" />
         </mxCell>
-        <mxCell id="engine_rpm1" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
-          <mxGeometry x="468" y="476" width="80" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="engine_rpm1_text" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" parent="engine_rpm1" vertex="1">
-          <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="78.8" height="36.6" as="geometry" />
-        </mxCell>
-        <mxCell id="engine_rpm1_text_line_1" value="发动机" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="engine_rpm1_text" vertex="1">
-          <mxGeometry y="5.925000000000001" width="78.8" height="12.75" as="geometry" />
-        </mxCell>
-        <mxCell id="engine_rpm1_text_line_2" value="转速信号 1" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="engine_rpm1_text" vertex="1">
-          <mxGeometry y="17.925" width="78.8" height="12.75" as="geometry" />
-        </mxCell>
-        <mxCell id="engine_rpm2" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
-          <mxGeometry x="467.5" y="525.5" width="80.5" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="engine_rpm2_text" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" parent="engine_rpm2" vertex="1">
-          <mxGeometry x="0.6000000000000227" y="0.20000000000004547" width="79.3" height="36.6" as="geometry" />
-        </mxCell>
-        <mxCell id="engine_rpm2_text_line_1" value="发动机" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="engine_rpm2_text" vertex="1">
-          <mxGeometry y="5.925000000000001" width="79.3" height="12.75" as="geometry" />
-        </mxCell>
-        <mxCell id="engine_rpm2_text_line_2" value="转速信号 2" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="engine_rpm2_text" vertex="1">
-          <mxGeometry y="17.925" width="79.3" height="12.75" as="geometry" />
-        </mxCell>
         <mxCell id="fixed_voltage" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
           <mxGeometry x="40" y="394" width="37" height="27" as="geometry" />
         </mxCell>
@@ -452,12 +418,6 @@
         </mxCell>
         <mxCell id="232-1_label" value="232-1" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="429" y="352.7" width="27" height="12" as="geometry" />
-        </mxCell>
-        <mxCell id="RPM1_label" value="RPM1" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
-          <mxGeometry x="429" y="482.7" width="27" height="12" as="geometry" />
-        </mxCell>
-        <mxCell id="RPM2_label" value="RPM2" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
-          <mxGeometry x="429" y="531.7" width="27" height="12" as="geometry" />
         </mxCell>
         <mxCell id="ain_input_label" value="Ain" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="232.5" y="337.6" width="23" height="12" as="geometry" />
