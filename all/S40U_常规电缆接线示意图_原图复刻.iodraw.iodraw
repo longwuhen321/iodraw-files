@@ -101,6 +101,11 @@
         <mxCell id="pwm3_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" parent="frames" vertex="1">
           <mxGeometry x="466" y="187.5" width="80" height="21" as="geometry" />
         </mxCell>
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pwm3_device" source="pwm3_device_text">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-107.1199951171875" y="85.06000976562501" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="pwm3_device_text" value="油门" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=11;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="pwm3_device" vertex="1">
           <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="78.8" height="20.6" as="geometry" />
         </mxCell>
