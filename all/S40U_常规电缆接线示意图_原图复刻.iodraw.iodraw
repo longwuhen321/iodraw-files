@@ -28,26 +28,16 @@
             <mxPoint x="452" y="224" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="232-4" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.6614906832298136;exitPerimeter=0;entryX=0.0;entryY=0.4827586206896552;entryPerimeter=0;" parent="wires" source="connector" target="gimbal" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="212" y="306.5" as="sourcePoint" />
-            <mxPoint x="468" y="403" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="306" y="306.5" />
-              <mxPoint x="306" y="403" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="adc1" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=open;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.7592592592592593;exitPerimeter=0;entryX=0.0;entryY=0.1797752808988764;entryPerimeter=0;" parent="wires" source="fixed_voltage" target="two_voltage_cable" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="435" y="496.5" as="sourcePoint" />
-            <mxPoint x="473.5" y="496.5" as="targetPoint" />
+            <mxPoint x="441" y="529.5" as="sourcePoint" />
+            <mxPoint x="479.5" y="529.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="adc2" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=open;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.5185185185185185;exitPerimeter=0;entryX=0.0;entryY=0.8764044943820225;entryPerimeter=0;" parent="wires" source="multirotor_voltage" target="two_voltage_cable" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="435" y="527.5" as="sourcePoint" />
-            <mxPoint x="473.5" y="527.5" as="targetPoint" />
+            <mxPoint x="441" y="560.5" as="sourcePoint" />
+            <mxPoint x="479.5" y="560.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-0" value="开拓者-创衡S40U复合翼电气接线示意图" style="text;whiteSpace=wrap;fontSize=20;" vertex="1" parent="wires">
@@ -157,7 +147,7 @@
           <mxGeometry y="17.925" width="78.8" height="12.75" as="geometry" />
         </mxCell>
         <mxCell id="fixed_voltage" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
-          <mxGeometry x="398" y="476" width="37" height="27" as="geometry" />
+          <mxGeometry x="404" y="509" width="37" height="27" as="geometry" />
         </mxCell>
         <mxCell id="fixed_voltage_text" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" parent="fixed_voltage" vertex="1">
           <mxGeometry x="0.6000000000000014" y="0.19999999999998863" width="35.8" height="26.6" as="geometry" />
@@ -169,7 +159,7 @@
           <mxGeometry y="12.9875" width="35.8" height="12.625" as="geometry" />
         </mxCell>
         <mxCell id="multirotor_voltage" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
-          <mxGeometry x="398" y="513.5" width="37" height="27" as="geometry" />
+          <mxGeometry x="404" y="546.5" width="37" height="27" as="geometry" />
         </mxCell>
         <mxCell id="multirotor_voltage_text" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" parent="multirotor_voltage" vertex="1">
           <mxGeometry x="0.6000000000000014" y="0.19999999999998863" width="35.8" height="26.6" as="geometry" />
@@ -181,7 +171,7 @@
           <mxGeometry y="12.9875" width="35.8" height="12.625" as="geometry" />
         </mxCell>
         <mxCell id="two_voltage_cable" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
-          <mxGeometry x="473.5" y="488.5" width="80.5" height="44.5" as="geometry" />
+          <mxGeometry x="479.5" y="521.5" width="80.5" height="44.5" as="geometry" />
         </mxCell>
         <mxCell id="two_voltage_cable_text" value="2 路电压测量线" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=9.8;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="two_voltage_cable" vertex="1">
           <mxGeometry x="0.5999999999999943" y="0.19999999999998863" width="79.3" height="44.1" as="geometry" />
@@ -219,10 +209,10 @@
           <mxGeometry x="429" y="352.7" width="27" height="12" as="geometry" />
         </mxCell>
         <mxCell id="adc1_label" value="ADC1" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
-          <mxGeometry x="436" y="483.3" width="32" height="12" as="geometry" />
+          <mxGeometry x="442" y="516.3" width="32" height="12" as="geometry" />
         </mxCell>
         <mxCell id="adc2_label" value="ADC2" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
-          <mxGeometry x="436" y="513.5" width="32" height="12" as="geometry" />
+          <mxGeometry x="442" y="546.5" width="32" height="12" as="geometry" />
         </mxCell>
         <mxCell id="artwork" value="原图标志" parent="0" />
         <mxCell id="reference" value="原图参考（隐藏，切换可对照）" style="locked=1;" parent="0" visible="0" />
