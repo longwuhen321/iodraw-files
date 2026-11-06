@@ -58,14 +58,8 @@
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-36" value="多旋翼电压" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-35">
           <mxGeometry x="0.6000000000000227" y="-1.1379786002407855e-14" width="79.8" height="28.6" as="geometry" />
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.455;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wires" source="mE4VjG2YgsgjTHfdD5Ki-11" target="connector">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="340" y="119" />
-              <mxPoint x="340" y="273" />
-              <mxPoint x="212" y="273" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wires">
+          <mxGeometry x="332" y="256" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="frames" value="设备框及模块" parent="0" />
         <mxCell id="flight_controller" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.9;shape=rectangle;" parent="frames" vertex="1">
