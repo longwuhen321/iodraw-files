@@ -78,7 +78,7 @@
             <mxPoint x="468" y="163" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pwm4_controller" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.2670807453416149;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="wires" source="connector" target="pwm4_power_junction" edge="1">
+        <mxCell id="pwm4_controller" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.2670807453416149;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="wires" source="connector" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="212" y="243" as="sourcePoint" />
             <mxPoint x="349" y="189" as="targetPoint" />
@@ -88,19 +88,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pwm4_device_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.47619047619047616;entryPerimeter=0;" parent="wires" source="pwm4_power_junction" target="pwm4_device" edge="1">
+        <mxCell id="pwm4_device_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.47619047619047616;entryPerimeter=0;" parent="wires" target="pwm4_device" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="349" y="189" as="sourcePoint" />
             <mxPoint x="454" y="189" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pwm4_power_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.3135593220338983;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="wires" source="receiver" target="pwm4_power_junction" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="349" y="64" as="sourcePoint" />
-            <mxPoint x="349" y="189" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pwm9_controller" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.32298136645962733;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="wires" source="connector" target="pwm9_power_junction" edge="1">
+        <mxCell id="pwm9_controller" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.32298136645962733;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="wires" source="connector" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="212" y="252" as="sourcePoint" />
             <mxPoint x="333.5" y="222" as="targetPoint" />
@@ -110,16 +104,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pwm9_device_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.5238095238095238;entryPerimeter=0;" parent="wires" source="pwm9_power_junction" target="pwm9_device" edge="1">
+        <mxCell id="pwm9_device_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.5238095238095238;entryPerimeter=0;" parent="wires" target="pwm9_device" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="333.5" y="222" as="sourcePoint" />
             <mxPoint x="468" y="222" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pwm9_power_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.18220338983050846;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="wires" source="receiver" target="pwm9_power_junction" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="333.5" y="64" as="sourcePoint" />
-            <mxPoint x="333.5" y="222" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pwm5" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.38509316770186336;exitPerimeter=0;entryX=0.0;entryY=0.5121951219512195;entryPerimeter=0;" parent="wires" source="connector" target="pwm5_device" edge="1">
@@ -488,12 +476,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="junctions" value="电源连接点" parent="0" />
-        <mxCell id="pwm4_power_junction" value="" style="rounded=0;shadow=0;strokeColor=none;fillColor=#000000;strokeWidth=0;shape=ellipse;perimeter=ellipsePerimeter;" parent="junctions" vertex="1">
-          <mxGeometry x="346.75" y="186.75" width="4.5" height="4.5" as="geometry" />
-        </mxCell>
-        <mxCell id="pwm9_power_junction" value="" style="rounded=0;shadow=0;strokeColor=none;fillColor=#000000;strokeWidth=0;shape=ellipse;perimeter=ellipsePerimeter;" parent="junctions" vertex="1">
-          <mxGeometry x="331.25" y="219.75" width="4.5" height="4.5" as="geometry" />
-        </mxCell>
         <mxCell id="labels" value="文字标注" parent="0" />
         <mxCell id="servo_power_label" value="舵机供电输入" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=13.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="457.5" y="63.7" width="91" height="18" as="geometry" />
@@ -513,9 +495,6 @@
         <mxCell id="pwm3_power_label" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" parent="labels" vertex="1">
           <mxGeometry x="362.4" y="77" width="9.2" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="pwm3_power_label_line_1" value="电" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=9.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="pwm3_power_label" vertex="1">
-          <mxGeometry y="1.1875" width="9.2" height="11.625" as="geometry" />
-        </mxCell>
         <mxCell id="pwm3_power_label_line_2" value="源" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=9.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="pwm3_power_label" vertex="1">
           <mxGeometry y="11.1875" width="9.2" height="11.625" as="geometry" />
         </mxCell>
@@ -525,9 +504,6 @@
         <mxCell id="pwm4_power_label" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" parent="labels" vertex="1">
           <mxGeometry x="346.9" y="77" width="9.2" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="pwm4_power_label_line_1" value="电" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=9.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="pwm4_power_label" vertex="1">
-          <mxGeometry y="1.1875" width="9.2" height="11.625" as="geometry" />
-        </mxCell>
         <mxCell id="pwm4_power_label_line_2" value="源" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=9.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="pwm4_power_label" vertex="1">
           <mxGeometry y="11.1875" width="9.2" height="11.625" as="geometry" />
         </mxCell>
@@ -536,9 +512,6 @@
         </mxCell>
         <mxCell id="pwm9_power_label" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" parent="labels" vertex="1">
           <mxGeometry x="331.4" y="77" width="9.2" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="pwm9_power_label_line_1" value="电" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=9.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="pwm9_power_label" vertex="1">
-          <mxGeometry y="1.1875" width="9.2" height="11.625" as="geometry" />
         </mxCell>
         <mxCell id="pwm9_power_label_line_2" value="源" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=9.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="pwm9_power_label" vertex="1">
           <mxGeometry y="11.1875" width="9.2" height="11.625" as="geometry" />
