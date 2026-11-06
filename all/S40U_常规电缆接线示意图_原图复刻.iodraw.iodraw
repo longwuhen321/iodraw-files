@@ -88,6 +88,10 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="469" y="447" as="sourcePoint" />
             <mxPoint x="314" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="392" y="448" />
+              <mxPoint x="392" y="329" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.907;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wires">
