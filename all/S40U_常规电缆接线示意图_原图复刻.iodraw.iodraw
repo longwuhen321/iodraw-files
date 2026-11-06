@@ -477,7 +477,7 @@
           <mxGeometry x="430" y="150.7" width="31" height="12" as="geometry" />
         </mxCell>
         <mxCell id="pwm4_label" value="PWM4" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
-          <mxGeometry x="419" y="176.7" width="31" height="12" as="geometry" />
+          <mxGeometry x="429" y="176.7" width="31" height="12" as="geometry" />
         </mxCell>
         <mxCell id="pwm9_label" value="PWM9" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="430" y="209.7" width="31" height="12" as="geometry" />
