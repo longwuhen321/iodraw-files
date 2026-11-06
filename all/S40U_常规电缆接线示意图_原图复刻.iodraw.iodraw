@@ -12,7 +12,7 @@
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mE4VjG2YgsgjTHfdD5Ki-8" source="mE4VjG2YgsgjTHfdD5Ki-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-127.4000142415365" y="51.866668701171875" as="targetPoint" />
+            <mxPoint x="-127" y="11" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-9" value="左右副翼" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=1;fontFamily=SimSun;fontSize=10.0;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-8">
