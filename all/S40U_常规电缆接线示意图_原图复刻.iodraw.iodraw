@@ -81,10 +81,10 @@
           <mxGeometry y="43.6" width="147" height="17" as="geometry" />
         </mxCell>
         <mxCell id="connector" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.83;shape=rectangle;" parent="frames" vertex="1">
-          <mxGeometry x="282" y="200" width="23.5" height="161" as="geometry" />
+          <mxGeometry x="268" y="200" width="37.5" height="161" as="geometry" />
         </mxCell>
         <mxCell id="connector_label" value="J30J-37" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.8;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=90;fontStyle=0;" parent="connector" vertex="1">
-          <mxGeometry x="-18.25" y="73.60000000000002" width="60" height="13" as="geometry" />
+          <mxGeometry x="-29.122340425531913" y="73.60000000000002" width="95.74468085106383" height="13" as="geometry" />
         </mxCell>
         <mxCell id="pwm2_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" parent="frames" vertex="1">
           <mxGeometry x="466" y="162" width="80" height="21" as="geometry" />
