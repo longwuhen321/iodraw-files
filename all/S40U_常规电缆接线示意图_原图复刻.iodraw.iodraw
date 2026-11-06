@@ -467,16 +467,16 @@
         <mxCell id="sbus_label" value="SBUS" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="430" y="67" width="29" height="12" as="geometry" />
         </mxCell>
-        <mxCell id="pwm1_label" value="PWM1" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
+        <mxCell id="pwm1_label" value="PWM1" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=right;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="430" y="99.7" width="31" height="12" as="geometry" />
         </mxCell>
-        <mxCell id="pwm2_label" value="PWM2" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
+        <mxCell id="pwm2_label" value="PWM2" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=right;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="428" y="125" width="31" height="12" as="geometry" />
         </mxCell>
-        <mxCell id="pwm3_label" value="PWM3" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
+        <mxCell id="pwm3_label" value="PWM3" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=right;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="430" y="150.7" width="31" height="12" as="geometry" />
         </mxCell>
-        <mxCell id="pwm4_label" value="PWM4" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
+        <mxCell id="pwm4_label" value="PWM4" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=right;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="429" y="176.7" width="31" height="12" as="geometry" />
         </mxCell>
         <mxCell id="pwm9_label" value="PWM9" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
