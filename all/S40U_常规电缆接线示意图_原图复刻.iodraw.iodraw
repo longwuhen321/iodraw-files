@@ -221,7 +221,7 @@
             <mxPoint x="218" y="475" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-0" value="开拓者-创衡飞控电气接线示意图" style="text;whiteSpace=wrap;" vertex="1" parent="wires">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-0" value="开拓者-创衡飞控电气接线示意图" style="text;whiteSpace=wrap;fontSize=20;" vertex="1" parent="wires">
           <mxGeometry x="114.33" y="32.33" width="178.67" height="27" as="geometry" />
         </mxCell>
         <mxCell id="frames" value="设备框及模块" parent="0" />
