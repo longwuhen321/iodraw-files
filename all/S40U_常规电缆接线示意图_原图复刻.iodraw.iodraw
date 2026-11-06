@@ -213,6 +213,12 @@
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-0" value="开拓者-创衡飞控电气接线示意图" style="text;whiteSpace=wrap;fontSize=20;" vertex="1" parent="wires">
           <mxGeometry x="139" y="11" width="325.67" height="27" as="geometry" />
         </mxCell>
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="wires">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="336" y="193" as="sourcePoint" />
+            <mxPoint x="386" y="143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="frames" value="设备框及模块" parent="0" />
         <mxCell id="flight_controller" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.9;shape=rectangle;" parent="frames" vertex="1">
           <mxGeometry x="38.5" y="184.5" width="150" height="190" as="geometry" />
