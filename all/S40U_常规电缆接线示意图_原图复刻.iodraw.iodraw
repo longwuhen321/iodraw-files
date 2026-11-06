@@ -22,60 +22,10 @@
             <mxPoint x="466" y="198" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pwm4_controller" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.2670807453416149;exitPerimeter=0;" parent="wires" source="connector" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="212" y="243" as="sourcePoint" />
-            <mxPoint x="348" y="224" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="306" y="243" />
-              <mxPoint x="305" y="224" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="pwm4_device_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.47619047619047616;entryPerimeter=0;" parent="wires" target="pwm4_device" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="347" y="224" as="sourcePoint" />
             <mxPoint x="452" y="224" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pwm5" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.38509316770186336;exitPerimeter=0;entryX=0.0;entryY=0.5121951219512195;entryPerimeter=0;" parent="wires" source="connector" target="pwm5_device" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="212" y="262" as="sourcePoint" />
-            <mxPoint x="468" y="252" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="339" y="262" />
-              <mxPoint x="339" y="252" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pwm6" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.4409937888198758;exitPerimeter=0;entryX=0.0;entryY=0.5238095238095238;entryPerimeter=0;" parent="wires" source="connector" target="pwm6_device" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="212" y="271" as="sourcePoint" />
-            <mxPoint x="468" y="278" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="340" y="271" />
-              <mxPoint x="340" y="278" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pwm7" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.4968944099378882;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;" parent="wires" source="connector" target="pwm7_device" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="212" y="280" as="sourcePoint" />
-            <mxPoint x="468" y="303.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="332" y="280" />
-              <mxPoint x="332" y="303.5" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pwm8" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.5527950310559007;exitPerimeter=0;entryX=0.0;entryY=0.4878048780487805;entryPerimeter=0;" parent="wires" source="connector" target="pwm8_device" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="212" y="289" as="sourcePoint" />
-            <mxPoint x="468" y="329" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="323" y="289" />
-              <mxPoint x="323" y="329" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="232-4" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.6614906832298136;exitPerimeter=0;entryX=0.0;entryY=0.4827586206896552;entryPerimeter=0;" parent="wires" source="connector" target="gimbal" edge="1">
