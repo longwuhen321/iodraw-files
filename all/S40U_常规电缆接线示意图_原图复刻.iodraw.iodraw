@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="s40u_reference_replica" name="S40U 常规电缆接线示意图">
-    <mxGraphModel dx="724" dy="406" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="604" pageHeight="622" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="875" dy="491" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="604" pageHeight="622" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="wires" value="连接线" parent="0" />
@@ -211,7 +211,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-0" value="开拓者-创衡S40U复合翼电气接线示意图" style="text;whiteSpace=wrap;fontSize=20;" vertex="1" parent="wires">
-          <mxGeometry x="139" y="11" width="325.67" height="27" as="geometry" />
+          <mxGeometry x="90" y="14" width="371" height="27" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-5" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.09627329192546584;exitPerimeter=0;" edge="1" parent="wires">
           <mxGeometry relative="1" as="geometry">
