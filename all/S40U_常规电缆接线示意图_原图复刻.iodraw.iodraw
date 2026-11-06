@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="s40u_reference_replica" name="S40U 常规电缆接线示意图">
-    <mxGraphModel dx="600" dy="337" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="604" pageHeight="622" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="420" dy="236" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="604" pageHeight="622" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="wires" value="连接线" parent="0" />
@@ -126,10 +126,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-76" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" vertex="1" parent="wires">
-          <mxGeometry x="164" y="97" width="47" height="21" as="geometry" />
+          <mxGeometry x="164" y="97" width="48" height="21" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-77" value="Pow" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=1;fontFamily=SimSun;fontSize=10.0;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-76">
-          <mxGeometry x="0.3525" y="0.2" width="26.085" height="20.6" as="geometry" />
+          <mxGeometry x="0.36" y="-1" width="47.64" height="21.8" as="geometry" />
+        </mxCell>
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-79" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" vertex="1" parent="wires">
+          <mxGeometry x="164" y="121" width="48" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-80" value="Pow" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=1;fontFamily=SimSun;fontSize=10.0;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-79">
+          <mxGeometry x="0.36" y="-1" width="47.64" height="21.8" as="geometry" />
         </mxCell>
         <mxCell id="frames" value="设备框及模块" parent="0" />
         <mxCell id="flight_controller" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.9;shape=rectangle;" parent="frames" vertex="1">
