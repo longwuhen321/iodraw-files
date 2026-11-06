@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="s40u_reference_replica" name="S40U 常规电缆接线示意图">
-    <mxGraphModel dx="875" dy="491" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="604" pageHeight="622" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="600" dy="337" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="604" pageHeight="622" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="wires" value="连接线" parent="0" />
@@ -271,10 +271,10 @@
           <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="78.8" height="20.6" as="geometry" />
         </mxCell>
         <mxCell id="pwm4_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
-          <mxGeometry x="454" y="179" width="107" height="21" as="geometry" />
+          <mxGeometry x="468" y="179" width="80" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="pwm4_device_text" value="方向舵/左 V 尾/左飞翼" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="pwm4_device" vertex="1">
-          <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="105.8" height="20.6" as="geometry" />
+        <mxCell id="pwm4_device_text" value="方向舵" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="pwm4_device" vertex="1">
+          <mxGeometry x="0.4485981308411385" y="0.19999999999998863" width="79.10280373831775" height="20.6" as="geometry" />
         </mxCell>
         <mxCell id="pwm9_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
           <mxGeometry x="468" y="211" width="93" height="21" as="geometry" />
@@ -466,7 +466,7 @@
         <mxCell id="junctions" value="电源连接点" parent="0" />
         <mxCell id="labels" value="文字标注" parent="0" />
         <mxCell id="sbus_label" value="SBUS" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
-          <mxGeometry x="285" y="88.4" width="29" height="12" as="geometry" />
+          <mxGeometry x="288" y="67" width="29" height="12" as="geometry" />
         </mxCell>
         <mxCell id="pwm1_label" value="PWM1" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="430" y="99.7" width="31" height="12" as="geometry" />
