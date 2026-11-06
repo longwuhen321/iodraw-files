@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="s40u_reference_replica" name="S40U 常规电缆接线示意图">
-    <mxGraphModel dx="600" dy="337" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="604" pageHeight="622" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="589" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="604" pageHeight="622" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="wires" value="连接线" parent="0" />
@@ -215,18 +215,18 @@
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-5" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.09627329192546584;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" edge="1" parent="wires">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="213" y="217" as="sourcePoint" />
-            <mxPoint x="394" y="113" as="targetPoint" />
+            <mxPoint x="213" y="206" as="sourcePoint" />
+            <mxPoint x="394" y="102" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="276" y="216.5" />
-              <mxPoint x="276" y="113" />
+              <mxPoint x="276" y="205.5" />
+              <mxPoint x="276" y="102" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-6" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.5238095238095238;entryPerimeter=0;" edge="1" parent="wires">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="394" y="113" as="sourcePoint" />
-            <mxPoint x="469" y="113" as="targetPoint" />
+            <mxPoint x="394" y="102" as="sourcePoint" />
+            <mxPoint x="469" y="102" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="frames" value="设备框及模块" parent="0" />
