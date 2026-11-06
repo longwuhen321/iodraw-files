@@ -4,12 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="wires" value="连接线" parent="0" />
-        <mxCell id="adc1" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=open;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.7592592592592593;exitPerimeter=0;entryX=0.0;entryY=0.1797752808988764;entryPerimeter=0;" parent="wires" source="fixed_voltage" target="two_voltage_cable" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="441" y="529.5" as="sourcePoint" />
-            <mxPoint x="479.5" y="529.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="adc2" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=open;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.5185185185185185;exitPerimeter=0;entryX=0.0;entryY=0.8764044943820225;entryPerimeter=0;" parent="wires" source="multirotor_voltage" target="two_voltage_cable" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="441" y="560.5" as="sourcePoint" />
