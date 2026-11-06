@@ -125,30 +125,6 @@
         <mxCell id="ground_station" value="外部惯导" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
           <mxGeometry x="469" y="427" width="80" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="fixed_voltage" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
-          <mxGeometry x="351" y="503" width="37" height="27" as="geometry" />
-        </mxCell>
-        <mxCell id="fixed_voltage_text" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" parent="fixed_voltage" vertex="1">
-          <mxGeometry x="0.6000000000000014" y="0.19999999999998863" width="35.8" height="26.6" as="geometry" />
-        </mxCell>
-        <mxCell id="fixed_voltage_text_line_1" value="固定翼" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="fixed_voltage_text" vertex="1">
-          <mxGeometry y="0.9875000000000007" width="35.8" height="12.625" as="geometry" />
-        </mxCell>
-        <mxCell id="fixed_voltage_text_line_2" value="电压" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="fixed_voltage_text" vertex="1">
-          <mxGeometry y="12.9875" width="35.8" height="12.625" as="geometry" />
-        </mxCell>
-        <mxCell id="multirotor_voltage" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
-          <mxGeometry x="351" y="540.5" width="37" height="27" as="geometry" />
-        </mxCell>
-        <mxCell id="multirotor_voltage_text" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" parent="multirotor_voltage" vertex="1">
-          <mxGeometry x="0.6000000000000014" y="0.19999999999998863" width="35.8" height="26.6" as="geometry" />
-        </mxCell>
-        <mxCell id="multirotor_voltage_text_line_1" value="多旋翼" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="multirotor_voltage_text" vertex="1">
-          <mxGeometry y="0.9875000000000007" width="35.8" height="12.625" as="geometry" />
-        </mxCell>
-        <mxCell id="multirotor_voltage_text_line_2" value="电压" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="multirotor_voltage_text" vertex="1">
-          <mxGeometry y="12.9875" width="35.8" height="12.625" as="geometry" />
-        </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.012;entryY=0.538;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="frames" source="pwm5_device_text" target="connector">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="312.1379478717672" y="293.1724053744613" as="targetPoint" />
@@ -187,7 +163,7 @@
           <mxGeometry x="430" y="436" width="27" height="12" as="geometry" />
         </mxCell>
         <mxCell id="adc1_label" value="ADC1" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
-          <mxGeometry x="389" y="510.29999999999995" width="32" height="12" as="geometry" />
+          <mxGeometry x="426" y="506.99999999999994" width="32" height="12" as="geometry" />
         </mxCell>
         <mxCell id="adc2_label" value="ADC2" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="389" y="540.5" width="32" height="12" as="geometry" />
