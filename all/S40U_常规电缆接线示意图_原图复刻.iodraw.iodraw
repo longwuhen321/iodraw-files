@@ -10,6 +10,11 @@
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-8" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" vertex="1" parent="wires">
           <mxGeometry x="467" y="137" width="80" height="21" as="geometry" />
         </mxCell>
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mE4VjG2YgsgjTHfdD5Ki-8" source="mE4VjG2YgsgjTHfdD5Ki-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-127.4000142415365" y="51.866668701171875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-9" value="左右副翼" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=1;fontFamily=SimSun;fontSize=10.0;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-8">
           <mxGeometry x="0.6000000000000227" y="0.20000000000000284" width="78.8" height="20.6" as="geometry" />
         </mxCell>
