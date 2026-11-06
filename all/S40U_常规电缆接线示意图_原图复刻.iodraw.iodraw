@@ -52,13 +52,13 @@
             <mxPoint x="466" y="198" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pwm4_controller" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.2670807453416149;exitPerimeter=0;" parent="wires" source="connector" edge="1">
+        <mxCell id="pwm4_controller" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.2670807453416149;exitPerimeter=0;" parent="wires" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="212" y="243" as="sourcePoint" />
-            <mxPoint x="348" y="224" as="targetPoint" />
+            <mxPoint x="210" y="243" as="sourcePoint" />
+            <mxPoint x="346" y="224" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="306" y="243" />
-              <mxPoint x="307" y="223" />
+              <mxPoint x="304" y="243" />
+              <mxPoint x="305" y="223" />
             </Array>
           </mxGeometry>
         </mxCell>
