@@ -84,10 +84,10 @@
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.907;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wires" source="mE4VjG2YgsgjTHfdD5Ki-26" target="connector">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.907;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wires">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.01;entryY=0.793;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wires" target="connector">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="471" y="406" as="sourcePoint" />
-            <mxPoint x="316" y="349" as="targetPoint" />
+            <mxPoint x="469" y="447" as="sourcePoint" />
+            <mxPoint x="314" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="frames" value="设备框及模块" parent="0" />
