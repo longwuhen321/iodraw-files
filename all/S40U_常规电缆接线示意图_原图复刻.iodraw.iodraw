@@ -16,6 +16,11 @@
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-10" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" vertex="1" parent="wires">
           <mxGeometry x="467" y="109" width="81" height="20.5" as="geometry" />
         </mxCell>
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mE4VjG2YgsgjTHfdD5Ki-10" source="mE4VjG2YgsgjTHfdD5Ki-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-155.19046747116818" y="10.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-11" value="RC 接收机" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-10">
           <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="79.8" height="20.1" as="geometry" />
         </mxCell>
@@ -87,10 +92,10 @@
           <mxGeometry y="43.6" width="147" height="17" as="geometry" />
         </mxCell>
         <mxCell id="connector" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.83;shape=rectangle;" parent="frames" vertex="1">
-          <mxGeometry x="256" y="127.5" width="58.27" height="308" as="geometry" />
+          <mxGeometry x="256" y="102" width="58.27" height="333.5" as="geometry" />
         </mxCell>
         <mxCell id="connector_label" value="J30J-37&#xa;转换板" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.8;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="connector" vertex="1">
-          <mxGeometry x="5.000000000000001" y="127.79130434782608" width="51.44000000000001" height="54.71304347826087" as="geometry" />
+          <mxGeometry x="5.000000000000001" y="138.37142857142857" width="51.44000000000001" height="59.24285714285715" as="geometry" />
         </mxCell>
         <mxCell id="pwm2_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" parent="frames" vertex="1">
           <mxGeometry x="466" y="162" width="80" height="21" as="geometry" />
