@@ -522,15 +522,6 @@
           <mxGeometry x="331.25" y="219.75" width="4.5" height="4.5" as="geometry" />
         </mxCell>
         <mxCell id="labels" value="文字标注" parent="0" />
-        <mxCell id="figure_title" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" parent="labels" vertex="1">
-          <mxGeometry x="48" y="111.5" width="104" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="figure_title_line_1" value="S40U 常规电缆" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=11.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="figure_title" vertex="1">
-          <mxGeometry y="1.4375" width="104" height="14.125" as="geometry" />
-        </mxCell>
-        <mxCell id="figure_title_line_2" value="接线示意图" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=11.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="figure_title" vertex="1">
-          <mxGeometry y="21.4375" width="104" height="14.125" as="geometry" />
-        </mxCell>
         <mxCell id="servo_power_label" value="舵机供电输入" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=13.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="457.5" y="63.7" width="91" height="18" as="geometry" />
         </mxCell>
