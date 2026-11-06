@@ -1,33 +1,9 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="s40u_reference_replica" name="S40U 常规电缆接线示意图">
-    <mxGraphModel dx="420" dy="236" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="604" pageHeight="622" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="500" dy="280" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="604" pageHeight="622" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="wires" value="连接线" parent="0" />
-        <mxCell id="pwm1_device_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.5238095238095238;entryPerimeter=0;" parent="wires" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="391" y="147" as="sourcePoint" />
-            <mxPoint x="466" y="147" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pwm2_device_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;" parent="wires" target="pwm2_device" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="377" y="172.5" as="sourcePoint" />
-            <mxPoint x="452" y="172.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pwm3_device_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;" parent="wires" target="pwm3_device" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="362.5" y="198.0000000000001" as="sourcePoint" />
-            <mxPoint x="466" y="198" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pwm4_device_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.47619047619047616;entryPerimeter=0;" parent="wires" target="pwm4_device" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="347" y="224" as="sourcePoint" />
-            <mxPoint x="452" y="224" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="adc1" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=open;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.7592592592592593;exitPerimeter=0;entryX=0.0;entryY=0.1797752808988764;entryPerimeter=0;" parent="wires" source="fixed_voltage" target="two_voltage_cable" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="441" y="529.5" as="sourcePoint" />
@@ -54,12 +30,6 @@
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-11" value="RC 接收机" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-10">
           <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="79.8" height="20.1" as="geometry" />
-        </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-14" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.5238095238095238;entryPerimeter=0;" edge="1" parent="wires">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="392" y="121.3" as="sourcePoint" />
-            <mxPoint x="467" y="121.3" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-15" value="SBUS" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=right;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="wires">
           <mxGeometry x="429" y="108.99999999999999" width="31" height="12" as="geometry" />
