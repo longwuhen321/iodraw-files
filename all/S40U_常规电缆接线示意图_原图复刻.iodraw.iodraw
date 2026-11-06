@@ -87,10 +87,10 @@
           <mxGeometry y="43.6" width="147" height="17" as="geometry" />
         </mxCell>
         <mxCell id="connector" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.83;shape=rectangle;" parent="frames" vertex="1">
-          <mxGeometry x="256" y="200" width="58.269999999999996" height="161" as="geometry" />
+          <mxGeometry x="256" y="108" width="58.27" height="308" as="geometry" />
         </mxCell>
         <mxCell id="connector_label" value="J30J-37&#xa;转换板" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.8;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="connector" vertex="1">
-          <mxGeometry x="5" y="66.8" width="51.44" height="28.6" as="geometry" />
+          <mxGeometry x="5.000000000000001" y="127.79130434782608" width="51.44000000000001" height="54.71304347826087" as="geometry" />
         </mxCell>
         <mxCell id="pwm2_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" parent="frames" vertex="1">
           <mxGeometry x="466" y="162" width="80" height="21" as="geometry" />
