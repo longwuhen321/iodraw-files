@@ -244,6 +244,9 @@
         <mxCell id="pwm2_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
           <mxGeometry x="454" y="127" width="107" height="21" as="geometry" />
         </mxCell>
+        <mxCell id="pwm2_device_text" value="升降舵" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="pwm2_device" vertex="1">
+          <mxGeometry x="0.6000000000000227" y="0.20000000000000284" width="105.8" height="20.6" as="geometry" />
+        </mxCell>
         <mxCell id="pwm3_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
           <mxGeometry x="468" y="152.5" width="80" height="21" as="geometry" />
         </mxCell>
