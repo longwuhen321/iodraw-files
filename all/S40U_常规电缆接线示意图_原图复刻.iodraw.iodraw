@@ -157,6 +157,9 @@
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.013;entryY=0.198;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="frames" source="pwm5_device" target="connector_label">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.975;entryY=0.606;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="frames" source="pwm7_device_text" target="connector">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="junctions" value="电源连接点" parent="0" />
         <mxCell id="labels" value="文字标注" parent="0" />
         <mxCell id="pwm1_label" value="PWM1" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=right;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
