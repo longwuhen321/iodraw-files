@@ -20,7 +20,7 @@
           <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="79.8" height="20.1" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-15" value="SBUS" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=right;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="wires">
-          <mxGeometry x="429" y="108.99999999999999" width="31" height="12" as="geometry" />
+          <mxGeometry x="434" y="109" width="26" height="12" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-25" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" vertex="1" parent="wires">
           <mxGeometry x="469" y="390" width="81" height="29" as="geometry" />
@@ -152,7 +152,7 @@
           <mxGeometry x="430" y="316.7" width="31" height="12" as="geometry" />
         </mxCell>
         <mxCell id="232-4_label" value="DGPS_TTL " style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=right;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
-          <mxGeometry x="394" y="464" width="54" height="12" as="geometry" />
+          <mxGeometry x="407" y="465" width="54" height="12" as="geometry" />
         </mxCell>
         <mxCell id="232-1_label" value="232-5" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=right;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="430" y="436" width="27" height="12" as="geometry" />
