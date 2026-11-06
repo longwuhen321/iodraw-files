@@ -128,7 +128,7 @@
           <mxGeometry x="468" y="267" width="80" height="21" as="geometry" />
         </mxCell>
         <mxCell id="pwm6_device_text" value="电机 1/右上/逆" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="pwm6_device" vertex="1">
-          <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="78.8" height="20.6" as="geometry" />
+          <mxGeometry x="2" y="0.2" width="77.4" height="20.6" as="geometry" />
         </mxCell>
         <mxCell id="pwm7_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" parent="frames" vertex="1">
           <mxGeometry x="468" y="293" width="80" height="21" as="geometry" />
