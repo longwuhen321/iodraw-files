@@ -58,9 +58,6 @@
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-36" value="多旋翼电压" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-35">
           <mxGeometry x="0.6000000000000227" y="-1.1379786002407855e-14" width="79.8" height="28.6" as="geometry" />
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wires">
-          <mxGeometry x="332" y="256" width="41" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-45" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.83;shape=rectangle;" vertex="1" parent="wires">
           <mxGeometry x="189.5" y="201" width="23.5" height="161" as="geometry" />
         </mxCell>
@@ -84,7 +81,7 @@
           <mxGeometry y="43.6" width="147" height="17" as="geometry" />
         </mxCell>
         <mxCell id="connector" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.83;shape=rectangle;" parent="frames" vertex="1">
-          <mxGeometry x="188.5" y="200" width="23.5" height="161" as="geometry" />
+          <mxGeometry x="282" y="200" width="23.5" height="161" as="geometry" />
         </mxCell>
         <mxCell id="connector_label" value="J30J-37" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.8;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=90;fontStyle=0;" parent="connector" vertex="1">
           <mxGeometry x="-18.25" y="73.60000000000002" width="60" height="13" as="geometry" />
