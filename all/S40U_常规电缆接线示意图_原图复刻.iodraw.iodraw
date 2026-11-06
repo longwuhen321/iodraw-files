@@ -4,15 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="wires" value="连接线" parent="0" />
-        <mxCell id="servo_power_input" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=open;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;entryX=0.8728813559322034;entryY=1.0;entryPerimeter=0;" parent="wires" target="receiver" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="509" y="83" as="sourcePoint" />
-            <mxPoint x="415" y="64" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="415" y="83" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="sbus" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.034161490683229816;exitPerimeter=0;entryX=0.08898305084745763;entryY=1.0;entryPerimeter=0;" parent="wires" source="connector" target="receiver" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="212" y="205.5" as="sourcePoint" />
@@ -471,9 +462,6 @@
         </mxCell>
         <mxCell id="junctions" value="电源连接点" parent="0" />
         <mxCell id="labels" value="文字标注" parent="0" />
-        <mxCell id="servo_power_label" value="舵机供电输入" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=13.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
-          <mxGeometry x="457.5" y="63.7" width="91" height="18" as="geometry" />
-        </mxCell>
         <mxCell id="sbus_label" value="SBUS" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="285" y="88.4" width="29" height="12" as="geometry" />
         </mxCell>
