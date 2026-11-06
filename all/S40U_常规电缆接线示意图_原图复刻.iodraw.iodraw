@@ -50,7 +50,13 @@
           <mxGeometry x="469.6" y="497" width="81" height="29" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-34" value="光电吊舱" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-33">
-          <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="79.8" height="28.6" as="geometry" />
+          <mxGeometry x="0.6000000000000227" y="-1.1379786002407855e-14" width="79.8" height="28.6" as="geometry" />
+        </mxCell>
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-35" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" vertex="1" parent="wires">
+          <mxGeometry x="470.6" y="498" width="81" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-36" value="光电吊舱" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-35">
+          <mxGeometry x="0.6000000000000227" y="-1.1379786002407855e-14" width="79.8" height="28.6" as="geometry" />
         </mxCell>
         <mxCell id="frames" value="设备框及模块" parent="0" />
         <mxCell id="flight_controller" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.9;shape=rectangle;" parent="frames" vertex="1">
@@ -120,7 +126,7 @@
           <mxGeometry x="469" y="427" width="80" height="59" as="geometry" />
         </mxCell>
         <mxCell id="fixed_voltage" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
-          <mxGeometry x="404" y="509" width="37" height="27" as="geometry" />
+          <mxGeometry x="351" y="503" width="37" height="27" as="geometry" />
         </mxCell>
         <mxCell id="fixed_voltage_text" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" parent="fixed_voltage" vertex="1">
           <mxGeometry x="0.6000000000000014" y="0.19999999999998863" width="35.8" height="26.6" as="geometry" />
@@ -132,7 +138,7 @@
           <mxGeometry y="12.9875" width="35.8" height="12.625" as="geometry" />
         </mxCell>
         <mxCell id="multirotor_voltage" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
-          <mxGeometry x="404" y="546.5" width="37" height="27" as="geometry" />
+          <mxGeometry x="351" y="540.5" width="37" height="27" as="geometry" />
         </mxCell>
         <mxCell id="multirotor_voltage_text" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" parent="multirotor_voltage" vertex="1">
           <mxGeometry x="0.6000000000000014" y="0.19999999999998863" width="35.8" height="26.6" as="geometry" />
@@ -181,10 +187,10 @@
           <mxGeometry x="430" y="436" width="27" height="12" as="geometry" />
         </mxCell>
         <mxCell id="adc1_label" value="ADC1" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
-          <mxGeometry x="442" y="516.3" width="32" height="12" as="geometry" />
+          <mxGeometry x="389" y="510.29999999999995" width="32" height="12" as="geometry" />
         </mxCell>
         <mxCell id="adc2_label" value="ADC2" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
-          <mxGeometry x="442" y="546.5" width="32" height="12" as="geometry" />
+          <mxGeometry x="389" y="540.5" width="32" height="12" as="geometry" />
         </mxCell>
         <mxCell id="artwork" value="原图标志" parent="0" />
         <mxCell id="reference" value="原图参考（隐藏，切换可对照）" style="locked=1;" parent="0" visible="0" />
