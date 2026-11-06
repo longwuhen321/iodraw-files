@@ -30,7 +30,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pwm1_controller" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.09627329192546584;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="wires" source="connector" target="pwm1_power_junction" edge="1">
+        <mxCell id="pwm1_controller" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.09627329192546584;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="wires" source="connector" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="212" y="215.5" as="sourcePoint" />
             <mxPoint x="393" y="112" as="targetPoint" />
@@ -40,19 +40,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pwm1_device_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.5238095238095238;entryPerimeter=0;" parent="wires" source="pwm1_power_junction" target="pwm1_device" edge="1">
+        <mxCell id="pwm1_device_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.5238095238095238;entryPerimeter=0;" parent="wires" target="pwm1_device" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="393" y="112" as="sourcePoint" />
             <mxPoint x="468" y="112" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pwm1_power_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.6864406779661016;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="wires" source="receiver" target="pwm1_power_junction" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="393" y="64" as="sourcePoint" />
-            <mxPoint x="393" y="112" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pwm2_controller" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.15527950310559005;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="wires" source="connector" target="pwm2_power_junction" edge="1">
+        <mxCell id="pwm2_controller" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.15527950310559005;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="wires" source="connector" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="212" y="225" as="sourcePoint" />
             <mxPoint x="379" y="137.5" as="targetPoint" />
@@ -62,38 +56,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pwm2_device_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;" parent="wires" source="pwm2_power_junction" target="pwm2_device" edge="1">
+        <mxCell id="pwm2_device_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;" parent="wires" target="pwm2_device" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="379" y="137.5" as="sourcePoint" />
             <mxPoint x="454" y="137.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pwm2_power_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.5677966101694916;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="wires" source="receiver" target="pwm2_power_junction" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="379" y="64" as="sourcePoint" />
-            <mxPoint x="379" y="137.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pwm3_controller" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.2111801242236025;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="wires" source="connector" target="pwm3_power_junction" edge="1">
+        <mxCell id="pwm3_controller" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.2111801242236025;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="wires" source="connector" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="212" y="234" as="sourcePoint" />
-            <mxPoint x="364.5" y="163" as="targetPoint" />
+            <mxPoint x="364.5" y="163.0000000000001" as="targetPoint" />
             <Array as="points">
               <mxPoint x="296" y="234" />
               <mxPoint x="296" y="163" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pwm3_device_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;" parent="wires" source="pwm3_power_junction" target="pwm3_device" edge="1">
+        <mxCell id="pwm3_device_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;" parent="wires" target="pwm3_device" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="364.5" y="163" as="sourcePoint" />
+            <mxPoint x="364.5" y="163.0000000000001" as="sourcePoint" />
             <mxPoint x="468" y="163" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pwm3_power_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=0.4449152542372881;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="wires" source="receiver" target="pwm3_power_junction" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="364.5" y="64" as="sourcePoint" />
-            <mxPoint x="364.5" y="163" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pwm4_controller" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.2670807453416149;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="wires" source="connector" target="pwm4_power_junction" edge="1">
@@ -506,15 +488,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="junctions" value="电源连接点" parent="0" />
-        <mxCell id="pwm1_power_junction" value="" style="rounded=0;shadow=0;strokeColor=none;fillColor=#000000;strokeWidth=0;shape=ellipse;perimeter=ellipsePerimeter;" parent="junctions" vertex="1">
-          <mxGeometry x="390.75" y="109.75" width="4.5" height="4.5" as="geometry" />
-        </mxCell>
-        <mxCell id="pwm2_power_junction" value="" style="rounded=0;shadow=0;strokeColor=none;fillColor=#000000;strokeWidth=0;shape=ellipse;perimeter=ellipsePerimeter;" parent="junctions" vertex="1">
-          <mxGeometry x="376.75" y="135.25" width="4.5" height="4.5" as="geometry" />
-        </mxCell>
-        <mxCell id="pwm3_power_junction" value="" style="rounded=0;shadow=0;strokeColor=none;fillColor=#000000;strokeWidth=0;shape=ellipse;perimeter=ellipsePerimeter;" parent="junctions" vertex="1">
-          <mxGeometry x="362.25" y="160.75" width="4.5" height="4.5" as="geometry" />
-        </mxCell>
         <mxCell id="pwm4_power_junction" value="" style="rounded=0;shadow=0;strokeColor=none;fillColor=#000000;strokeWidth=0;shape=ellipse;perimeter=ellipsePerimeter;" parent="junctions" vertex="1">
           <mxGeometry x="346.75" y="186.75" width="4.5" height="4.5" as="geometry" />
         </mxCell>
@@ -531,23 +504,8 @@
         <mxCell id="pwm1_label" value="PWM1" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="430" y="99.7" width="31" height="12" as="geometry" />
         </mxCell>
-        <mxCell id="pwm1_power_label" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" parent="labels" vertex="1">
-          <mxGeometry x="390.9" y="77" width="9.2" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="pwm1_power_label_line_1" value="电" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=9.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="pwm1_power_label" vertex="1">
-          <mxGeometry y="1.1875" width="9.2" height="11.625" as="geometry" />
-        </mxCell>
         <mxCell id="pwm2_label" value="PWM2" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="419" y="125.2" width="31" height="12" as="geometry" />
-        </mxCell>
-        <mxCell id="pwm2_power_label" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" parent="labels" vertex="1">
-          <mxGeometry x="376.9" y="77" width="9.2" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="pwm2_power_label_line_1" value="电" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=9.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="pwm2_power_label" vertex="1">
-          <mxGeometry y="1.1875" width="9.2" height="11.625" as="geometry" />
-        </mxCell>
-        <mxCell id="pwm2_power_label_line_2" value="源" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=9.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="pwm2_power_label" vertex="1">
-          <mxGeometry y="11.1875" width="9.2" height="11.625" as="geometry" />
         </mxCell>
         <mxCell id="pwm3_label" value="PWM3" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="430" y="150.7" width="31" height="12" as="geometry" />
