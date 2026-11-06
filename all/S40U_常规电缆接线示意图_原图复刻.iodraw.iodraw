@@ -237,7 +237,7 @@
           <mxGeometry x="430" y="436" width="27" height="12" as="geometry" />
         </mxCell>
         <mxCell id="adc1_label" value="ADC1" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.2;fontColor=#171717;align=right;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
-          <mxGeometry x="426" y="506.99999999999994" width="32" height="12" as="geometry" />
+          <mxGeometry x="426" y="498.99999999999994" width="32" height="12" as="geometry" />
         </mxCell>
         <mxCell id="adc2_label" value="ADC2" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.2;fontColor=#171717;align=right;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="424" y="538" width="32" height="12" as="geometry" />
