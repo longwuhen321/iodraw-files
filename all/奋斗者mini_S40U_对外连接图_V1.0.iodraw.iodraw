@@ -49,6 +49,9 @@
             <mxPoint x="1876" y="1276" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="2k7M9C6YTl7vsLLVY74L-5" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="2" value="连接线" parent="0" />
         <mxCell id="fc_harness" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#65717A;strokeWidth=1.8;dashed=1;endArrow=none;endFill=1;startArrow=none;startFill=1;endSize=7;startSize=7;jumpStyle=arc;jumpSize=8;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=0;entryPerimeter=0;" parent="2" source="fc" target="diob" edge="1">
           <mxGeometry relative="1" as="geometry">
