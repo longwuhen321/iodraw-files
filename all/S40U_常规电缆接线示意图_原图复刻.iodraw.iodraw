@@ -225,7 +225,7 @@
             <mxPoint x="467" y="121.3" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-15" value="PWM1" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=right;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="wires">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-15" value="SBUS" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=right;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="wires">
           <mxGeometry x="429" y="108.99999999999999" width="31" height="12" as="geometry" />
         </mxCell>
         <mxCell id="frames" value="设备框及模块" parent="0" />
@@ -451,9 +451,6 @@
         </mxCell>
         <mxCell id="junctions" value="电源连接点" parent="0" />
         <mxCell id="labels" value="文字标注" parent="0" />
-        <mxCell id="sbus_label" value="SBUS" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
-          <mxGeometry x="428" y="102" width="29" height="12" as="geometry" />
-        </mxCell>
         <mxCell id="pwm1_label" value="PWM1" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=right;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="428" y="134.7" width="31" height="12" as="geometry" />
         </mxCell>
