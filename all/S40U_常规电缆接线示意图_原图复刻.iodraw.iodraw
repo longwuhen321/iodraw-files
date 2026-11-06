@@ -118,13 +118,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="232-1" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.7391304347826086;exitPerimeter=0;entryX=0.0;entryY=0.4864864864864865;entryPerimeter=0;" parent="wires" source="connector" target="ground_station" edge="1">
+        <mxCell id="232-1" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.7391304347826086;exitPerimeter=0;entryX=0.0;entryY=0.4864864864864865;entryPerimeter=0;" parent="wires" target="ground_station" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="212" y="319" as="sourcePoint" />
-            <mxPoint x="468" y="445" as="targetPoint" />
+            <mxPoint x="212" y="239" as="sourcePoint" />
+            <mxPoint x="468" y="365" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="297.5" y="319" />
-              <mxPoint x="297.5" y="445" />
+              <mxPoint x="297.5" y="239" />
+              <mxPoint x="297.5" y="365" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -283,7 +283,7 @@
           <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="79.8" height="28.6" as="geometry" />
         </mxCell>
         <mxCell id="ground_station" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
-          <mxGeometry x="468" y="427" width="80" height="37" as="geometry" />
+          <mxGeometry x="468" y="347" width="80" height="37" as="geometry" />
         </mxCell>
         <mxCell id="ground_station_text" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" parent="ground_station" vertex="1">
           <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="78.8" height="36.6" as="geometry" />
@@ -451,7 +451,7 @@
           <mxGeometry x="429" y="390.7" width="27" height="12" as="geometry" />
         </mxCell>
         <mxCell id="232-1_label" value="232-1" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
-          <mxGeometry x="429" y="432.7" width="27" height="12" as="geometry" />
+          <mxGeometry x="429" y="352.7" width="27" height="12" as="geometry" />
         </mxCell>
         <mxCell id="RPM1_label" value="RPM1" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="429" y="482.7" width="27" height="12" as="geometry" />
