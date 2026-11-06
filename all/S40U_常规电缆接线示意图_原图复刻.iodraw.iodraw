@@ -49,11 +49,11 @@
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-33" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" vertex="1" parent="wires">
           <mxGeometry x="469.6" y="497" width="81" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-34" value="光电吊舱" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-33">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-34" value="固定翼电压" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-33">
           <mxGeometry x="0.6000000000000227" y="-1.1379786002407855e-14" width="79.8" height="28.6" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-35" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" vertex="1" parent="wires">
-          <mxGeometry x="470.6" y="498" width="81" height="29" as="geometry" />
+          <mxGeometry x="469.6" y="531" width="81" height="29" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-36" value="光电吊舱" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-35">
           <mxGeometry x="0.6000000000000227" y="-1.1379786002407855e-14" width="79.8" height="28.6" as="geometry" />
