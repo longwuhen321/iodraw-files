@@ -4,17 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="wires" value="连接线" parent="0" />
-        <mxCell id="sbus" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.034161490683229816;exitPerimeter=0;entryX=0.08898305084745763;entryY=1.0;entryPerimeter=0;" parent="wires" source="connector" target="receiver" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="212" y="205.5" as="sourcePoint" />
-            <mxPoint x="322.5" y="64" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="264.5" y="205.5" />
-              <mxPoint x="264.5" y="100" />
-              <mxPoint x="322.5" y="100" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="pwm1_controller" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.09627329192546584;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="wires" source="connector" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="212" y="215.5" as="sourcePoint" />
