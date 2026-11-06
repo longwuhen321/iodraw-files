@@ -238,7 +238,7 @@
         <mxCell id="pwm1_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
           <mxGeometry x="468" y="101" width="80" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="pwm1_device_text" value="副翼/&lt;font color=&quot;#FF3B3B&quot;&gt;飞翼方向舵&lt;/font&gt;" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=1;fontFamily=SimSun;fontSize=10.0;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="pwm1_device" vertex="1">
+        <mxCell id="pwm1_device_text" value="左右副翼" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=1;fontFamily=SimSun;fontSize=10.0;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="pwm1_device" vertex="1">
           <mxGeometry x="0.6000000000000227" y="0.20000000000000284" width="78.8" height="20.6" as="geometry" />
         </mxCell>
         <mxCell id="pwm2_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
