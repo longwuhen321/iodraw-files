@@ -108,22 +108,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="do1" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.6086956521739131;exitPerimeter=0;entryX=0.0;entryY=0.6206896551724138;entryPerimeter=0;" parent="wires" source="connector" target="shutter_control" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="212" y="298" as="sourcePoint" />
-            <mxPoint x="348" y="361" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="315" y="298" />
-              <mxPoint x="315" y="361" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="camera_wire" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.6551724137931034;exitPerimeter=0;entryX=0.0;entryY=0.4878048780487805;entryPerimeter=0;" parent="wires" source="shutter_control" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="427" y="362" as="sourcePoint" />
-            <mxPoint x="469" y="364" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="232-4" value="" style="rounded=0;shadow=0;edgeStyle=none;noEdgeStyle=1;orthogonalLoop=0;jettySize=0;html=0;strokeColor=#242424;strokeWidth=0.8;endArrow=none;startArrow=none;endSize=5;endFill=0;jumpStyle=none;curved=0;exitX=1.0;exitY=0.6614906832298136;exitPerimeter=0;entryX=0.0;entryY=0.4827586206896552;entryPerimeter=0;" parent="wires" source="connector" target="gimbal" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="212" y="306.5" as="sourcePoint" />
@@ -291,12 +275,6 @@
         </mxCell>
         <mxCell id="pwm8_device_text" value="电机 3/左上/顺" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="pwm8_device" vertex="1">
           <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="78.8" height="20.1" as="geometry" />
-        </mxCell>
-        <mxCell id="shutter_control" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
-          <mxGeometry x="348" y="343" width="79" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="shutter_control_text" value="快门控制线" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=14.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="shutter_control" vertex="1">
-          <mxGeometry x="1.5" y="1.3999999999999773" width="76" height="18" as="geometry" />
         </mxCell>
         <mxCell id="gimbal" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
           <mxGeometry x="468" y="389" width="81" height="29" as="geometry" />
@@ -468,12 +446,6 @@
         </mxCell>
         <mxCell id="pwm8_label" value="PWM8" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="430" y="316.7" width="31" height="12" as="geometry" />
-        </mxCell>
-        <mxCell id="do1_label" value="DO1" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
-          <mxGeometry x="323" y="348.5" width="23" height="12" as="geometry" />
-        </mxCell>
-        <mxCell id="camera_label" value="Camera" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=9.6;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
-          <mxGeometry x="430" y="349.8" width="35" height="12" as="geometry" />
         </mxCell>
         <mxCell id="232-4_label" value="232-4" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="429" y="390.7" width="27" height="12" as="geometry" />
