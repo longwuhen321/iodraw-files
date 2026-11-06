@@ -143,6 +143,9 @@
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.415;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wires" source="mE4VjG2YgsgjTHfdD5Ki-80" target="connector">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-83" value="4.5-9V" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="wires">
+          <mxGeometry x="304.4142717633929" y="110.27141462053572" width="54" height="27" as="geometry" />
+        </mxCell>
         <mxCell id="frames" value="设备框及模块" parent="0" />
         <mxCell id="flight_controller" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.9;shape=rectangle;" parent="frames" vertex="1">
           <mxGeometry x="38.5" y="184.5" width="150" height="190" as="geometry" />
