@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="s40u_reference_replica" name="S40U 常规电缆接线示意图">
-    <mxGraphModel dx="600" dy="337" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="604" pageHeight="622" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="420" dy="236" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="604" pageHeight="622" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="wires" value="连接线" parent="0" />
@@ -152,23 +152,8 @@
         <mxCell id="pwm8_device_text" value="电机 3/左上/顺" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="pwm8_device" vertex="1">
           <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="78.8" height="20.1" as="geometry" />
         </mxCell>
-        <mxCell id="gimbal" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
-          <mxGeometry x="462" y="467" width="81" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="gimbal_text" value="光电吊舱" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="gimbal" vertex="1">
-          <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="79.8" height="28.6" as="geometry" />
-        </mxCell>
-        <mxCell id="ground_station" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
-          <mxGeometry x="463" y="426" width="80" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="ground_station_text" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" parent="ground_station" vertex="1">
-          <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="78.8" height="36.6" as="geometry" />
-        </mxCell>
-        <mxCell id="ground_station_text_line_1" value="地面站" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="ground_station_text" vertex="1">
-          <mxGeometry y="5.925000000000001" width="78.8" height="12.75" as="geometry" />
-        </mxCell>
-        <mxCell id="ground_station_text_line_2" value="UAV_GCS50" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=Times New Roman;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" parent="ground_station_text" vertex="1">
-          <mxGeometry y="17.925" width="78.8" height="12.75" as="geometry" />
+        <mxCell id="ground_station" value="外部惯导" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
+          <mxGeometry x="469" y="427" width="80" height="59" as="geometry" />
         </mxCell>
         <mxCell id="fixed_voltage" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
           <mxGeometry x="404" y="509" width="37" height="27" as="geometry" />
@@ -231,11 +216,11 @@
         <mxCell id="pwm8_label" value="PWM8" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="430" y="316.7" width="31" height="12" as="geometry" />
         </mxCell>
-        <mxCell id="232-4_label" value="TTL _DGPS" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
-          <mxGeometry x="399" y="467" width="27" height="12" as="geometry" />
+        <mxCell id="232-4_label" value="DGPS_TTL " style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
+          <mxGeometry x="421" y="464" width="27" height="12" as="geometry" />
         </mxCell>
         <mxCell id="232-1_label" value="232-5" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
-          <mxGeometry x="389" y="436" width="27" height="12" as="geometry" />
+          <mxGeometry x="430" y="436" width="27" height="12" as="geometry" />
         </mxCell>
         <mxCell id="adc1_label" value="ADC1" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="labels" vertex="1">
           <mxGeometry x="442" y="516.3" width="32" height="12" as="geometry" />
