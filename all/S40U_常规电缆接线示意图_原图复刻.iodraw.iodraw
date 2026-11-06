@@ -7,13 +7,13 @@
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-0" value="开拓者-创衡S40U复合翼电气接线示意图" style="text;whiteSpace=wrap;fontSize=20;" vertex="1" parent="wires">
           <mxGeometry x="90" y="14" width="371" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-8" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" vertex="1" parent="wires">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-8" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" vertex="1" parent="wires">
           <mxGeometry x="467" y="137" width="80" height="21" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-9" value="左右副翼" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=1;fontFamily=SimSun;fontSize=10.0;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-8">
           <mxGeometry x="0.6000000000000227" y="0.20000000000000284" width="78.8" height="20.6" as="geometry" />
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-10" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" vertex="1" parent="wires">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-10" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" vertex="1" parent="wires">
           <mxGeometry x="467" y="109" width="81" height="20.5" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-11" value="RC 接收机" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-10">
@@ -22,16 +22,16 @@
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-15" value="SBUS" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=right;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="wires">
           <mxGeometry x="434" y="109" width="26" height="12" as="geometry" />
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-25" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" vertex="1" parent="wires">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-25" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" vertex="1" parent="wires">
           <mxGeometry x="469" y="390" width="81" height="29" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-26" value="光电吊舱" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-25">
           <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="79.8" height="28.6" as="geometry" />
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-27" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" vertex="1" parent="wires">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-27" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" vertex="1" parent="wires">
           <mxGeometry x="469" y="348" width="80" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-28" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-27">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-28" value="" style="group;strokeColor=none;fillColor=none;connectable=0;align=center;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-27">
           <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="78.8" height="36.6" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-29" value="地面站" style="shape=text;html=0;whiteSpace=nowrap;overflow=visible;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;fontStyle=0;rotation=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-28">
@@ -46,7 +46,7 @@
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-32" value="232-1" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.1;fontColor=#171717;align=right;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="wires">
           <mxGeometry x="430" y="353.7" width="27" height="12" as="geometry" />
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-33" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" vertex="1" parent="wires">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-33" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" vertex="1" parent="wires">
           <mxGeometry x="469.6" y="497" width="81" height="29" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-34" value="固定翼电压" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.3;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" vertex="1" parent="mE4VjG2YgsgjTHfdD5Ki-33">
@@ -88,49 +88,49 @@
         <mxCell id="connector_label" value="J30J-37" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=Times New Roman;fontSize=10.8;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=90;fontStyle=0;" parent="connector" vertex="1">
           <mxGeometry x="-18.25" y="73.60000000000002" width="60" height="13" as="geometry" />
         </mxCell>
-        <mxCell id="pwm2_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
+        <mxCell id="pwm2_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" parent="frames" vertex="1">
           <mxGeometry x="466" y="162" width="80" height="21" as="geometry" />
         </mxCell>
         <mxCell id="pwm2_device_text" value="升降舵" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="pwm2_device" vertex="1">
           <mxGeometry x="10.467289719626168" y="0.2" width="59.81308411214953" height="20.6" as="geometry" />
         </mxCell>
-        <mxCell id="pwm3_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
+        <mxCell id="pwm3_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" parent="frames" vertex="1">
           <mxGeometry x="466" y="187.5" width="80" height="21" as="geometry" />
         </mxCell>
         <mxCell id="pwm3_device_text" value="油门" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=11;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="pwm3_device" vertex="1">
           <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="78.8" height="20.6" as="geometry" />
         </mxCell>
-        <mxCell id="pwm4_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
+        <mxCell id="pwm4_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" parent="frames" vertex="1">
           <mxGeometry x="466" y="214" width="80" height="21" as="geometry" />
         </mxCell>
         <mxCell id="pwm4_device_text" value="方向舵" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.1;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="pwm4_device" vertex="1">
           <mxGeometry x="0.4485981308411385" y="0.19999999999998863" width="79.10280373831775" height="20.6" as="geometry" />
         </mxCell>
-        <mxCell id="pwm5_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
+        <mxCell id="pwm5_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" parent="frames" vertex="1">
           <mxGeometry x="468" y="241.5" width="80" height="20.5" as="geometry" />
         </mxCell>
         <mxCell id="pwm5_device_text" value="电机 4/右下/顺" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="pwm5_device" vertex="1">
           <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="78.8" height="20.1" as="geometry" />
         </mxCell>
-        <mxCell id="pwm6_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
+        <mxCell id="pwm6_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" parent="frames" vertex="1">
           <mxGeometry x="468" y="267" width="80" height="21" as="geometry" />
         </mxCell>
         <mxCell id="pwm6_device_text" value="电机 1/右上/逆" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="pwm6_device" vertex="1">
           <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="78.8" height="20.6" as="geometry" />
         </mxCell>
-        <mxCell id="pwm7_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
+        <mxCell id="pwm7_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" parent="frames" vertex="1">
           <mxGeometry x="468" y="293" width="80" height="21" as="geometry" />
         </mxCell>
         <mxCell id="pwm7_device_text" value="电机 2/左下/逆" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="pwm7_device" vertex="1">
           <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="78.8" height="20.6" as="geometry" />
         </mxCell>
-        <mxCell id="pwm8_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
+        <mxCell id="pwm8_device" value="" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" parent="frames" vertex="1">
           <mxGeometry x="468" y="319" width="80" height="20.5" as="geometry" />
         </mxCell>
         <mxCell id="pwm8_device_text" value="电机 3/左上/顺" style="rounded=0;shadow=0;strokeColor=none;fillColor=none;strokeWidth=0;shape=text;whiteSpace=nowrap;overflow=visible;html=0;fontFamily=SimSun;fontSize=10.2;fontColor=#171717;align=center;verticalAlign=middle;spacing=0;rotation=0;fontStyle=0;" parent="pwm8_device" vertex="1">
           <mxGeometry x="0.6000000000000227" y="0.19999999999998863" width="78.8" height="20.1" as="geometry" />
         </mxCell>
-        <mxCell id="ground_station" value="外部惯导" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;" parent="frames" vertex="1">
+        <mxCell id="ground_station" value="外部惯导" style="rounded=0;shadow=0;strokeColor=#242424;fillColor=#FFFFFF;strokeWidth=0.82;shape=rectangle;align=center;" parent="frames" vertex="1">
           <mxGeometry x="469" y="427" width="80" height="59" as="geometry" />
         </mxCell>
         <mxCell id="junctions" value="电源连接点" parent="0" />
