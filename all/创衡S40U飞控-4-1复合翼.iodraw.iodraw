@@ -268,7 +268,7 @@
         <mxCell id="pwm5_label" value="DO2" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" parent="labels" vertex="1">
           <mxGeometry x="660" y="411" width="132" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="pwm6_label" value="PWM6" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" parent="labels" vertex="1">
+        <mxCell id="pwm6_label" value="DO3" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" parent="labels" vertex="1">
           <mxGeometry x="660" y="467" width="132" height="18" as="geometry" />
         </mxCell>
         <mxCell id="pwm7_label" value="PWM7" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" parent="labels" vertex="1">
