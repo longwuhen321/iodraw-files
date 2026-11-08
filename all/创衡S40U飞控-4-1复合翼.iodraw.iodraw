@@ -16,12 +16,6 @@
             <mxPoint x="327" y="516" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-52" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;orthogonalLoop=0;strokeColor=#222222;strokeWidth=1.2;startArrow=none;endArrow=classic;startFill=1;endFill=1;startSize=6;endSize=6;jumpStyle=none;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=1.0;entryY=0.10103626943005181;entryPerimeter=0;" parent="wires" target="connector" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="810" y="208" as="sourcePoint" />
-            <mxPoint x="560" y="208" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-62" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;orthogonalLoop=0;strokeColor=#222222;strokeWidth=1.2;startArrow=none;endArrow=classic;startFill=1;endFill=1;startSize=6;endSize=6;jumpStyle=none;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=1.0;entryY=0.6813471502590673;entryPerimeter=0;" parent="wires" source="mE4VjG2YgsgjTHfdD5Ki-27" target="connector" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="810" y="656" as="sourcePoint" />
@@ -189,28 +183,28 @@
           <mxGeometry x="5" y="360" width="100" height="52" as="geometry" />
         </mxCell>
         <mxCell id="pwm2_device" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
-          <mxGeometry x="810" y="242" width="230" height="44" as="geometry" />
+          <mxGeometry x="810" y="220" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pwm2_device_text" value="右內翼" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="pwm2_device" vertex="1">
           <mxGeometry x="5" width="220" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pwm3_device" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
-          <mxGeometry x="810" y="298" width="230" height="44" as="geometry" />
+          <mxGeometry x="810" y="276" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pwm3_device_text" value="油门" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="pwm3_device" vertex="1">
           <mxGeometry x="5" width="220" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pwm4_device" value="左內翼" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
-          <mxGeometry x="810" y="354" width="230" height="44" as="geometry" />
+          <mxGeometry x="810" y="332" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pwm5_device" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
-          <mxGeometry x="810" y="410" width="230" height="44" as="geometry" />
+          <mxGeometry x="810" y="388" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pwm5_device_text" value="右外翼" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="pwm5_device" vertex="1">
           <mxGeometry x="5" width="220" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pwm6_device" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
-          <mxGeometry x="810" y="466" width="230" height="44" as="geometry" />
+          <mxGeometry x="810" y="444" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pwm6_device_text" value="左外翼" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="pwm6_device" vertex="1">
           <mxGeometry x="5" width="220" height="44" as="geometry" />
@@ -248,19 +242,19 @@
           <mxGeometry x="315" y="167" width="115" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pwm2_label" value="PWM2" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" parent="labels" vertex="1">
-          <mxGeometry x="660" y="243" width="132" height="18" as="geometry" />
+          <mxGeometry x="660" y="221" width="132" height="18" as="geometry" />
         </mxCell>
         <mxCell id="pwm3_label" value="PWM3" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" parent="labels" vertex="1">
-          <mxGeometry x="660" y="299" width="132" height="18" as="geometry" />
+          <mxGeometry x="660" y="277" width="132" height="18" as="geometry" />
         </mxCell>
         <mxCell id="pwm4_label" value="PWM4" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" parent="labels" vertex="1">
-          <mxGeometry x="660" y="355" width="132" height="18" as="geometry" />
+          <mxGeometry x="660" y="333" width="132" height="18" as="geometry" />
         </mxCell>
         <mxCell id="pwm5_label" value="DO2" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" parent="labels" vertex="1">
-          <mxGeometry x="660" y="411" width="132" height="18" as="geometry" />
+          <mxGeometry x="660" y="389" width="132" height="18" as="geometry" />
         </mxCell>
         <mxCell id="pwm6_label" value="DO3" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" parent="labels" vertex="1">
-          <mxGeometry x="660" y="467" width="132" height="18" as="geometry" />
+          <mxGeometry x="660" y="445" width="132" height="18" as="geometry" />
         </mxCell>
         <mxCell id="pwm7_label" value="PWM7" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" parent="labels" vertex="1">
           <mxGeometry x="660" y="523" width="132" height="18" as="geometry" />
