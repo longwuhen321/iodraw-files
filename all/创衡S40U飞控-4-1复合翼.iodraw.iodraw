@@ -118,7 +118,7 @@
         <mxCell id="pGjJdtpa0MMgl6foEQqz-2" value="左外翼" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" vertex="1" parent="pGjJdtpa0MMgl6foEQqz-1">
           <mxGeometry x="5" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="pGjJdtpa0MMgl6foEQqz-3" value="DO3" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" vertex="1" parent="wires">
+        <mxCell id="pGjJdtpa0MMgl6foEQqz-3" value="PWM6" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" vertex="1" parent="wires">
           <mxGeometry x="660" y="471" width="132" height="18" as="geometry" />
         </mxCell>
         <mxCell id="frames" value="设备框及模块" parent="0" />
