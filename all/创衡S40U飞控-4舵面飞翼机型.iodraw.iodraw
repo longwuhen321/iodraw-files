@@ -116,10 +116,10 @@
           <mxGeometry x="825" y="532" width="220" height="44" as="geometry" />
         </mxCell>
         <mxCell id="ZpRElV_JmGpEnk2fnoMA-2" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="wires">
-          <mxGeometry x="1190" y="532" width="230" height="44" as="geometry" />
+          <mxGeometry x="1080" y="480" width="360" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="ZpRElV_JmGpEnk2fnoMA-3" value="电机 2/左下/逆" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" vertex="1" parent="ZpRElV_JmGpEnk2fnoMA-2">
-          <mxGeometry x="5" width="220" height="44" as="geometry" />
+        <mxCell id="ZpRElV_JmGpEnk2fnoMA-3" value="电机 2/左下/逆" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" vertex="1" parent="wires">
+          <mxGeometry x="1100" y="470" width="285" height="280" as="geometry" />
         </mxCell>
         <mxCell id="frames" value="设备框及模块" parent="0" />
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-10" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
