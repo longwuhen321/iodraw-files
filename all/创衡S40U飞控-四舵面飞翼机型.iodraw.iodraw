@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="s40u_reference_replica" name="开拓者 S40U 电气接线图">
-    <mxGraphModel dx="1238" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1500" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="708" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1500" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="wires" value="连接线" parent="0" />
@@ -145,6 +145,15 @@
         </mxCell>
         <mxCell id="ZpRElV_JmGpEnk2fnoMA-12" value="CAN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wires">
           <mxGeometry x="1140" y="590" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpRElV_JmGpEnk2fnoMA-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wires">
+          <mxGeometry x="1150" y="530" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpRElV_JmGpEnk2fnoMA-14" value="启动机继电器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wires">
+          <mxGeometry x="1200" y="546" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpRElV_JmGpEnk2fnoMA-15" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;&quot; class=&quot;&quot;&gt;ECU&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wires">
+          <mxGeometry x="1200" y="600" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="frames" value="设备框及模块" parent="0" />
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-10" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
