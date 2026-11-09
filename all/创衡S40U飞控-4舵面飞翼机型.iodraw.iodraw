@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="s40u_reference_replica" name="开拓者 S40U 电气接线图">
-    <mxGraphModel dx="1156" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1000" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1404" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1000" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="wires" value="连接线" parent="0" />
@@ -66,8 +66,8 @@
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-60" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;orthogonalLoop=0;strokeColor=#222222;strokeWidth=1.2;startArrow=none;endArrow=classic;startFill=1;endFill=1;startSize=6;endSize=6;jumpStyle=none;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=1.0;entryY=0.4637305699481865;entryPerimeter=0;" parent="wires" source="pwm6_device" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="810" y="436" as="sourcePoint" />
-            <mxPoint x="560" y="436" as="targetPoint" />
+            <mxPoint x="810" y="384" as="sourcePoint" />
+            <mxPoint x="560" y="384" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-53" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;orthogonalLoop=0;strokeColor=#222222;strokeWidth=1.2;startArrow=none;endArrow=classic;startFill=1;endFill=1;startSize=6;endSize=6;jumpStyle=none;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=1.0;entryY=0.17357512953367876;entryPerimeter=0;" parent="wires" source="pwm2_device" edge="1">
@@ -78,14 +78,14 @@
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-55" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;orthogonalLoop=0;strokeColor=#222222;strokeWidth=1.2;startArrow=none;endArrow=classic;startFill=1;endFill=1;startSize=6;endSize=6;jumpStyle=none;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=1.0;entryY=0.31865284974093266;entryPerimeter=0;" parent="wires" source="pwm4_device" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="810" y="324" as="sourcePoint" />
-            <mxPoint x="560" y="324" as="targetPoint" />
+            <mxPoint x="810" y="272" as="sourcePoint" />
+            <mxPoint x="560" y="272" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-56" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;orthogonalLoop=0;strokeColor=#222222;strokeWidth=1.2;startArrow=none;endArrow=classic;startFill=1;endFill=1;startSize=6;endSize=6;jumpStyle=none;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=1.0;entryY=0.3911917098445596;entryPerimeter=0;" parent="wires" source="pwm5_device" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="810" y="380" as="sourcePoint" />
-            <mxPoint x="560" y="380" as="targetPoint" />
+            <mxPoint x="810" y="328" as="sourcePoint" />
+            <mxPoint x="560" y="328" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-57" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;orthogonalLoop=0;strokeColor=#222222;strokeWidth=1.2;startArrow=none;endArrow=classic;startFill=1;endFill=1;startSize=6;endSize=6;jumpStyle=none;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=1.0;entryY=0.5362694300518135;entryPerimeter=0;" parent="wires" source="pwm7_device" target="connector" edge="1">
@@ -102,15 +102,15 @@
         </mxCell>
         <mxCell id="pGjJdtpa0MMgl6foEQqz-0" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;orthogonalLoop=0;strokeColor=#222222;strokeWidth=1.2;startArrow=none;endArrow=classic;startFill=1;endFill=1;startSize=6;endSize=6;jumpStyle=none;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=1.0;entryY=0.4637305699481865;entryPerimeter=0;" parent="wires" source="pGjJdtpa0MMgl6foEQqz-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="810" y="492" as="sourcePoint" />
-            <mxPoint x="560" y="492" as="targetPoint" />
+            <mxPoint x="810" y="440" as="sourcePoint" />
+            <mxPoint x="560" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pGjJdtpa0MMgl6foEQqz-1" value="降落伞" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="wires" vertex="1">
-          <mxGeometry x="810" y="470" width="230" height="44" as="geometry" />
+          <mxGeometry x="810" y="418" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pGjJdtpa0MMgl6foEQqz-3" value="PWM6" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" parent="wires" vertex="1">
-          <mxGeometry x="660" y="471" width="132" height="18" as="geometry" />
+          <mxGeometry x="660" y="419" width="132" height="18" as="geometry" />
         </mxCell>
         <mxCell id="frames" value="设备框及模块" parent="0" />
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-10" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
@@ -195,16 +195,16 @@
           <mxGeometry x="5" width="220" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pwm4_device" value="左內翼" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
-          <mxGeometry x="810" y="302" width="230" height="44" as="geometry" />
+          <mxGeometry x="810" y="250" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pwm5_device" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
-          <mxGeometry x="810" y="358" width="230" height="44" as="geometry" />
+          <mxGeometry x="810" y="306" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pwm5_device_text" value="右外翼" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="pwm5_device" vertex="1">
           <mxGeometry x="5" width="220" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pwm6_device" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
-          <mxGeometry x="810" y="414" width="230" height="44" as="geometry" />
+          <mxGeometry x="810" y="362" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pwm6_device_text" value="左外翼" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="pwm6_device" vertex="1">
           <mxGeometry x="5" width="220" height="44" as="geometry" />
@@ -245,13 +245,13 @@
           <mxGeometry x="660" y="191" width="132" height="18" as="geometry" />
         </mxCell>
         <mxCell id="pwm4_label" value="PWM4" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" parent="labels" vertex="1">
-          <mxGeometry x="660" y="303" width="132" height="18" as="geometry" />
+          <mxGeometry x="660" y="251" width="132" height="18" as="geometry" />
         </mxCell>
         <mxCell id="pwm5_label" value="DO2" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" parent="labels" vertex="1">
-          <mxGeometry x="660" y="359" width="132" height="18" as="geometry" />
+          <mxGeometry x="660" y="307" width="132" height="18" as="geometry" />
         </mxCell>
         <mxCell id="pwm6_label" value="DO3" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" parent="labels" vertex="1">
-          <mxGeometry x="660" y="415" width="132" height="18" as="geometry" />
+          <mxGeometry x="660" y="363" width="132" height="18" as="geometry" />
         </mxCell>
         <mxCell id="pwm7_label" value="PWM7" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" parent="labels" vertex="1">
           <mxGeometry x="660" y="523" width="132" height="18" as="geometry" />
