@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="s40u_reference_replica" name="开拓者 S40U 电气接线图">
-    <mxGraphModel dx="743" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1500" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="874" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1500" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="wires" value="连接线" parent="0" />
@@ -88,9 +88,9 @@
             <mxPoint x="560" y="328" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-57" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;orthogonalLoop=0;strokeColor=#222222;strokeWidth=1.2;startArrow=none;endArrow=classic;startFill=1;endFill=1;startSize=6;endSize=6;jumpStyle=none;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=1.0;entryY=0.5362694300518135;entryPerimeter=0;" parent="wires" source="pwm7_device" target="connector" edge="1">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-57" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;orthogonalLoop=0;strokeColor=#222222;strokeWidth=1.2;startArrow=none;endArrow=classic;startFill=1;endFill=1;startSize=6;endSize=6;jumpStyle=none;exitX=0.0;exitY=0.5;exitPerimeter=0;entryX=1.0;entryY=0.5362694300518135;entryPerimeter=0;" parent="wires" target="connector" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="810" y="544" as="sourcePoint" />
+            <mxPoint x="809.9999999999998" y="544" as="sourcePoint" />
             <mxPoint x="560" y="544" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -132,6 +132,14 @@
         </mxCell>
         <mxCell id="ZpRElV_JmGpEnk2fnoMA-8" value="&lt;span style=&quot;color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;&quot; class=&quot;&quot;&gt;ECU&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wires">
           <mxGeometry x="1160" y="590" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpRElV_JmGpEnk2fnoMA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.015;entryY=0.476;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wires" source="ZpRElV_JmGpEnk2fnoMA-6" target="connector">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="556" />
+              <mxPoint x="1070" y="497" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="frames" value="设备框及模块" parent="0" />
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-10" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
@@ -228,12 +236,6 @@
           <mxGeometry x="810" y="362" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pwm6_device_text" value="左外翼" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="pwm6_device" vertex="1">
-          <mxGeometry x="5" width="220" height="44" as="geometry" />
-        </mxCell>
-        <mxCell id="pwm7_device" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
-          <mxGeometry x="810" y="522" width="230" height="44" as="geometry" />
-        </mxCell>
-        <mxCell id="pwm7_device_text" value="电机 2/左下/逆" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="pwm7_device" vertex="1">
           <mxGeometry x="5" width="220" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pwm8_device" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
