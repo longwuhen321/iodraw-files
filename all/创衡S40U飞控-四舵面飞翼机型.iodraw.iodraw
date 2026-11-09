@@ -136,7 +136,15 @@
           <mxGeometry x="760" y="470" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZpRElV_JmGpEnk2fnoMA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.981;entryY=0.534;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wires" source="ZpRElV_JmGpEnk2fnoMA-8" target="connector">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="610" />
+              <mxPoint x="880" y="542" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZpRElV_JmGpEnk2fnoMA-12" value="CAN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wires">
+          <mxGeometry x="1195" y="348" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="frames" value="设备框及模块" parent="0" />
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-10" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
