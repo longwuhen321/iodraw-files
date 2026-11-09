@@ -121,6 +121,9 @@
         <mxCell id="ZpRElV_JmGpEnk2fnoMA-3" value="发动机" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=20;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" vertex="1" parent="wires">
           <mxGeometry x="1212.5" y="480" width="95" height="38" as="geometry" />
         </mxCell>
+        <mxCell id="ZpRElV_JmGpEnk2fnoMA-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wires">
+          <mxGeometry x="1120" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="frames" value="设备框及模块" parent="0" />
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-10" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
           <mxGeometry x="810" y="130" width="230" height="44" as="geometry" />
