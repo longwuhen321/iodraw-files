@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="s40u_reference_replica" name="开拓者 S40U 电气接线图">
-    <mxGraphModel dx="929" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1500" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="310" dy="174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1500" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="wires" value="连接线" parent="0" />
@@ -46,13 +46,13 @@
             <mxPoint x="560" y="819" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-81" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;orthogonalLoop=0;strokeColor=#222222;strokeWidth=1.2;startArrow=none;endArrow=classic;startFill=1;endFill=1;startSize=6;endSize=6;jumpStyle=none;exitX=1.0;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.02849740932642487;entryPerimeter=0;" parent="wires" source="mE4VjG2YgsgjTHfdD5Ki-76" edge="1">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-81" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;orthogonalLoop=0;strokeColor=#222222;strokeWidth=1.2;startArrow=none;endArrow=classic;startFill=1;endFill=1;jumpStyle=none;exitX=1.0;exitY=0.5;exitPerimeter=0;entryX=-0.018;entryY=0.058;entryPerimeter=0;entryDx=0;entryDy=0;" parent="wires" source="mE4VjG2YgsgjTHfdD5Ki-76" target="connector" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="202" as="sourcePoint" />
             <mxPoint x="455.0000000000002" y="202.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-82" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;orthogonalLoop=0;strokeColor=#222222;strokeWidth=1.2;startArrow=none;endArrow=classic;startFill=1;endFill=1;startSize=6;endSize=6;jumpStyle=none;exitX=1.0;exitY=0.5;exitPerimeter=0;entryX=0.0;entryY=0.10103626943005181;entryPerimeter=0;" parent="wires" source="mE4VjG2YgsgjTHfdD5Ki-79" edge="1">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-82" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=0;orthogonalLoop=0;strokeColor=#222222;strokeWidth=1.2;startArrow=none;endArrow=classic;startFill=1;endFill=1;startSize=6;endSize=6;jumpStyle=none;exitX=1.006;exitY=0.587;exitPerimeter=0;entryX=-0.023;entryY=0.14;entryPerimeter=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" parent="wires" source="mE4VjG2YgsgjTHfdD5Ki-79" target="connector" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="258" as="sourcePoint" />
             <mxPoint x="455.0000000000002" y="258" as="targetPoint" />
