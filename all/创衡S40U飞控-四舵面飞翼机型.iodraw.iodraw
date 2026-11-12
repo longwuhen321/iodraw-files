@@ -153,7 +153,7 @@
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-25" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
           <mxGeometry x="810" y="685" width="230" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-26" value="光电吊舱" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="mE4VjG2YgsgjTHfdD5Ki-25" vertex="1">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-26" value="虹跃吊舱" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="mE4VjG2YgsgjTHfdD5Ki-25" vertex="1">
           <mxGeometry x="5" width="220" height="44" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-27" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
@@ -234,7 +234,7 @@
         <mxCell id="pwm6_device_text" value="左外翼" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="pwm6_device" vertex="1">
           <mxGeometry x="5" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="ground_station" value="外部惯导" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
+        <mxCell id="ground_station" value="中勍惯导" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
           <mxGeometry x="810" y="741" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="junctions" value="电源连接点" parent="0" />
