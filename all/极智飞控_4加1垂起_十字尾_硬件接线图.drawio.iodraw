@@ -355,7 +355,7 @@
         <mxCell id="fc_CH1_S" value="" style="shape=ellipse;html=0;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="S">
           <mxGeometry x="241.5" y="1609.5" width="17" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="text_124" value="S" style="text;html=0;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontStyle=0;lineHeight=1.3;fontColor=#FFFFFF;" parent="flight_controller" vertex="1">
+        <mxCell id="text_124" value="S" style="text;html=0;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontStyle=0;lineHeight=1.3;fontColor=#000000;" parent="flight_controller" vertex="1">
           <mxGeometry x="210" y="1645" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="text_125" value="接口 / 三列端子（从左到右）" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#163A5F;fontStyle=1;lineHeight=1.3;" parent="flight_controller" vertex="1">
