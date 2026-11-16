@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" compressed="false" version="24.7.17" pages="2">
   <diagram id="vtol_page_1" name="01_飞控接口信号接线图">
-    <mxGraphModel dx="874" dy="491" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2828" math="0" shadow="0">
+    <mxGraphModel dx="1651" dy="927" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2828" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" parent="0" />
@@ -842,7 +842,7 @@
           <mxGeometry x="1180" y="285" width="430" height="43" as="geometry" />
         </mxCell>
         <mxCell id="pitot_dynamic" value="" style="shape=ellipse;html=0;fillColor=#B74C54;strokeColor=#B74C54;strokeWidth=2;align=right;" parent="flight_controller" vertex="1" tooltip="动压">
-          <mxGeometry x="1560" y="155" width="29" height="29" as="geometry" />
+          <mxGeometry x="1562.5" y="155" width="29" height="29" as="geometry" />
         </mxCell>
         <mxCell id="text_255" value="动压" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#B74C54;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="1460" y="155" width="100" height="40" as="geometry" />
@@ -1125,30 +1125,6 @@
         </mxCell>
         <mxCell id="text_253" value="GND" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#30363D;fontStyle=0;lineHeight=1.3;" parent="servo_CH1" vertex="1">
           <mxGeometry x="700" y="69" width="110" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="pitot_probe" value="" style="group;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="3254" y="545" width="650" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="rect_257" value="" style="shape=rectangle;html=0;fillColor=#FBE5CF;strokeColor=#96A6B7;strokeWidth=2;rounded=1;arcSize=8;" parent="pitot_probe" vertex="1">
-          <mxGeometry width="650" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="text_258" value="空速皮托管" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=35;fontColor=#163A5F;fontStyle=1;lineHeight=1.3;" parent="pitot_probe" vertex="1">
-          <mxGeometry x="160" y="17" width="450" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="text_259" value="静压按硬件选用&#xa;A2 / A3 / A3PRO 无静压口" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#637B96;fontStyle=0;lineHeight=1.3;" parent="pitot_probe" vertex="1">
-          <mxGeometry x="160" y="81" width="450" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="probe_dynamic" value="" style="shape=ellipse;html=0;fillColor=#6E899E;strokeColor=#6E899E;strokeWidth=2;" parent="pitot_probe" vertex="1" tooltip="动压">
-          <mxGeometry x="-8.5" y="51.5" width="17" height="17" as="geometry" />
-        </mxCell>
-        <mxCell id="text_260" value="动压" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#6E899E;fontStyle=0;lineHeight=1.3;" parent="pitot_probe" vertex="1">
-          <mxGeometry x="25" y="40" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="probe_static" value="" style="shape=ellipse;html=0;fillColor=#6E899E;strokeColor=#6E899E;strokeWidth=2;" parent="pitot_probe" vertex="1" tooltip="静压">
-          <mxGeometry x="-8.5" y="121.5" width="17" height="17" as="geometry" />
-        </mxCell>
-        <mxCell id="text_261" value="静压" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#6E899E;fontStyle=0;lineHeight=1.3;" parent="pitot_probe" vertex="1">
-          <mxGeometry x="25" y="110" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="radio" value="" style="group;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="3250" y="930" width="650" height="250" as="geometry" />
@@ -1559,24 +1535,6 @@
               <mxPoint x="3150" y="1656" />
               <mxPoint x="3150" y="1660" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gas_dynamic" value="" style="edgeStyle=none;html=0;rounded=0;orthogonalLoop=1;strokeColor=#6E899E;strokeWidth=4.5;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="2" target="probe_dynamic" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="3086" y="628" />
-              <mxPoint x="3122" y="582" />
-              <mxPoint x="3130" y="605" />
-            </Array>
-            <mxPoint x="3062" y="650" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gas_static" value="" style="edgeStyle=none;html=0;rounded=0;orthogonalLoop=1;strokeColor=#9CADBC;strokeWidth=4;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;entryX=0.5;entryY=0.5;entryPerimeter=0;dashed=1;dashPattern=6 4;" parent="2" target="probe_static" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="3091" y="675" />
-            </Array>
-            <mxPoint x="3060" y="700" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
