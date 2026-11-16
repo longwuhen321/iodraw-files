@@ -235,12 +235,6 @@
         <mxCell id="fc_CH8_GND" value="" style="shape=ellipse;html=0;fillColor=#FFF1D6;strokeColor=#96734B;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="GND">
           <mxGeometry x="81.5" y="1057.5" width="17" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="line_80" value="" style="edgeStyle=none;html=0;rounded=0;orthogonalLoop=1;strokeColor=#96734B;strokeWidth=2.3;endArrow=none;startArrow=none;endSize=14;startSize=14;" parent="flight_controller" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="85" y="1071" as="sourcePoint" />
-            <mxPoint x="95" y="1061" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="fc_CH8_PWR" value="" style="shape=ellipse;html=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=2;fontColor=#ffffff;" parent="flight_controller" vertex="1" tooltip="BEC IN">
           <mxGeometry x="161.5" y="1057.5" width="17" height="17" as="geometry" />
         </mxCell>
