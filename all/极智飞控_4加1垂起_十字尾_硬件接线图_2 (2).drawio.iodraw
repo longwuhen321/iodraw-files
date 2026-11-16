@@ -583,7 +583,7 @@
         <mxCell id="text_179" value="5V" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#AEBAC8;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="1380" y="1390" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fc_R10_3" value="" style="shape=ellipse;html=0;fillColor=#FFFFFF;strokeColor=#AEBAC8;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="GND">
+        <mxCell id="fc_R10_3" value="" style="shape=ellipse;html=0;fillColor=#000000;strokeColor=#AEBAC8;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="GND">
           <mxGeometry x="1490" y="1362" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="text_180" value="GND" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#AEBAC8;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
