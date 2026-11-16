@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" compressed="false" version="24.7.17" pages="2">
   <diagram id="vtol_page_1" name="01_飞控接口信号接线图">
-    <mxGraphModel dx="743" dy="417" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2828" math="0" shadow="0">
+    <mxGraphModel dx="425" dy="238" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2828" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" parent="0" />
@@ -842,16 +842,16 @@
           <mxGeometry x="1180" y="285" width="430" height="43" as="geometry" />
         </mxCell>
         <mxCell id="pitot_dynamic" value="" style="shape=ellipse;html=0;fillColor=#B74C54;strokeColor=#B74C54;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="动压">
-          <mxGeometry x="1325.5" y="160.5" width="29" height="29" as="geometry" />
+          <mxGeometry x="1558" y="155" width="29" height="29" as="geometry" />
         </mxCell>
         <mxCell id="text_255" value="动压" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#B74C54;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
-          <mxGeometry x="1290" y="204" width="100" height="40" as="geometry" />
+          <mxGeometry x="1460" y="155" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pitot_static" value="" style="shape=ellipse;html=0;fillColor=#5E97BF;strokeColor=#5E97BF;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="静压">
-          <mxGeometry x="1560.5" y="175" width="29" height="29" as="geometry" />
+          <mxGeometry x="1560.5" y="209" width="29" height="29" as="geometry" />
         </mxCell>
         <mxCell id="text_256" value="静压" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#5E97BF;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
-          <mxGeometry x="1460" y="173" width="100" height="40" as="geometry" />
+          <mxGeometry x="1460" y="207" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="esc_CH3" value="" style="group;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="100" y="650" width="840" height="130" as="geometry" />
