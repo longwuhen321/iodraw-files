@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" compressed="false" version="24.7.17">
   <diagram id="reference-reproduction" name="原图复刻">
-    <mxGraphModel dx="874" dy="491" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2048" pageHeight="1553" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="512" dy="288" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2048" pageHeight="1553" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="设备与接口" parent="0" />
