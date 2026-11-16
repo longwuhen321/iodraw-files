@@ -875,7 +875,7 @@
           <mxGeometry width="315.0092307692308" height="250" as="geometry" />
         </mxCell>
         <mxCell id="text_263" value="数传电台（TTL）" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="radio" vertex="1">
-          <mxGeometry x="127.6" y="52.5" width="256.4" height="55" as="geometry" />
+          <mxGeometry x="127.6" y="52.5" width="271.4" height="55" as="geometry" />
         </mxCell>
         <mxCell id="radio_TX" value="" style="shape=ellipse;html=0;fillColor=#2C7FC1;strokeColor=#2C7FC1;strokeWidth=2;" parent="radio" vertex="1" tooltip="TX">
           <mxGeometry x="-6.953846153846154" y="30" width="13.907692307692308" height="20" as="geometry" />
@@ -888,9 +888,6 @@
         </mxCell>
         <mxCell id="radio_GND" value="" style="shape=ellipse;html=0;fillColor=#30363D;strokeColor=#30363D;strokeWidth=2;" parent="radio" vertex="1" tooltip="GND">
           <mxGeometry x="-6.953846153846154" y="105" width="13.907692307692308" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="text_267" value="GND" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#30363D;fontStyle=0;lineHeight=1.3;" parent="radio" vertex="1">
-          <mxGeometry x="17.384615384615383" y="100" width="83.44615384615385" height="40" as="geometry" />
         </mxCell>
         <mxCell id="radio_RX" value="" style="shape=ellipse;html=0;fillColor=#159779;strokeColor=#159779;strokeWidth=2;" parent="radio" vertex="1" tooltip="RX">
           <mxGeometry x="-6.953846153846154" y="68" width="13.907692307692308" height="20" as="geometry" />
@@ -957,6 +954,9 @@
         </mxCell>
         <mxCell id="text_296" value="01 / 02" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#163A5F;fontStyle=1;lineHeight=1.3;" parent="1" vertex="1">
           <mxGeometry x="3710" y="2690" width="210" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="text_267" value="GND" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#30363D;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
+          <mxGeometry x="2986.0046153846156" y="821" width="83.44615384615385" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2" value="接线" parent="0" />
         <mxCell id="ctrl_CH3_GND" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#30363D;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" parent="2" source="fc_CH3_GND" target="esc_CH3_GND" edge="1">
