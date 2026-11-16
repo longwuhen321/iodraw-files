@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" compressed="false" version="24.7.17" pages="2">
   <diagram id="vtol_page_1" name="01_飞控接口信号接线图">
-    <mxGraphModel dx="708" dy="397" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2828" math="0" shadow="0">
+    <mxGraphModel dx="286" dy="160" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2828" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" style="" parent="0" />
@@ -884,7 +884,7 @@
           <mxGeometry x="25" y="20" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="radio_RX" value="" style="shape=ellipse;html=0;fillColor=#159779;strokeColor=#159779;strokeWidth=2;" parent="radio" vertex="1" tooltip="RX">
-          <mxGeometry x="-10" y="110" width="20" height="20" as="geometry" />
+          <mxGeometry x="-10" y="60" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="text_266" value="RX" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#159779;fontStyle=0;lineHeight=1.3;" parent="radio" vertex="1">
           <mxGeometry x="25" y="60" width="120" height="40" as="geometry" />
@@ -893,7 +893,7 @@
           <mxGeometry x="-10" y="190" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="text_267" value="GND" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#30363D;fontStyle=0;lineHeight=1.3;" parent="radio" vertex="1">
-          <mxGeometry x="25" y="180" width="120" height="40" as="geometry" />
+          <mxGeometry x="25" y="100" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="can_gps" value="" style="group;fillColor=none;strokeColor=none;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="3050" y="1490" width="650" height="300" as="geometry" />
