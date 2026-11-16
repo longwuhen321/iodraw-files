@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" style="" parent="0" />
-        <mxCell id="flight_controller" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1" connectable="0">
+        <mxCell id="flight_controller" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1360" y="500" width="1650" height="1850" as="geometry" />
         </mxCell>
         <mxCell id="rect_7" value="" style="shape=rectangle;html=0;fillColor=#DCE3EA;strokeColor=#647489;strokeWidth=3.5;rounded=1;arcSize=8;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="flight_controller" vertex="1">
@@ -397,7 +397,7 @@
         <mxCell id="text_134" value="NC" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#AEBAC8;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="1300" y="615" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fc_R2_2" value="" style="shape=ellipse;html=0;fillColor=#FFFFFF;strokeColor=#AEBAC8;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="5V">
+        <mxCell id="fc_R2_2" value="" style="shape=ellipse;html=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=2;fontColor=#ffffff;" parent="flight_controller" vertex="1" tooltip="5V">
           <mxGeometry x="1411.5" y="579.5" width="17" height="17" as="geometry" />
         </mxCell>
         <mxCell id="text_135" value="5V" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#AEBAC8;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
@@ -663,6 +663,12 @@
         </mxCell>
         <mxCell id="hVYJfEOuxOhT3Ef-4Mkh-7" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;TYPE-C&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="flight_controller">
           <mxGeometry x="1260.5" y="163" width="168" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="fc_tx_to_radio_rx" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#159779;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="flight_controller" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500.0000000000005" y="469.9999999999998" as="sourcePoint" />
+            <mxPoint x="1890.0000000000005" y="529.9999999999998" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="esc_CH3" value="" style="group;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="100" y="650" width="840" height="130" as="geometry" />
@@ -1061,9 +1067,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="radio_tx_to_fc_rx" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#2C7FC1;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="2" source="fc_R1_1" target="radio_TX" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fc_tx_to_radio_rx" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#159779;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="2" source="fc_R1_3" target="radio_RX" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gps_can_h" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#2C7FC1;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="2" source="fc_R7_1" target="gps_H" edge="1">
