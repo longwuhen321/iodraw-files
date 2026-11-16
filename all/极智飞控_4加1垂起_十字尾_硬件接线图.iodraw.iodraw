@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" compressed="false" version="24.7.17" pages="2">
   <diagram id="vtol_page_1" name="01_飞控接口信号接线图">
-    <mxGraphModel dx="1858" dy="1043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2828" math="0" shadow="0">
+    <mxGraphModel dx="1651" dy="927" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2828" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" style="" parent="0" />
@@ -130,7 +130,7 @@
         <mxCell id="text_48" value="CH13" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=33;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="320" y="582" width="140" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="text_49" value="右后升力电调" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
+        <mxCell id="text_49" value="右后电机" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="470" y="583.5" width="310" height="45" as="geometry" />
         </mxCell>
         <mxCell id="fc_CH13_GND" value="" style="shape=ellipse;html=0;fillColor=#30363D;strokeColor=#30363D;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="GND">
@@ -148,7 +148,7 @@
         <mxCell id="text_54" value="CH12" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=33;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="320" y="674" width="140" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="text_55" value="左前升力电调" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
+        <mxCell id="text_55" value="左前电机" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="470" y="675.5" width="310" height="45" as="geometry" />
         </mxCell>
         <mxCell id="fc_CH12_GND" value="" style="shape=ellipse;html=0;fillColor=#30363D;strokeColor=#30363D;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="GND">
@@ -238,7 +238,7 @@
         <mxCell id="text_86" value="CH7" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=33;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="320" y="1134" width="140" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="text_87" value="左后升力电调" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
+        <mxCell id="text_87" value="左后电机" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="470" y="1135.5" width="310" height="45" as="geometry" />
         </mxCell>
         <mxCell id="fc_CH7_GND" value="" style="shape=ellipse;html=0;fillColor=#30363D;strokeColor=#30363D;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="GND">
@@ -256,7 +256,7 @@
         <mxCell id="text_92" value="CH6" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=33;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="320" y="1226" width="140" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="text_93" value="右前升力电调" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
+        <mxCell id="text_93" value="右前电机" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="470" y="1227.5" width="310" height="45" as="geometry" />
         </mxCell>
         <mxCell id="fc_CH6_GND" value="" style="shape=ellipse;html=0;fillColor=#30363D;strokeColor=#30363D;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="GND">
@@ -727,7 +727,7 @@
         <mxCell id="rect_212" value="" style="shape=rectangle;html=0;fillColor=#FBE5CF;strokeColor=#96A6B7;strokeWidth=2;rounded=1;arcSize=20;absoluteArcSize=1;" parent="esc_CH12" vertex="1">
           <mxGeometry width="500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="text_213" value="左前升力电调" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="esc_CH12" vertex="1">
+        <mxCell id="text_213" value="左前电机" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="esc_CH12" vertex="1">
           <mxGeometry x="26" y="41" width="310" height="48" as="geometry" />
         </mxCell>
         <mxCell id="esc_CH12_S" value="" style="shape=ellipse;html=0;fillColor=#E58C31;strokeColor=#E58C31;strokeWidth=2;" parent="esc_CH12" vertex="1" tooltip="S">
@@ -748,7 +748,7 @@
         <mxCell id="rect_218" value="" style="shape=rectangle;html=0;fillColor=#FBE5CF;strokeColor=#96A6B7;strokeWidth=2;rounded=1;arcSize=20;absoluteArcSize=1;" parent="esc_CH7" vertex="1">
           <mxGeometry width="500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="text_219" value="左后升力电调" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="esc_CH7" vertex="1">
+        <mxCell id="text_219" value="左后电机" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="esc_CH7" vertex="1">
           <mxGeometry x="26" y="41" width="310" height="48" as="geometry" />
         </mxCell>
         <mxCell id="esc_CH7_S" value="" style="shape=ellipse;html=0;fillColor=#E58C31;strokeColor=#E58C31;strokeWidth=2;" parent="esc_CH7" vertex="1" tooltip="S">
@@ -769,7 +769,7 @@
         <mxCell id="rect_224" value="" style="shape=rectangle;html=0;fillColor=#FBE5CF;strokeColor=#96A6B7;strokeWidth=2;rounded=1;arcSize=20;absoluteArcSize=1;" parent="esc_CH6" vertex="1">
           <mxGeometry width="500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="text_225" value="右前升力电调" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="esc_CH6" vertex="1">
+        <mxCell id="text_225" value="右前电机" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="esc_CH6" vertex="1">
           <mxGeometry x="26" y="41" width="310" height="48" as="geometry" />
         </mxCell>
         <mxCell id="esc_CH6_S" value="" style="shape=ellipse;html=0;fillColor=#E58C31;strokeColor=#E58C31;strokeWidth=2;" parent="esc_CH6" vertex="1" tooltip="S">
