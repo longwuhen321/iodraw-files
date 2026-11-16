@@ -52,7 +52,7 @@
         <mxCell id="rect_17" value="" style="shape=rectangle;html=0;fillColor=#D9EAF7;strokeColor=#5E8FB5;strokeWidth=2;rounded=1;arcSize=8;" parent="flight_controller" vertex="1">
           <mxGeometry x="90" y="60" width="430" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="text_18" value="主电源输入" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=32;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="flight_controller" vertex="1">
+        <mxCell id="text_18" value="电源：3~12S" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=32;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="110" y="70" width="390" height="45" as="geometry" />
         </mxCell>
         <mxCell id="rect_20" value="" style="shape=rectangle;html=0;fillColor=#163A5F;strokeColor=#163A5F;strokeWidth=2;" parent="flight_controller" vertex="1">
