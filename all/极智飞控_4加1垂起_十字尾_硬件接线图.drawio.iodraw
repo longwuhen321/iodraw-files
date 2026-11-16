@@ -1024,7 +1024,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gps_ground" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#30363D;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="2" source="fc_R8_3" target="gps_GND" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3025" y="1676" />
+              <mxPoint x="3025" y="1740" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ctrl_CH3_S" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#E58C31;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="2" source="fc_CH3_S" target="esc_CH3_S" edge="1">
           <mxGeometry relative="1" as="geometry" />
