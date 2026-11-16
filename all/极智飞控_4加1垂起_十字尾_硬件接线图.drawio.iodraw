@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" compressed="false" version="24.7.17" pages="2">
   <diagram id="vtol_page_1" name="01_飞控接口信号接线图">
-    <mxGraphModel dx="1238" dy="695" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2828" math="0" shadow="0">
+    <mxGraphModel dx="743" dy="417" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2828" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" parent="0" />
@@ -344,19 +344,19 @@
           <mxGeometry x="81.5" y="1609.5" width="17" height="17" as="geometry" />
         </mxCell>
         <mxCell id="text_121" value="GND" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#30363D;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
-          <mxGeometry x="50" y="1645" width="80" height="30" as="geometry" />
+          <mxGeometry x="46" y="1686" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fc_CH1_PWR" value="" style="shape=ellipse;html=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=2;fontColor=#ffffff;" parent="flight_controller" vertex="1" tooltip="BEC IN">
           <mxGeometry x="161.5" y="1609.5" width="17" height="17" as="geometry" />
         </mxCell>
         <mxCell id="text_123" value="BEC IN" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#96734B;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
-          <mxGeometry x="130" y="1645" width="80" height="30" as="geometry" />
+          <mxGeometry x="126" y="1686" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fc_CH1_S" value="" style="shape=ellipse;html=0;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="S">
           <mxGeometry x="241.5" y="1609.5" width="17" height="17" as="geometry" />
         </mxCell>
         <mxCell id="text_124" value="S" style="text;html=0;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontStyle=0;lineHeight=1.3;fontColor=#000000;" parent="flight_controller" vertex="1">
-          <mxGeometry x="210" y="1645" width="80" height="30" as="geometry" />
+          <mxGeometry x="206" y="1686" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="text_125" value="接口 / 三列端子（从左到右）" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#163A5F;fontStyle=1;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="1140" y="419" width="405" height="40" as="geometry" />
