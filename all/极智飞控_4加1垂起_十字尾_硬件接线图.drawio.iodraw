@@ -1201,48 +1201,6 @@
         <mxCell id="text_269" value="RADIO 下方 5V OUT 仅取 GND。&#xa;该排 5V 留空，禁止给数传供电。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=27;fontColor=#83591F;fontStyle=1;lineHeight=1.3;" parent="1" vertex="1">
           <mxGeometry x="3275" y="1233" width="600" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="rect_280" value="" style="shape=rectangle;html=0;fillColor=#FAFCFE;strokeColor=#B4C3D2;strokeWidth=2;rounded=1;arcSize=8;" parent="1" vertex="1">
-          <mxGeometry x="80" y="2420" width="3840" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="text_281" value="图例与省略范围" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=33;fontColor=#163A5F;fontStyle=1;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="110" y="2435" width="3740" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="line_282" value="" style="edgeStyle=none;html=0;rounded=0;orthogonalLoop=1;strokeColor=#E58C31;strokeWidth=4;endArrow=none;startArrow=none;endSize=14;startSize=14;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="2520" as="sourcePoint" />
-            <mxPoint x="210" y="2520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="text_283" value="控制信号 S" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=28;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="232" y="2497" width="590" height="47" as="geometry" />
-        </mxCell>
-        <mxCell id="line_284" value="" style="edgeStyle=none;html=0;rounded=0;orthogonalLoop=1;strokeColor=#30363D;strokeWidth=4;endArrow=none;startArrow=none;endSize=14;startSize=14;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="870" y="2520" as="sourcePoint" />
-            <mxPoint x="960" y="2520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="text_285" value="信号参考地 GND" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=28;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="982" y="2497" width="590" height="47" as="geometry" />
-        </mxCell>
-        <mxCell id="line_286" value="" style="edgeStyle=none;html=0;rounded=0;orthogonalLoop=1;strokeColor=#2C7FC1;strokeWidth=4;endArrow=none;startArrow=none;endSize=14;startSize=14;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1620" y="2520" as="sourcePoint" />
-            <mxPoint x="1710" y="2520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="text_287" value="串口 / CAN" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=28;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="1732" y="2497" width="590" height="47" as="geometry" />
-        </mxCell>
-        <mxCell id="line_288" value="" style="edgeStyle=none;html=0;rounded=0;orthogonalLoop=1;strokeColor=#D9343A;strokeWidth=4;endArrow=none;startArrow=none;endSize=14;startSize=14;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2370" y="2520" as="sourcePoint" />
-            <mxPoint x="2460" y="2520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="text_289" value="外设 5V" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=28;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="2482" y="2497" width="590" height="47" as="geometry" />
-        </mxCell>
         <mxCell id="line_290" value="" style="edgeStyle=none;html=0;rounded=0;orthogonalLoop=1;strokeColor=#6E899E;strokeWidth=4;endArrow=none;startArrow=none;endSize=14;startSize=14;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3120" y="2520" as="sourcePoint" />
@@ -1251,9 +1209,6 @@
         </mxCell>
         <mxCell id="text_291" value="PITOT 气路" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=28;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
           <mxGeometry x="3232" y="2497" width="590" height="47" as="geometry" />
-        </mxCell>
-        <mxCell id="text_292" value="实心端点表示本图已画接线；跨线弧表示交叉不相连。带斜线端点为供电线路省略；空心为当前未用；NC 始终不接。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#637B96;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="110" y="2565" width="3740" height="43" as="geometry" />
         </mxCell>
         <mxCell id="line_293" value="" style="edgeStyle=none;html=0;rounded=0;orthogonalLoop=1;strokeColor=#163A5F;strokeWidth=2.5;endArrow=none;startArrow=none;endSize=14;startSize=14;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
