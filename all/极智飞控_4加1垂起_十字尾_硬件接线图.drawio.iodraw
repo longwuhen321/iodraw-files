@@ -673,9 +673,6 @@
         <mxCell id="text_195" value="推进电调" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#163A5F;fontStyle=1;lineHeight=1.3;" parent="esc_CH3" vertex="1">
           <mxGeometry x="35" y="15" width="620" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="text_196" value="CH3 · S / GND" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="esc_CH3" vertex="1">
-          <mxGeometry x="35" y="68" width="590" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="esc_CH3_S" value="" style="shape=ellipse;html=0;fillColor=#E58C31;strokeColor=#E58C31;strokeWidth=2;" parent="esc_CH3" vertex="1" tooltip="S">
           <mxGeometry x="831.5" y="29.5" width="17" height="17" as="geometry" />
         </mxCell>
