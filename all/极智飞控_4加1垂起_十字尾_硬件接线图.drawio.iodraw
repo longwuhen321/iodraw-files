@@ -1127,7 +1127,7 @@
           <mxGeometry x="700" y="69" width="110" height="38" as="geometry" />
         </mxCell>
         <mxCell id="pitot_probe" value="" style="group;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="3253" y="545" width="650" height="190" as="geometry" />
+          <mxGeometry x="3254" y="545" width="650" height="190" as="geometry" />
         </mxCell>
         <mxCell id="rect_257" value="" style="shape=rectangle;html=0;fillColor=#FBE5CF;strokeColor=#96A6B7;strokeWidth=2;rounded=1;arcSize=8;" parent="pitot_probe" vertex="1">
           <mxGeometry width="650" height="190" as="geometry" />
