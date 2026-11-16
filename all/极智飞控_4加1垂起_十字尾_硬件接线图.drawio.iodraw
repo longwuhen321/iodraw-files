@@ -1573,9 +1573,8 @@
         <mxCell id="gas_static" value="" style="edgeStyle=none;html=0;rounded=0;orthogonalLoop=1;strokeColor=#9CADBC;strokeWidth=4;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;dashed=1;dashPattern=6 4;" parent="2" source="pitot_static" target="probe_static" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2860" y="435" />
-              <mxPoint x="3010" y="435" />
-              <mxPoint x="3170" y="435" />
+              <mxPoint x="2941" y="603" />
+              <mxPoint x="3095" y="542" />
               <mxPoint x="3170" y="685" />
             </Array>
           </mxGeometry>
