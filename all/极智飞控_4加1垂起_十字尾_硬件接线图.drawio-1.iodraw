@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" style="" parent="0" />
-        <mxCell id="flight_controller" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1" connectable="0">
+        <mxCell id="flight_controller" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#007FFF;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1360" y="500" width="1650" height="1850" as="geometry" />
         </mxCell>
         <mxCell id="rect_7" value="" style="shape=rectangle;html=0;fillColor=#DCE3EA;strokeColor=#647489;strokeWidth=3.5;rounded=1;arcSize=8;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="flight_controller" vertex="1">
