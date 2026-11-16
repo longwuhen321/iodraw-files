@@ -94,7 +94,7 @@
         <mxCell id="fc_CH3_PWR" value="" style="shape=ellipse;html=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=2;fontColor=#ffffff;" parent="flight_controller" vertex="1" tooltip="未注明">
           <mxGeometry x="161.5" y="321.5" width="17" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="fc_CH3_S" value="" style="shape=ellipse;html=0;fillColor=#E58C31;strokeColor=#E58C31;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="S">
+        <mxCell id="fc_CH3_S" value="" style="shape=ellipse;html=0;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="S">
           <mxGeometry x="241.5" y="321.5" width="17" height="17" as="geometry" />
         </mxCell>
         <mxCell id="rect_34" value="" style="shape=rectangle;html=0;fillColor=#EEF3F8;strokeColor=#D0D9E4;strokeWidth=1;" parent="flight_controller" vertex="1">
@@ -112,7 +112,7 @@
         <mxCell id="fc_SBUS_PWR" value="" style="shape=ellipse;html=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=2;fontColor=#ffffff;" parent="flight_controller" vertex="1" tooltip="5V OUT">
           <mxGeometry x="161.5" y="413.5" width="17" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="fc_SBUS_S" value="" style="shape=ellipse;html=0;fillColor=#E58C31;strokeColor=#E58C31;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="S">
+        <mxCell id="fc_SBUS_S" value="" style="shape=ellipse;html=0;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="S">
           <mxGeometry x="241.5" y="413.5" width="17" height="17" as="geometry" />
         </mxCell>
         <mxCell id="rect_41" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#D0D9E4;strokeWidth=1;" parent="flight_controller" vertex="1">
