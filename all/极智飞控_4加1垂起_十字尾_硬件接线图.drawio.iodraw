@@ -742,9 +742,6 @@
         <mxCell id="text_213" value="左前升力电调" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#163A5F;fontStyle=1;lineHeight=1.3;" parent="esc_CH12" vertex="1">
           <mxGeometry x="35" y="15" width="620" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="text_214" value="CH12 · S / GND" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="esc_CH12" vertex="1">
-          <mxGeometry x="35" y="68" width="590" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="esc_CH12_S" value="" style="shape=ellipse;html=0;fillColor=#E58C31;strokeColor=#E58C31;strokeWidth=2;" parent="esc_CH12" vertex="1" tooltip="S">
           <mxGeometry x="831.5" y="29.5" width="17" height="17" as="geometry" />
         </mxCell>
@@ -765,9 +762,6 @@
         </mxCell>
         <mxCell id="text_219" value="左后升力电调" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#163A5F;fontStyle=1;lineHeight=1.3;" parent="esc_CH7" vertex="1">
           <mxGeometry x="35" y="15" width="620" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="text_220" value="CH7 · S / GND" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="esc_CH7" vertex="1">
-          <mxGeometry x="35" y="68" width="590" height="40" as="geometry" />
         </mxCell>
         <mxCell id="esc_CH7_S" value="" style="shape=ellipse;html=0;fillColor=#E58C31;strokeColor=#E58C31;strokeWidth=2;" parent="esc_CH7" vertex="1" tooltip="S">
           <mxGeometry x="831.5" y="29.5" width="17" height="17" as="geometry" />
@@ -790,9 +784,6 @@
         <mxCell id="text_225" value="右前升力电调" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#163A5F;fontStyle=1;lineHeight=1.3;" parent="esc_CH6" vertex="1">
           <mxGeometry x="35" y="15" width="620" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="text_226" value="CH6 · S / GND" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="esc_CH6" vertex="1">
-          <mxGeometry x="35" y="68" width="590" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="esc_CH6_S" value="" style="shape=ellipse;html=0;fillColor=#E58C31;strokeColor=#E58C31;strokeWidth=2;" parent="esc_CH6" vertex="1" tooltip="S">
           <mxGeometry x="831.5" y="29.5" width="17" height="17" as="geometry" />
         </mxCell>
@@ -813,9 +804,6 @@
         </mxCell>
         <mxCell id="text_231" value="右副翼舵机" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#163A5F;fontStyle=1;lineHeight=1.3;" parent="servo_CH5" vertex="1">
           <mxGeometry x="35" y="15" width="620" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="text_232" value="CH5 · S / GND" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="servo_CH5" vertex="1">
-          <mxGeometry x="35" y="68" width="590" height="40" as="geometry" />
         </mxCell>
         <mxCell id="servo_CH5_S" value="" style="shape=ellipse;html=0;fillColor=#E58C31;strokeColor=#E58C31;strokeWidth=2;" parent="servo_CH5" vertex="1" tooltip="S">
           <mxGeometry x="831.5" y="29.5" width="17" height="17" as="geometry" />
