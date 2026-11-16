@@ -13,7 +13,7 @@
         <mxCell id="rect_2" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8EEF7;strokeColor=#000000;strokeWidth=0.65;shadow=0;" parent="fc" vertex="1">
           <mxGeometry x="122" width="221" height="50.5" as="geometry" />
         </mxCell>
-        <mxCell id="text_3" value="设备端：J30J-74ZKWP8-J&#xa;电缆端：J30J-74TJL" style="text=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;html=0;fontFamily=Times New Roman,SimSun,Noto Serif CJK SC,serif;fontSize=14;fontColor=#000000;spacing=0;spacingRight=0;spacingLeft=0;overflow=visible;resizable=1;lineHeight=1.36;" parent="fc" vertex="1">
+        <mxCell id="text_3" value="设备端：J30J-74ZKWP8-J&#xa;电缆端：J30J-74TJL" style="text=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;html=0;fontFamily=Times New Roman,SimSun,Noto Serif CJK SC,serif;fontSize=14;fontColor=#000000;spacing=0;spacingRight=0;spacingLeft=0;overflow=visible;resizable=0;lineHeight=1.36;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="fc" vertex="1">
           <mxGeometry x="122" width="221" height="50.5" as="geometry" />
         </mxCell>
         <mxCell id="rect_4" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E8EEF7;strokeColor=#000000;strokeWidth=0.65;shadow=0;" parent="fc" vertex="1">
@@ -720,9 +720,6 @@
         </mxCell>
         <mxCell id="text_70" value="飞控" style="text=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;html=0;fontFamily=Times New Roman,SimSun,Noto Serif CJK SC,serif;fontSize=28;fontColor=#000000;spacing=0;spacingRight=0;spacingLeft=0;overflow=visible;resizable=1;lineHeight=1.25;" parent="fc" vertex="1">
           <mxGeometry x="7" y="560.5" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="rect_71" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=#000000;strokeWidth=1.3;shadow=0;" parent="fc" vertex="1">
-          <mxGeometry width="343" height="1161" as="geometry" />
         </mxCell>
         <mxCell id="power" value="" style="group;whiteSpace=wrap;html=0;container=0;collapsible=0;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="8" y="1340.5" width="245.3" height="156" as="geometry" />
@@ -2716,12 +2713,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="407" y="197.25" as="sourcePoint" />
             <mxPoint x="372" y="197.25" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fc_vcc_s1_p1" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=0;startArrow=none;endArrow=none;strokeColor=#EE0000;strokeWidth=1.2;curved=0;jumpStyle=arc;jumpSize=7.2;orthogonal=1;" parent="wire_horizontal" edge="1" wireName="5V+ → 飞控1 VCC" wireId="fc_vcc">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="372" y="197.25" as="sourcePoint" />
-            <mxPoint x="351" y="197.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fc_vcc2_s1_p0" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=0;startArrow=none;endArrow=none;strokeColor=#EE0000;strokeWidth=1.2;curved=0;jumpStyle=arc;jumpSize=7.2;orthogonal=1;" parent="wire_horizontal" edge="1" wireName="飞控 VCC 1–2 跨接" wireId="fc_vcc2">
