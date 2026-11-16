@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" compressed="false" version="24.7.17">
   <diagram id="reference-reproduction" name="原图复刻">
-    <mxGraphModel dx="705" dy="490" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2048" pageHeight="1553" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="619" dy="348" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2048" pageHeight="1553" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="设备与接口" parent="0" />
@@ -1890,6 +1890,9 @@
         </mxCell>
         <mxCell id="rect_216" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=#000000;strokeWidth=1.1;shadow=0;" parent="left_outer_wing" vertex="1">
           <mxGeometry width="244" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="G0JGb-okQoDl-QkpXjqS-1" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="634" y="144" width="40" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wire_vertical" value="竖向线路" parent="0" />
         <mxCell id="fc15_dgps_s1_p0" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=0;startArrow=none;endArrow=none;strokeColor=#00B0F0;strokeWidth=1.2;curved=0;jumpStyle=none;jumpSize=7.2;orthogonal=1;" parent="wire_vertical" edge="1" wireName="飞控15 DGPS_TTL_RX → 差分基准站8 DGPS_TX" wireId="fc15_dgps">
