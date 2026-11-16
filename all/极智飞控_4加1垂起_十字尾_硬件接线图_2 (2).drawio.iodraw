@@ -415,7 +415,7 @@
         <mxCell id="text_140" value="NC" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#AEBAC8;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="1380" y="704" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fc_R3_3" value="" style="shape=ellipse;html=0;fillColor=#FFFFFF;strokeColor=#AEBAC8;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="TX">
+        <mxCell id="fc_R3_3" value="" style="shape=ellipse;html=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=2;fontColor=#ffffff;" parent="flight_controller" vertex="1" tooltip="TX">
           <mxGeometry x="1490" y="676" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="text_141" value="TX" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#AEBAC8;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
@@ -463,7 +463,7 @@
         <mxCell id="text_151" value="NC" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#AEBAC8;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="1380" y="900" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fc_R5_3" value="" style="shape=ellipse;html=0;fillColor=#FFFFFF;strokeColor=#AEBAC8;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="TX">
+        <mxCell id="fc_R5_3" value="" style="shape=ellipse;html=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=2;fontColor=#ffffff;" parent="flight_controller" vertex="1" tooltip="TX">
           <mxGeometry x="1490" y="872" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="text_152" value="TX" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#AEBAC8;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
