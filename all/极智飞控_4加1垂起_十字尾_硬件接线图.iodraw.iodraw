@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" compressed="false" version="24.7.17" pages="2">
   <diagram id="vtol_page_1" name="01_飞控接口信号接线图">
-    <mxGraphModel dx="1143" dy="642" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2828" math="0" shadow="0">
+    <mxGraphModel dx="646" dy="363" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2828" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" style="" parent="0" />
@@ -871,39 +871,6 @@
         <mxCell id="text_253" value="GND" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#30363D;fontStyle=0;lineHeight=1.3;" parent="servo_CH1" vertex="1">
           <mxGeometry x="362" y="69" width="110" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="can_gps" value="" style="group;fillColor=none;strokeColor=none;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="3050" y="1490" width="650" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="rect_270" value="" style="shape=rectangle;html=0;fillColor=#FBE5CF;strokeColor=#96A6B7;strokeWidth=2;rounded=1;arcSize=20;absoluteArcSize=1;" parent="can_gps" vertex="1">
-          <mxGeometry width="650" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="text_271" value="CAN GPS / 罗盘" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="can_gps" vertex="1">
-          <mxGeometry x="180" y="106" width="290" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_H" value="" style="shape=ellipse;html=0;fillColor=#2C7FC1;strokeColor=#2C7FC1;strokeWidth=2;" parent="can_gps" vertex="1" tooltip="H">
-          <mxGeometry x="-10" y="40" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="text_273" value="H" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#2C7FC1;fontStyle=0;lineHeight=1.3;" parent="can_gps" vertex="1">
-          <mxGeometry x="25" y="30" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_L" value="" style="shape=ellipse;html=0;fillColor=#159779;strokeColor=#159779;strokeWidth=2;" parent="can_gps" vertex="1" tooltip="L">
-          <mxGeometry x="-10" y="100" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="text_274" value="L" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#159779;fontStyle=0;lineHeight=1.3;" parent="can_gps" vertex="1">
-          <mxGeometry x="25" y="90" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_5V" value="" style="shape=ellipse;html=0;fillColor=#D9343A;strokeColor=#D9343A;strokeWidth=2;" parent="can_gps" vertex="1" tooltip="5V">
-          <mxGeometry x="-10" y="160" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="text_275" value="5V" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#D9343A;fontStyle=0;lineHeight=1.3;" parent="can_gps" vertex="1">
-          <mxGeometry x="25" y="150" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="gps_GND" value="" style="shape=ellipse;html=0;fillColor=#30363D;strokeColor=#30363D;strokeWidth=2;" parent="can_gps" vertex="1" tooltip="GND">
-          <mxGeometry x="-10" y="240" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="text_276" value="GND" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#30363D;fontStyle=0;lineHeight=1.3;" parent="can_gps" vertex="1">
-          <mxGeometry x="25" y="230" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="text_1" value="4+1 垂起（十字尾）｜飞控接口信号接线图" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=58;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="1" vertex="1">
           <mxGeometry x="80" y="60" width="3780" height="92" as="geometry" />
         </mxCell>
@@ -948,6 +915,36 @@
         </mxCell>
         <mxCell id="text_263" value="数传电台（TTL）" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="1" vertex="1">
           <mxGeometry x="3180" y="993.5" width="283" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="rect_270" value="" style="shape=rectangle;html=0;fillColor=#FBE5CF;strokeColor=#96A6B7;strokeWidth=2;rounded=1;arcSize=20;absoluteArcSize=1;" parent="1" vertex="1">
+          <mxGeometry x="3050" y="1490" width="650" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="text_271" value="CAN GPS / 罗盘" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="1" vertex="1">
+          <mxGeometry x="3230" y="1596" width="290" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="gps_H" value="" style="shape=ellipse;html=0;fillColor=#2C7FC1;strokeColor=#2C7FC1;strokeWidth=2;" parent="1" vertex="1" tooltip="H">
+          <mxGeometry x="3040" y="1530" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="text_273" value="H" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#2C7FC1;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
+          <mxGeometry x="3075" y="1520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gps_L" value="" style="shape=ellipse;html=0;fillColor=#159779;strokeColor=#159779;strokeWidth=2;" parent="1" vertex="1" tooltip="L">
+          <mxGeometry x="3040" y="1590" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="text_274" value="L" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#159779;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
+          <mxGeometry x="3075" y="1580" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gps_5V" value="" style="shape=ellipse;html=0;fillColor=#D9343A;strokeColor=#D9343A;strokeWidth=2;" parent="1" vertex="1" tooltip="5V">
+          <mxGeometry x="3040" y="1650" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="text_275" value="5V" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#D9343A;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
+          <mxGeometry x="3075" y="1640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gps_GND" value="" style="shape=ellipse;html=0;fillColor=#30363D;strokeColor=#30363D;strokeWidth=2;" parent="1" vertex="1" tooltip="GND">
+          <mxGeometry x="3040" y="1730" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="text_276" value="GND" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#30363D;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
+          <mxGeometry x="3075" y="1720" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2" value="接线" parent="0" />
         <mxCell id="ctrl_CH3_GND" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#30363D;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" parent="2" source="fc_CH3_GND" target="esc_CH3_GND" edge="1">
