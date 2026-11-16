@@ -778,9 +778,6 @@
         <mxCell id="text_220" value="CH7 · S / GND" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="esc_CH7" vertex="1">
           <mxGeometry x="35" y="68" width="590" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="text_221" value="动力输入略" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#96734B;fontStyle=0;lineHeight=1.3;" parent="esc_CH7" vertex="1">
-          <mxGeometry x="485" y="82" width="185" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="esc_CH7_S" value="" style="shape=ellipse;html=0;fillColor=#E58C31;strokeColor=#E58C31;strokeWidth=2;" parent="esc_CH7" vertex="1" tooltip="S">
           <mxGeometry x="831.5" y="29.5" width="17" height="17" as="geometry" />
         </mxCell>
@@ -805,9 +802,6 @@
         <mxCell id="text_226" value="CH6 · S / GND" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="esc_CH6" vertex="1">
           <mxGeometry x="35" y="68" width="590" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="text_227" value="动力输入略" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#96734B;fontStyle=0;lineHeight=1.3;" parent="esc_CH6" vertex="1">
-          <mxGeometry x="485" y="82" width="185" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="esc_CH6_S" value="" style="shape=ellipse;html=0;fillColor=#E58C31;strokeColor=#E58C31;strokeWidth=2;" parent="esc_CH6" vertex="1" tooltip="S">
           <mxGeometry x="831.5" y="29.5" width="17" height="17" as="geometry" />
         </mxCell>
@@ -831,9 +825,6 @@
         </mxCell>
         <mxCell id="text_232" value="CH5 · S / GND" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="servo_CH5" vertex="1">
           <mxGeometry x="35" y="68" width="590" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="text_233" value="+V 供电略" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#96734B;fontStyle=0;lineHeight=1.3;" parent="servo_CH5" vertex="1">
-          <mxGeometry x="485" y="82" width="185" height="30" as="geometry" />
         </mxCell>
         <mxCell id="servo_CH5_S" value="" style="shape=ellipse;html=0;fillColor=#E58C31;strokeColor=#E58C31;strokeWidth=2;" parent="servo_CH5" vertex="1" tooltip="S">
           <mxGeometry x="831.5" y="29.5" width="17" height="17" as="geometry" />
