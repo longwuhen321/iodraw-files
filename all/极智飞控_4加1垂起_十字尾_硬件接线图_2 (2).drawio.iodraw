@@ -905,10 +905,7 @@
           <mxGeometry width="650" height="300" as="geometry" />
         </mxCell>
         <mxCell id="text_271" value="CAN GPS / 罗盘" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="can_gps" vertex="1">
-          <mxGeometry x="165" y="20" width="445" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="text_272" value="H / L 按名称对应&#xa;5V / GND 取 CAN 下方排&#xa;方向按模块箭头配置" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#637B96;fontStyle=0;lineHeight=1.3;" parent="can_gps" vertex="1">
-          <mxGeometry x="165" y="94" width="445" height="165" as="geometry" />
+          <mxGeometry x="165" y="20" width="290" height="54" as="geometry" />
         </mxCell>
         <mxCell id="gps_H" value="" style="shape=ellipse;html=0;fillColor=#2C7FC1;strokeColor=#2C7FC1;strokeWidth=2;" parent="can_gps" vertex="1" tooltip="H">
           <mxGeometry x="-10" y="40" width="20" height="20" as="geometry" />
