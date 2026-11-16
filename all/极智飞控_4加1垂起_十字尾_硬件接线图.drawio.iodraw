@@ -797,25 +797,25 @@
           <mxGeometry x="700" y="69" width="110" height="38" as="geometry" />
         </mxCell>
         <mxCell id="servo_CH5" value="" style="group;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="100" y="1735" width="840" height="130" as="geometry" />
+          <mxGeometry x="567" y="1735" width="373" height="130" as="geometry" />
         </mxCell>
         <mxCell id="rect_230" value="" style="shape=rectangle;html=0;fillColor=#FBE5CF;strokeColor=#96A6B7;strokeWidth=2;rounded=1;arcSize=8;" parent="servo_CH5" vertex="1">
-          <mxGeometry width="840" height="130" as="geometry" />
+          <mxGeometry width="373" height="130" as="geometry" />
         </mxCell>
         <mxCell id="text_231" value="右副翼舵机" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#163A5F;fontStyle=1;lineHeight=1.3;" parent="servo_CH5" vertex="1">
-          <mxGeometry x="35" y="15" width="620" height="46" as="geometry" />
+          <mxGeometry x="15.54" y="15" width="180.46" height="46" as="geometry" />
         </mxCell>
         <mxCell id="servo_CH5_S" value="" style="shape=ellipse;html=0;fillColor=#E58C31;strokeColor=#E58C31;strokeWidth=2;" parent="servo_CH5" vertex="1" tooltip="S">
-          <mxGeometry x="831.5" y="29.5" width="17" height="17" as="geometry" />
+          <mxGeometry x="369.2255952380952" y="29.5" width="7.548809523809523" height="17" as="geometry" />
         </mxCell>
         <mxCell id="text_234" value="S" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#E58C31;fontStyle=0;lineHeight=1.3;" parent="servo_CH5" vertex="1">
-          <mxGeometry x="700" y="19" width="110" height="38" as="geometry" />
+          <mxGeometry x="310.8333333333333" y="19" width="48.845238095238095" height="38" as="geometry" />
         </mxCell>
         <mxCell id="servo_CH5_GND" value="" style="shape=ellipse;html=0;fillColor=#30363D;strokeColor=#30363D;strokeWidth=2;" parent="servo_CH5" vertex="1" tooltip="GND">
-          <mxGeometry x="831.5" y="79.5" width="17" height="17" as="geometry" />
+          <mxGeometry x="369.2255952380952" y="79.5" width="7.548809523809523" height="17" as="geometry" />
         </mxCell>
         <mxCell id="text_235" value="GND" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#30363D;fontStyle=0;lineHeight=1.3;" parent="servo_CH5" vertex="1">
-          <mxGeometry x="700" y="69" width="110" height="38" as="geometry" />
+          <mxGeometry x="310.8333333333333" y="69" width="48.845238095238095" height="38" as="geometry" />
         </mxCell>
         <mxCell id="servo_CH4" value="" style="group;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="569" y="1895" width="371" height="130" as="geometry" />
