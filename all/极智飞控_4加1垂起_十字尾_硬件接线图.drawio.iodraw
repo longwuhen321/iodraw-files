@@ -16,7 +16,7 @@
         <mxCell id="ellipse_9" value="" style="shape=ellipse;html=0;fillColor=#DEE5EC;strokeColor=#7D8B9D;strokeWidth=2;" parent="flight_controller" vertex="1">
           <mxGeometry x="30" y="30" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="line_10" value="" style="edgeStyle=none;html=0;rounded=0;orthogonalLoop=1;strokeColor=#8794A4;strokeWidth=2;endArrow=none;startArrow=none;endSize=14;startSize=14;" parent="flight_controller" edge="1">
+        <mxCell id="line_10" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#8794A4;strokeWidth=2;endArrow=none;startArrow=none;endSize=14;startSize=14;" parent="flight_controller" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="38" y="45" as="sourcePoint" />
             <mxPoint x="52" y="45" as="targetPoint" />
@@ -25,7 +25,7 @@
         <mxCell id="ellipse_11" value="" style="shape=ellipse;html=0;fillColor=#DEE5EC;strokeColor=#7D8B9D;strokeWidth=2;" parent="flight_controller" vertex="1">
           <mxGeometry x="1590" y="30" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="line_12" value="" style="edgeStyle=none;html=0;rounded=0;orthogonalLoop=1;strokeColor=#8794A4;strokeWidth=2;endArrow=none;startArrow=none;endSize=14;startSize=14;" parent="flight_controller" edge="1">
+        <mxCell id="line_12" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#8794A4;strokeWidth=2;endArrow=none;startArrow=none;endSize=14;startSize=14;" parent="flight_controller" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1598" y="45" as="sourcePoint" />
             <mxPoint x="1612" y="45" as="targetPoint" />
@@ -34,7 +34,7 @@
         <mxCell id="ellipse_13" value="" style="shape=ellipse;html=0;fillColor=#DEE5EC;strokeColor=#7D8B9D;strokeWidth=2;" parent="flight_controller" vertex="1">
           <mxGeometry x="30" y="1790" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="line_14" value="" style="edgeStyle=none;html=0;rounded=0;orthogonalLoop=1;strokeColor=#8794A4;strokeWidth=2;endArrow=none;startArrow=none;endSize=14;startSize=14;" parent="flight_controller" edge="1">
+        <mxCell id="line_14" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#8794A4;strokeWidth=2;endArrow=none;startArrow=none;endSize=14;startSize=14;" parent="flight_controller" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="38" y="1805" as="sourcePoint" />
             <mxPoint x="52" y="1805" as="targetPoint" />
@@ -43,7 +43,7 @@
         <mxCell id="ellipse_15" value="" style="shape=ellipse;html=0;fillColor=#DEE5EC;strokeColor=#7D8B9D;strokeWidth=2;" parent="flight_controller" vertex="1">
           <mxGeometry x="1590" y="1790" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="line_16" value="" style="edgeStyle=none;html=0;rounded=0;orthogonalLoop=1;strokeColor=#8794A4;strokeWidth=2;endArrow=none;startArrow=none;endSize=14;startSize=14;" parent="flight_controller" edge="1">
+        <mxCell id="line_16" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#8794A4;strokeWidth=2;endArrow=none;startArrow=none;endSize=14;startSize=14;" parent="flight_controller" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1598" y="1805" as="sourcePoint" />
             <mxPoint x="1612" y="1805" as="targetPoint" />
@@ -952,7 +952,7 @@
         <mxCell id="text_2" value="极智 A2 / A3 / A4 系列接口参考 · 按硬件针脚展开 · 信号接线优化版 V2.0" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=30;fontColor=#637B96;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
           <mxGeometry x="82" y="157" width="3750" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="line_3" value="" style="edgeStyle=none;html=0;rounded=0;orthogonalLoop=1;strokeColor=#163A5F;strokeWidth=3;endArrow=none;startArrow=none;endSize=14;startSize=14;" parent="1" edge="1">
+        <mxCell id="line_3" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#163A5F;strokeWidth=3;endArrow=none;startArrow=none;endSize=14;startSize=14;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="236" as="sourcePoint" />
             <mxPoint x="3920" y="236" as="targetPoint" />
