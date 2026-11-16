@@ -1888,9 +1888,6 @@
         <mxCell id="rect_216" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=#000000;strokeWidth=1.1;shadow=0;" parent="left_outer_wing" vertex="1">
           <mxGeometry width="244" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="G0JGb-okQoDl-QkpXjqS-1" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="634" y="144" width="40" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="wire_vertical" value="竖向线路" parent="0" />
         <mxCell id="fc15_dgps_s1_p0" value="" style="edgeStyle=none;noEdgeStyle=1;rounded=0;html=0;startArrow=none;endArrow=none;strokeColor=#00B0F0;strokeWidth=1.2;curved=0;jumpStyle=none;jumpSize=7.2;orthogonal=1;" parent="wire_vertical" edge="1" wireName="飞控15 DGPS_TTL_RX → 差分基准站8 DGPS_TX" wireId="fc15_dgps">
           <mxGeometry relative="1" as="geometry">
