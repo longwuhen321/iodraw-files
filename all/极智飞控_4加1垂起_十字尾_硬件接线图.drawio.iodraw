@@ -1195,6 +1195,9 @@
         <mxCell id="text_296" value="01 / 02" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#163A5F;fontStyle=1;lineHeight=1.3;" parent="1" vertex="1">
           <mxGeometry x="3710" y="2690" width="210" height="65" as="geometry" />
         </mxCell>
+        <mxCell id="hVYJfEOuxOhT3Ef-4Mkh-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2078" y="787" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="2" value="接线" parent="0" />
         <mxCell id="ctrl_CH3_GND" value="" style="edgeStyle=none;html=0;rounded=0;orthogonalLoop=1;strokeColor=#30363D;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="2" source="fc_CH3_GND" target="esc_CH3_GND" edge="1">
           <mxGeometry relative="1" as="geometry">
