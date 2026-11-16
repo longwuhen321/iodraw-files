@@ -1,4 +1,4 @@
-<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" version="24.7.17">
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" version="24.7.17" pages="2">
   <diagram name="01_J30J-37ZK引脚展开与整机接线" id="I-6ur_aiY0ylYNv9zkGZ">
     <mxGraphModel dx="743" dy="417" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="2300" math="0" shadow="0">
       <root>
@@ -1250,6 +1250,963 @@
         <mxCell id="wire_power_3" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#374858;strokeWidth=2.5;endArrow=none;startArrow=none;endSize=10;startSize=10;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;dashed=1;dashPattern=6 4;" edge="1" parent="2" source="pow2_ground" target="fc_pin_3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YcdHyMc5LpL-h-4_kzh1" name="第 2 页">
+    <mxGraphModel dx="743" dy="417" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="2300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" value="图形与标注" parent="0" />
+        <mxCell id="ref_title" value="J30J-37ZK｜37 针定义与本机用途" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=38;fontColor=#193B55;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="80" y="45" width="1980" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_page_number" value="02 / 02" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="45" width="230" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_subtitle" value="创衡 S40U · 四舵面飞翼　　针脚定义依据手册；本机用途依据上传接线图及标明的拟分配" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="82" y="118" width="2236" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_connector_card" value="" style="shape=rectangle;html=0;fillColor=#F9FBFD;strokeColor=#C7D4DE;strokeWidth=1.7;rounded=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="188" width="2240" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_connector_heading" value="物理针孔排列示意 · 按手册图 2.3 的编号方向" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=27;fontColor=#193B55;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="110" y="210" width="1540" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pending_legend" value="琥珀色用途格：配置或线束待核" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#936015;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1695" y="211" width="585" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_connector_outline" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#8A9EAC;strokeWidth=2.6;rounded=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="245" y="285" width="1910" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_top_row" value="上排 20–37" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="90" y="321" width="148" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_lower_row" value="下排 1–19" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="90" y="402" width="148" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_20" value="" style="shape=ellipse;html=0;fillColor=#FFF0EF;strokeColor=#C84D4D;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="327" y="321" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_20" value="20" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#C84D4D;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="327" y="322" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_21" value="" style="shape=ellipse;html=0;fillColor=#F1F7E9;strokeColor=#6B913C;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="427" y="321" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_21" value="21" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#6B913C;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="427" y="322" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_22" value="" style="shape=ellipse;html=0;fillColor=#FFF0EF;strokeColor=#C84D4D;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="527" y="321" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_22" value="22" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#C84D4D;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="527" y="322" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_23" value="" style="shape=ellipse;html=0;fillColor=#FFF0EF;strokeColor=#C84D4D;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="627" y="321" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_23" value="23" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#C84D4D;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="627" y="322" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_24" value="" style="shape=ellipse;html=0;fillColor=#EFF6FC;strokeColor=#2878BC;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="727" y="321" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_24" value="24" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#2878BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="727" y="322" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_25" value="" style="shape=ellipse;html=0;fillColor=#FFF6E9;strokeColor=#D58428;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="827" y="321" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_25" value="25" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="827" y="322" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_26" value="" style="shape=ellipse;html=0;fillColor=#FFF6E9;strokeColor=#D58428;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="927" y="321" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_26" value="26" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="927" y="322" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_27" value="" style="shape=ellipse;html=0;fillColor=#FFF6E9;strokeColor=#D58428;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1027" y="321" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_27" value="27" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1027" y="322" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_28" value="" style="shape=ellipse;html=0;fillColor=#FFF6E9;strokeColor=#D58428;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1127" y="321" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_28" value="28" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1127" y="322" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_29" value="" style="shape=ellipse;html=0;fillColor=#FFF6E9;strokeColor=#D58428;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1227" y="321" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_29" value="29" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1227" y="322" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_30" value="" style="shape=ellipse;html=0;fillColor=#FFF6E9;strokeColor=#D58428;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1327" y="321" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_30" value="30" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1327" y="322" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_31" value="" style="shape=ellipse;html=0;fillColor=#F2F5F7;strokeColor=#738291;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1427" y="321" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_31" value="31" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#738291;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1427" y="322" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_32" value="" style="shape=ellipse;html=0;fillColor=#F2F5F7;strokeColor=#738291;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1527" y="321" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_32" value="32" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#738291;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1527" y="322" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_33" value="" style="shape=ellipse;html=0;fillColor=#EFF6FC;strokeColor=#2878BC;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1627" y="321" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_33" value="33" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#2878BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1627" y="322" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_34" value="" style="shape=ellipse;html=0;fillColor=#EFF6FC;strokeColor=#2878BC;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1727" y="321" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_34" value="34" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#2878BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1727" y="322" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_35" value="" style="shape=ellipse;html=0;fillColor=#ECF8F7;strokeColor=#168A8A;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1827" y="321" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_35" value="35" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#168A8A;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1827" y="322" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_36" value="" style="shape=ellipse;html=0;fillColor=#F4F6F8;strokeColor=#A4B1BC;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1927" y="321" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_36" value="36" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#A4B1BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1927" y="322" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_37" value="" style="shape=ellipse;html=0;fillColor=#F5F0FA;strokeColor=#835AB5;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="2027" y="321" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_37" value="37" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#835AB5;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="2027" y="322" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_01" value="" style="shape=ellipse;html=0;fillColor=#F0F3F5;strokeColor=#374858;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="277" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_01" value="1" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#374858;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="277" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_02" value="" style="shape=ellipse;html=0;fillColor=#F1F7E9;strokeColor=#6B913C;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="377" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_02" value="2" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#6B913C;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="377" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_03" value="" style="shape=ellipse;html=0;fillColor=#F0F3F5;strokeColor=#374858;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="477" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_03" value="3" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#374858;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="477" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_04" value="" style="shape=ellipse;html=0;fillColor=#F0F3F5;strokeColor=#374858;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="577" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_04" value="4" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#374858;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="577" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_05" value="" style="shape=ellipse;html=0;fillColor=#FFF6E9;strokeColor=#D58428;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="677" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_05" value="5" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="677" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_06" value="" style="shape=ellipse;html=0;fillColor=#FFF6E9;strokeColor=#D58428;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="777" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_06" value="6" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="777" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_07" value="" style="shape=ellipse;html=0;fillColor=#FFF6E9;strokeColor=#D58428;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="877" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_07" value="7" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="877" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_08" value="" style="shape=ellipse;html=0;fillColor=#FFF6E9;strokeColor=#D58428;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="977" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_08" value="8" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="977" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_09" value="" style="shape=ellipse;html=0;fillColor=#FFF6E9;strokeColor=#D58428;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1077" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_09" value="9" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1077" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_10" value="" style="shape=ellipse;html=0;fillColor=#FFF6E9;strokeColor=#D58428;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1177" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_10" value="10" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1177" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_11" value="" style="shape=ellipse;html=0;fillColor=#EFF6FC;strokeColor=#2878BC;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1277" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_11" value="11" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#2878BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1277" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_12" value="" style="shape=ellipse;html=0;fillColor=#EFF6FC;strokeColor=#2878BC;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1377" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_12" value="12" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#2878BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1377" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_13" value="" style="shape=ellipse;html=0;fillColor=#EFF6FC;strokeColor=#2878BC;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1477" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_13" value="13" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#2878BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1477" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_14" value="" style="shape=ellipse;html=0;fillColor=#EFF6FC;strokeColor=#2878BC;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1577" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_14" value="14" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#2878BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1577" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_15" value="" style="shape=ellipse;html=0;fillColor=#F4F6F8;strokeColor=#A4B1BC;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1677" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_15" value="15" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#A4B1BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1677" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_16" value="" style="shape=ellipse;html=0;fillColor=#FFF4DC;strokeColor=#A46B18;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1777" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_16" value="16" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#A46B18;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1777" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_17" value="" style="shape=ellipse;html=0;fillColor=#ECF8F7;strokeColor=#168A8A;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1877" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_17" value="17" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#168A8A;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1877" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_18" value="" style="shape=ellipse;html=0;fillColor=#F5F0FA;strokeColor=#835AB5;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="1977" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_18" value="18" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#835AB5;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1977" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_19" value="" style="shape=ellipse;html=0;fillColor=#EFF6FC;strokeColor=#2878BC;strokeWidth=2.2;" vertex="1" parent="1">
+          <mxGeometry x="2077" y="402" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_pin_number_19" value="19" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#2878BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="2077" y="403" width="46" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_view_note" value="两排合计 37 针；18/37 的复用功能不另增针孔。手册未注明观察面，插合面／焊接面方向需结合实物核对。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="110" y="490" width="2180" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_section" value="针脚 1–19" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#193B55;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="80" y="548" width="1100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_header" value="" style="shape=rectangle;html=0;fillColor=#EAF1F6;strokeColor=#C7D4DE;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="80" y="590" width="1100" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_heading_0" value="针号" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#193B55;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="595" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_heading_1" value="定义" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#193B55;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="595" width="156" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_heading_2" value="手册功能" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#193B55;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="595" width="402" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_heading_3" value="本图用途 / 核对状态" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#193B55;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="595" width="396" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_01" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="648" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pending_01" value="" style="shape=rectangle;html=0;fillColor=#FFF4DC;strokeColor=none;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="648" width="420" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_01_c0" value="1" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="652" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_01_c1" value="PGND" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#374858;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="652" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_01_c2" value="电源地；公共地线&#xa;同名 PGND 脚内部相通" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="652" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_01_c3" value="Pow 地（拟分配）&#xa;实物线束针号待核" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#936015;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="652" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_02" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="711" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pending_02" value="" style="shape=rectangle;html=0;fillColor=#FFF4DC;strokeColor=none;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="711" width="420" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_02_c0" value="2" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="715" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_02_c1" value="ADC1" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#6B913C;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="715" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_02_c2" value="模拟量输入 1&#xa;电流／固定翼电压测量，依配置" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="715" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_02_c3" value="电池电压（原图用途）&#xa;测量线与采样配置待核" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#936015;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="715" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_03" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="774" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pending_03" value="" style="shape=rectangle;html=0;fillColor=#FFF4DC;strokeColor=none;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="774" width="420" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_03_c0" value="3" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="778" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_03_c1" value="PGND" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#374858;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="778" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_03_c2" value="飞控电源输入地&#xa;与 22 针 VSER 配对列出" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="778" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_03_c3" value="Pow2 地（拟分配）&#xa;实物线束针号待核" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#936015;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="778" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_04" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="837" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_04_c0" value="4" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="841" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_04_c1" value="PGND" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#374858;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="841" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_04_c2" value="接收机 Sbus 接口地&#xa;也可作为公共地线" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="841" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_04_c3" value="RC 接收机 GND&#xa;按手册接口定义" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="841" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_05" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="900" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pending_05" value="" style="shape=rectangle;html=0;fillColor=#FFF4DC;strokeColor=none;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="900" width="420" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_05_c0" value="5" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="904" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_05_c1" value="DO1" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="904" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_05_c2" value="照相／吊舱开关控制&#xa;高有效；输出电流 4mA" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="904" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_05_c3" value="启动机继电器（原图）&#xa;启动用途／驱动接口待核" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#936015;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="904" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_06" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="963" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_06_c0" value="6" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="967" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_06_c1" value="PWM1" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="967" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_06_c2" value="固定翼副翼舵机&#xa;飞翼的单独方向舵" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="967" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_06_c3" value="本图未用" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="967" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_07" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1026" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_07_c0" value="7" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="1030" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_07_c1" value="PWM2" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="1030" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_07_c2" value="升降舵／V 尾右尾翼&#xa;飞翼右翼舵机" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="1030" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_07_c3" value="右内翼舵机&#xa;沿用原图 PWM2 分配" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="1030" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_08" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1089" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_08_c0" value="8" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="1093" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_08_c1" value="PWM3" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="1093" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_08_c2" value="固定翼油门舵机" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="1093" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_08_c3" value="本图未用" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="1093" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_09" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1152" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_09_c0" value="9" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="1156" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_09_c1" value="PWM4" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="1156" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_09_c2" value="方向舵／V 尾左尾翼&#xa;飞翼左翼舵机" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="1156" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_09_c3" value="左内翼舵机&#xa;沿用原图 PWM4 分配" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="1156" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_10" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1215" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_10_c0" value="10" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="1219" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_10_c1" value="PWM5" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="1219" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_10_c2" value="前轮转向舵机&#xa;或双发差动右油门舵机" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="1219" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_10_c3" value="本图未用" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="1219" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_11" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1278" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_11_c0" value="11" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="1282" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_11_c1" value="TX232_4" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#2878BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="1282" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_11_c2" value="串口 4 发送，RS-232&#xa;任务载荷控制接口" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="1282" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_11_c3" value="虹跃吊舱：232-4&#xa;飞控 TX → 对端 RX" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="1282" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_12" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1341" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_12_c0" value="12" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="1345" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_12_c1" value="RX232_4" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#2878BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="1345" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_12_c2" value="串口 4 接收，RS-232&#xa;任务载荷控制接口" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="1345" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_12_c3" value="虹跃吊舱：232-4&#xa;飞控 RX ← 对端 TX" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="1345" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_13" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1404" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_13_c0" value="13" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="1408" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_13_c1" value="TX232_5" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#2878BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="1408" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_13_c2" value="串口 5 发送，RS-232&#xa;激光测距／备用遥控遥测" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="1408" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_13_c3" value="中勍惯导：232-5&#xa;飞控 TX → 对端 RX" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="1408" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_14" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1467" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_14_c0" value="14" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="1471" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_14_c1" value="RX232_5" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#2878BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="1471" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_14_c2" value="串口 5 接收，RS-232&#xa;激光测距／备用遥控遥测" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="1471" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_14_c3" value="中勍惯导：232-5&#xa;飞控 RX ← 对端 TX" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="1471" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_15" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1530" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_15_c0" value="15" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="1534" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_15_c1" value="NC" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#A4B1BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="1534" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_15_c2" value="悬空" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="1534" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_15_c3" value="悬空（NC）" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="1534" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_16" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1593" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_16_c0" value="16" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="1597" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_16_c1" value="BOOT" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#A46B18;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="1597" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_16_c2" value="固件更新入口&#xa;非下载模式禁接其他设备" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="1597" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_16_c3" value="正常运行保持未连接&#xa;固件更新条件见下方备注" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="1597" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_17" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1656" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_17_c0" value="17" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="1660" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_17_c1" value="DGPS_RX" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#168A8A;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="1660" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_17_c2" value="外置 DGPS 串口接收&#xa;TTL 电平" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="1660" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_17_c3" value="中勍惯导：DGPS TTL&#xa;飞控 RX ← 对端 TX" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="1660" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_18" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1719" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pending_18" value="" style="shape=rectangle;html=0;fillColor=#FFF4DC;strokeColor=none;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1719" width="420" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_18_c0" value="18" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="1723" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_18_c1" value="TX232_6&#xa;/ CANL" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#835AB5;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="1723" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_18_c2" value="串口 6 发送／CAN 总线低&#xa;由出厂内部跳线电阻复用" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="1723" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_18_c3" value="宗申 CA100I ECU：CANL&#xa;按原图 CAN；复用模式待核" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#936015;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="1723" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_row_19" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1782" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_19_c0" value="19" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="92" y="1786" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_19_c1" value="Sbus_TX" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#2878BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="166" y="1786" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_19_c2" value="Sbus 总线发送&#xa;可控制 SBUS 接口舵机" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="346" y="1786" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_pin_19_c3" value="手册默认悬空&#xa;本图不接外部设备" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="772" y="1786" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_left_vline_0" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#C7D4DE;strokeWidth=1;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="154" y="590" as="sourcePoint" />
+            <mxPoint x="154" y="1845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ref_left_vline_1" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#C7D4DE;strokeWidth=1;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="334" y="590" as="sourcePoint" />
+            <mxPoint x="334" y="1845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ref_left_vline_2" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#C7D4DE;strokeWidth=1;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="590" as="sourcePoint" />
+            <mxPoint x="760" y="1845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ref_left_border" value="" style="shape=rectangle;html=0;fillColor=none;strokeColor=#C7D4DE;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="80" y="590" width="1100" height="1255" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_section" value="针脚 20–37" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#193B55;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="548" width="1100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_header" value="" style="shape=rectangle;html=0;fillColor=#EAF1F6;strokeColor=#C7D4DE;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="590" width="1100" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_heading_0" value="针号" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#193B55;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="595" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_heading_1" value="定义" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#193B55;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="595" width="156" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_heading_2" value="手册功能" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#193B55;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="595" width="402" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_heading_3" value="本图用途 / 核对状态" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#193B55;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="595" width="396" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_row_20" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="648" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pending_20" value="" style="shape=rectangle;html=0;fillColor=#FFF4DC;strokeColor=none;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="648" width="420" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_20_c0" value="20" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="652" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_20_c1" value="VSER" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#C84D4D;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="652" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_20_c2" value="飞控电源输入正极&#xa;地线可从公共地线分出" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="652" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_20_c3" value="Pow 正极（拟分配）&#xa;实物线束针号待核" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#936015;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="652" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_row_21" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="711" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_21_c0" value="21" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="715" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_21_c1" value="ADC2" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#6B913C;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="715" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_21_c2" value="模拟量输入 2；电池电压&#xa;0～52V，兼容 12S 锂电池" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="715" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_21_c3" value="本图未用" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="715" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_row_22" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="774" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pending_22" value="" style="shape=rectangle;html=0;fillColor=#FFF4DC;strokeColor=none;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="774" width="420" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_22_c0" value="22" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="778" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_22_c1" value="VSER" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#C84D4D;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="778" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_22_c2" value="飞控电源输入正极&#xa;与 3 针 PGND 配对列出" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="778" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_22_c3" value="Pow2 正极（拟分配）&#xa;实物线束针号待核" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#936015;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="778" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_row_23" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="837" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_23_c0" value="23" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="841" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_23_c1" value="VSER" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#C84D4D;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="841" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_23_c2" value="Sbus 接口电源&#xa;可输入供电或给接收机供电" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="841" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_23_c3" value="RC 接收机电源&#xa;按手册接口定义" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="841" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_row_24" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="900" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_24_c0" value="24" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="904" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_24_c1" value="Sbus_RX" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#2878BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="904" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_24_c2" value="Sbus 总线接收&#xa;连接接收机 Sbus 接口" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="904" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_24_c3" value="RC 接收机 SBUS 输出&#xa;→ 飞控 Sbus_RX" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="904" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_row_25" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="963" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_25_c0" value="25" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="967" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_25_c1" value="PWM6" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="967" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_25_c2" value="开伞舵机控制信号" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="967" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_25_c3" value="降落伞&#xa;开伞舵机 PWM" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="967" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_row_26" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1026" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_26_c0" value="26" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="1030" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_26_c1" value="PWM7" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="1030" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_26_c2" value="固定翼襟翼舵机" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="1030" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_26_c3" value="本图未用" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="1030" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_row_27" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1089" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_27_c0" value="27" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="1093" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_27_c1" value="PWM8" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="1093" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_27_c2" value="拦阻钩舵机控制信号" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="1093" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_27_c3" value="本图未用" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="1093" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_row_28" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1152" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_28_c0" value="28" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="1156" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_28_c1" value="PWM9" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="1156" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_28_c2" value="发动机启动电机控制信号" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="1156" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_28_c3" value="本图未用&#xa;原图启动支路使用 DO1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="1156" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_row_29" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1215" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pending_29" value="" style="shape=rectangle;html=0;fillColor=#FFF4DC;strokeColor=none;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1215" width="420" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_29_c0" value="29" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="1219" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_29_c1" value="DO3" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="1219" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_29_c2" value="夜航灯 TTL，高有效&#xa;可定义为云台舵机 PWM" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="1219" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_29_c3" value="左外翼舵机（原图）&#xa;PWM 配置与舵面映射待核" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#936015;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="1219" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_row_30" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1278" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pending_30" value="" style="shape=rectangle;html=0;fillColor=#FFF4DC;strokeColor=none;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1278" width="420" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_30_c0" value="30" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="1282" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_30_c1" value="DO2" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#D58428;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="1282" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_30_c2" value="熄火 TTL，高有效&#xa;可定义为云台舵机 PWM" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="1282" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_30_c3" value="右外翼舵机（原图）&#xa;PWM 配置与舵面映射待核" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#936015;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="1282" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_row_31" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1341" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_31_c0" value="31" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="1345" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_31_c1" value="RPM1" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#738291;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="1345" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_31_c2" value="转速信号 1&#xa;TTL 脉宽，高电平有效" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="1345" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_31_c3" value="本图未用" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="1345" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_row_32" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1404" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_32_c0" value="32" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="1408" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_32_c1" value="RPM2" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#738291;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="1408" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_32_c2" value="转速信号 2；TTL 脉宽&#xa;也可定义为流量计输入" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="1408" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_32_c3" value="本图未用" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="1408" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_row_33" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1467" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_33_c0" value="33" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="1471" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_33_c1" value="RX232_1" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#2878BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="1471" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_33_c2" value="串口 1 接收，RS-232&#xa;地面站遥控指令接收" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="1471" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_33_c3" value="地面站 UAV_GCS50&#xa;飞控 RX ← 对端 TX" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="1471" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_row_34" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1530" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_34_c0" value="34" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="1534" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_34_c1" value="TX232_1" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#2878BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="1534" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_34_c2" value="串口 1 发送，RS-232&#xa;向地面站发送遥测信息" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="1534" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_34_c3" value="地面站 UAV_GCS50&#xa;飞控 TX → 对端 RX" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="1534" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_row_35" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1593" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_35_c0" value="35" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="1597" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_35_c1" value="DGPS_TX" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#168A8A;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="1597" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_35_c2" value="外置 DGPS 串口发送&#xa;TTL 电平" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="1597" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_35_c3" value="中勍惯导：DGPS TTL&#xa;飞控 TX → 对端 RX" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="1597" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_row_36" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1656" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_36_c0" value="36" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="1660" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_36_c1" value="NC" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#A4B1BC;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="1660" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_36_c2" value="悬空" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="1660" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_36_c3" value="悬空（NC）" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="1660" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_row_37" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1719" width="1100" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pending_37" value="" style="shape=rectangle;html=0;fillColor=#FFF4DC;strokeColor=none;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1719" width="420" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_37_c0" value="37" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#293D4B;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="1723" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_37_c1" value="RX232_6&#xa;/ CANH" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#835AB5;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1306" y="1723" width="156" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_37_c2" value="串口 6 接收／CAN 总线高&#xa;由出厂内部跳线电阻复用" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="1723" width="402" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_pin_37_c3" value="宗申 CA100I ECU：CANH&#xa;按原图 CAN；复用模式待核" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20.5;fontColor=#936015;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1912" y="1723" width="396" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_right_vline_0" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#C7D4DE;strokeWidth=1;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1294" y="590" as="sourcePoint" />
+            <mxPoint x="1294" y="1782" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ref_right_vline_1" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#C7D4DE;strokeWidth=1;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1474" y="590" as="sourcePoint" />
+            <mxPoint x="1474" y="1782" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ref_right_vline_2" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#C7D4DE;strokeWidth=1;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1900" y="590" as="sourcePoint" />
+            <mxPoint x="1900" y="1782" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ref_right_border" value="" style="shape=rectangle;html=0;fillColor=none;strokeColor=#C7D4DE;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="590" width="1100" height="1192" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_mux_reminder_bg" value="" style="shape=rectangle;html=0;fillColor=#F5F0FA;strokeColor=#D9CBEA;strokeWidth=1.2;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1792" width="1100" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_mux_reminder" value="复用关系：18 = TX232_6 或 CANL；37 = RX232_6 或 CANH。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#835AB5;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="1795" width="1060" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_notes_bg" value="" style="shape=rectangle;html=0;fillColor=#F7FAFC;strokeColor=#C7D4DE;strokeWidth=1.5;rounded=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1885" width="2240" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_notes_title" value="接线条件与资料边界" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#193B55;fontStyle=1;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1900" width="2170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_note_1" value="供电：VSER（20/22/23）与 PGND（1/3/4）分别内部共连；手册允许 DC4.0–9.0V。原图 Pow/Pow2 标注 4.5–9V。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1946" width="2175" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_note_2" value="拟分配：Pow → 20/1、Pow2 → 22/3 为本次拟定针位；原文件未细化到针号，须以实物线束确认。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1986" width="2175" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_note_3" value="采样：ADC1 电流配置输入 0～5.24V；电池测压须使用专用 2 路测量线及对应配置。ADC2 输入范围 0～52V。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2026" width="2175" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_note_4" value="控制：DO2/DO3 外翼与 DO1 启动用途沿用原图，需核对配置及驱动接口；DO1 输出电流为 4mA。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2066" width="2175" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_note_5" value="更新：BOOT 更新说明提及 VCC3；VCC5 是内部电源，严禁外部使用。两者均不新增为本插座针脚。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2106" width="2175" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_note_6" value="复用：18/37 由出厂内部跳线电阻设定；本图沿用原图 CAN 用途（18 = L，37 = H），模式仍需核对。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#293D4B;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2146" width="2175" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ref_source" value="资料来源：S40U 固定翼版用户手册第 11–14 页；《创衡S40U飞控-四舵面飞翼机型.iodraw》。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#667887;fontStyle=0;lineHeight=1.24;" vertex="1" parent="1">
+          <mxGeometry x="82" y="2234" width="2236" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2" value="接线" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
