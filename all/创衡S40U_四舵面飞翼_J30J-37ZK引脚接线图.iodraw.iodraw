@@ -4,6 +4,24 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" parent="0" />
+        <mxCell id="title" value="KC10D · 创衡 S40U · 四舵面飞翼" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=38;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="55" y="40" width="1830" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="J30J-37ZK 引脚展开与整机接线" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=30;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="55" y="100" width="1800" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="page_num" value="01 / 02" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#193B55;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="53" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle_note" value="针号来自手册；设备用途沿用原图。标有“待核”的项目保留配置与线束核对条件。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="55" y="160" width="2220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="header_rule" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#193B55;strokeWidth=2;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="212" as="sourcePoint" />
+            <mxPoint x="2345" y="212" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="flight_controller" value="" style="group;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="55" y="245" width="500" height="230" as="geometry" />
         </mxCell>
@@ -409,6 +427,12 @@
         <mxCell id="fc_divider_3" value="电池测量" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="j30_breakout">
           <mxGeometry x="40" y="1528" width="540" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="j30_bundle_link" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#193B55;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" edge="1" parent="1" source="fc_bundle" target="adapter_bundle">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bundle_caption" value="37 芯" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=17;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="563" y="317" width="78" height="24" as="geometry" />
+        </mxCell>
         <mxCell id="rc_receiver" value="" style="group;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="1700" y="303" width="645" height="175" as="geometry" />
         </mxCell>
@@ -445,6 +469,9 @@
         <mxCell id="rc_pgnd_label" value="GND / 公共地" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#374858;fontStyle=0;lineHeight=1.3;" vertex="1" parent="rc_receiver">
           <mxGeometry x="58" y="128" width="529" height="28" as="geometry" />
         </mxCell>
+        <mxCell id="wire_label_24" value="SBUS" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#2878BC;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="1288" y="336" width="375" height="25" as="geometry" />
+        </mxCell>
         <mxCell id="right_inner" value="" style="group;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="1700" y="482" width="645" height="88" as="geometry" />
         </mxCell>
@@ -462,6 +489,9 @@
         </mxCell>
         <mxCell id="right_inner_signal_label" value="S / 控制信号" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#D58428;fontStyle=0;lineHeight=1.3;" vertex="1" parent="right_inner">
           <mxGeometry x="58" y="44" width="529" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="wire_label_7" value="PWM 控制" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#D58428;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="1288" y="511" width="375" height="25" as="geometry" />
         </mxCell>
         <mxCell id="left_inner" value="" style="group;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="1700" y="572" width="645" height="88" as="geometry" />
@@ -481,6 +511,9 @@
         <mxCell id="left_inner_signal_label" value="S / 控制信号" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#D58428;fontStyle=0;lineHeight=1.3;" vertex="1" parent="left_inner">
           <mxGeometry x="58" y="44" width="529" height="28" as="geometry" />
         </mxCell>
+        <mxCell id="wire_label_9" value="PWM 控制" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#D58428;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="1288" y="601" width="375" height="25" as="geometry" />
+        </mxCell>
         <mxCell id="right_outer" value="" style="group;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="1700" y="662" width="645" height="88" as="geometry" />
         </mxCell>
@@ -498,6 +531,9 @@
         </mxCell>
         <mxCell id="right_outer_signal_label" value="S / 控制信号" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#D58428;fontStyle=0;lineHeight=1.3;" vertex="1" parent="right_outer">
           <mxGeometry x="58" y="44" width="529" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="wire_label_30" value="外翼 PWM 复用 · 配置待核" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#D58428;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="1288" y="691" width="375" height="25" as="geometry" />
         </mxCell>
         <mxCell id="left_outer" value="" style="group;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="1700" y="752" width="645" height="88" as="geometry" />
@@ -517,6 +553,9 @@
         <mxCell id="left_outer_signal_label" value="S / 控制信号" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#D58428;fontStyle=0;lineHeight=1.3;" vertex="1" parent="left_outer">
           <mxGeometry x="58" y="44" width="529" height="28" as="geometry" />
         </mxCell>
+        <mxCell id="wire_label_29" value="外翼 PWM 复用 · 配置待核" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#D58428;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="1288" y="781" width="375" height="25" as="geometry" />
+        </mxCell>
         <mxCell id="parachute" value="" style="group;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="1700" y="842" width="645" height="88" as="geometry" />
         </mxCell>
@@ -534,6 +573,9 @@
         </mxCell>
         <mxCell id="parachute_signal_label" value="S / 控制信号" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#D58428;fontStyle=0;lineHeight=1.3;" vertex="1" parent="parachute">
           <mxGeometry x="58" y="44" width="529" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="wire_label_25" value="PWM 控制" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#D58428;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="1288" y="871" width="375" height="25" as="geometry" />
         </mxCell>
         <mxCell id="engine_group" value="" style="group;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="1645" y="956" width="700" height="246" as="geometry" />
@@ -577,6 +619,12 @@
         <mxCell id="ecu_canh_label" value="CANH" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#835AB5;fontStyle=0;lineHeight=1.3;" vertex="1" parent="engine_group">
           <mxGeometry x="113" y="185" width="529" height="28" as="geometry" />
         </mxCell>
+        <mxCell id="wire_label_5" value="GPIO · 高有效" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#D58428;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="1288" y="976" width="375" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="wire_label_18" value="CAN 模式 · 内部跳线配置待核" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#835AB5;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="1288" y="1086" width="375" height="25" as="geometry" />
+        </mxCell>
         <mxCell id="gcs" value="" style="group;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="1700" y="1224" width="645" height="124" as="geometry" />
         </mxCell>
@@ -604,6 +652,9 @@
         <mxCell id="gcs_rx_label" value="RX / 接收飞控发送" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#2878BC;fontStyle=0;lineHeight=1.3;" vertex="1" parent="gcs">
           <mxGeometry x="58" y="87" width="529" height="28" as="geometry" />
         </mxCell>
+        <mxCell id="wire_label_33" value="RS232-1" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#2878BC;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="1288" y="1256" width="375" height="25" as="geometry" />
+        </mxCell>
         <mxCell id="payload" value="" style="group;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="1700" y="1354" width="645" height="128" as="geometry" />
         </mxCell>
@@ -630,6 +681,9 @@
         </mxCell>
         <mxCell id="payload_tx_label" value="TX / 向飞控发送" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#2878BC;fontStyle=0;lineHeight=1.3;" vertex="1" parent="payload">
           <mxGeometry x="58" y="87" width="529" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="wire_label_11" value="RS232-4" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#2878BC;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="1288" y="1386" width="375" height="25" as="geometry" />
         </mxCell>
         <mxCell id="external_ins" value="" style="group;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="1700" y="1490" width="645" height="266" as="geometry" />
@@ -679,6 +733,12 @@
         <mxCell id="ins_dgps_rx_label" value="DGPS TTL · RX" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#168A8A;fontStyle=0;lineHeight=1.3;" vertex="1" parent="external_ins">
           <mxGeometry x="58" y="211" width="529" height="28" as="geometry" />
         </mxCell>
+        <mxCell id="wire_label_13" value="RS232-5" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#2878BC;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="1288" y="1516" width="375" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="wire_label_17" value="DGPS · TTL 电平" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#168A8A;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="1288" y="1646" width="375" height="25" as="geometry" />
+        </mxCell>
         <mxCell id="battery_measure" value="" style="group;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="1700" y="1770" width="645" height="129" as="geometry" />
         </mxCell>
@@ -699,6 +759,18 @@
         </mxCell>
         <mxCell id="adc_warning" value="测量模式与专用测量线 / 模块待核" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#A46B18;fontStyle=0;lineHeight=1.3;" vertex="1" parent="battery_measure">
           <mxGeometry x="45" y="92" width="565" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="wire_label_2" value="采样信号 · 按匹配测量线接入" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#6B913C;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="1288" y="1801" width="375" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="power_section" value="" style="shape=rectangle;html=0;fillColor=#F3F6F9;strokeColor=#C7D4DE;strokeWidth=1.5;rounded=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="55" y="510" width="500" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="power_header" value="电源针组 · 拟分配待核" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="528" width="450" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="power_voltage" value="原图 4.5–9V；手册允许 DC 4.0–9.0V" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="569" width="450" height="27" as="geometry" />
         </mxCell>
         <mxCell id="power_pins" value="" style="group;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="330" y="600" width="205" height="278" as="geometry" />
@@ -780,6 +852,120 @@
         </mxCell>
         <mxCell id="pow2_ground" value="" style="shape=ellipse;html=0;fillColor=#374858;strokeColor=#374858;strokeWidth=1.5;" vertex="1" tooltip="Pow2 回路地" parent="pow2">
           <mxGeometry x="157" y="86" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="power_bus_note" value="同名针内部共连：&#xa;VSER 20 / 22 / 23；PGND 1 / 3 / 4" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="905" width="450" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="power_condition" value="两路供电的隔离 / 切换方式按实际线束核对。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=17;fontColor=#A46B18;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="974" width="450" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_box" value="" style="shape=rectangle;html=0;fillColor=#F3F6F9;strokeColor=#C7D4DE;strokeWidth=1.5;rounded=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1037" width="500" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_title" value="线色与状态" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1052" width="450" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_line_0" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#C84D4D;strokeWidth=3;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="1101" as="sourcePoint" />
+            <mxPoint x="123" y="1101" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend_label_0" value="VSER 电源" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="132" y="1087" width="170" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_line_1" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#374858;strokeWidth=3;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1101" as="sourcePoint" />
+            <mxPoint x="358" y="1101" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend_label_1" value="PGND 公共地" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="367" y="1087" width="170" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_line_2" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#D58428;strokeWidth=3;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="1135" as="sourcePoint" />
+            <mxPoint x="123" y="1135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend_label_2" value="PWM / DO" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="132" y="1121" width="170" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_line_3" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#2878BC;strokeWidth=3;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1135" as="sourcePoint" />
+            <mxPoint x="358" y="1135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend_label_3" value="RS232 / SBUS" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="367" y="1121" width="170" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_line_4" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#835AB5;strokeWidth=3;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="1169" as="sourcePoint" />
+            <mxPoint x="123" y="1169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend_label_4" value="CAN 总线" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="132" y="1155" width="170" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_line_5" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#168A8A;strokeWidth=3;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1169" as="sourcePoint" />
+            <mxPoint x="358" y="1169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend_label_5" value="DGPS TTL" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="367" y="1155" width="170" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_line_6" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#6B913C;strokeWidth=3;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="1203" as="sourcePoint" />
+            <mxPoint x="123" y="1203" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend_label_6" value="ADC 采样" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="132" y="1189" width="170" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_line_7" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#A4B1BC;strokeWidth=3;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1203" as="sourcePoint" />
+            <mxPoint x="358" y="1203" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend_label_7" value="空闲 / 保留" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="367" y="1189" width="170" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_pending" value="虚线：本次拟定的电源针组分配，待核。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=17;fontColor=#A46B18;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1230" width="450" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="install_box" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1.5;rounded=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1286" width="500" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="install_title" value="安装方向 · 沿用原图" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1301" width="450" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="install_text" value="以朝机头方向作为参考：&#xa;空速管：左动压，右静压&#xa;GPS 天线：左前右后，间距 &gt; 60cm" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#193B55;fontStyle=0;lineHeight=1.38;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1347" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="config_box" value="" style="shape=rectangle;html=0;fillColor=#FFF5E4;strokeColor=#D6B378;strokeWidth=1.5;rounded=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1503" width="500" height="402" as="geometry" />
+        </mxCell>
+        <mxCell id="config_title" value="本机配置核对" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#A46B18;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1520" width="450" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="config_text" value="DO2 / DO3 → 外翼舵机：&#xa;需核对 PWM 复用配置。&#xa;&#xa;DO1 → 启动控制：&#xa;手册输出 4mA；核对控制驱动接口。&#xa;&#xa;ADC1 → 电池电压：&#xa;按测量模式使用匹配测量线 / 模块。&#xa;&#xa;18 / 37 → CAN：&#xa;需核对内部跳线已设为 CAN 模式。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#193B55;fontStyle=0;lineHeight=1.32;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1566" width="450" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="unused_box" value="" style="shape=rectangle;html=0;fillColor=#F3F6F9;strokeColor=#C7D4DE;strokeWidth=1.5;rounded=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1940" width="2290" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="unused_header" value="未接入本机设备的针脚" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1958" width="1290" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="unused_header_note" value="未使用功能脚、NC、BOOT 与默认悬空分别标识；完整定义见第 2 页。" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1960" width="1195" height="30" as="geometry" />
         </mxCell>
         <mxCell id="idle_pin_group_6" value="" style="group;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="80" y="2020" width="300" height="65" as="geometry" />
@@ -975,192 +1161,6 @@
         </mxCell>
         <mxCell id="idle_pin_state_19" value="默认悬空" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=17;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="idle_pin_group_19">
           <mxGeometry x="44" y="35" width="245" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="title" value="KC10D · 创衡 S40U · 四舵面飞翼" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=38;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="55" y="40" width="1830" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="subtitle" value="J30J-37ZK 引脚展开与整机接线" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=30;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="55" y="100" width="1800" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="page_num" value="01 / 02" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#193B55;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="2130" y="53" width="210" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="subtitle_note" value="针号来自手册；设备用途沿用原图。标有“待核”的项目保留配置与线束核对条件。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="55" y="160" width="2220" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="header_rule" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#193B55;strokeWidth=2;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="212" as="sourcePoint" />
-            <mxPoint x="2345" y="212" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="j30_bundle_link" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#193B55;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" edge="1" parent="1" source="fc_bundle" target="adapter_bundle">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bundle_caption" value="37 芯" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=17;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="563" y="317" width="78" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="wire_label_24" value="SBUS" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#2878BC;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="1288" y="336" width="375" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="wire_label_7" value="PWM 控制" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#D58428;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="1288" y="511" width="375" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="wire_label_9" value="PWM 控制" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#D58428;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="1288" y="601" width="375" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="wire_label_30" value="外翼 PWM 复用 · 配置待核" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#D58428;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="1288" y="691" width="375" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="wire_label_29" value="外翼 PWM 复用 · 配置待核" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#D58428;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="1288" y="781" width="375" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="wire_label_25" value="PWM 控制" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#D58428;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="1288" y="871" width="375" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="wire_label_5" value="GPIO · 高有效" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#D58428;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="1288" y="976" width="375" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="wire_label_18" value="CAN 模式 · 内部跳线配置待核" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#835AB5;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="1288" y="1086" width="375" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="wire_label_33" value="RS232-1" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#2878BC;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="1288" y="1256" width="375" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="wire_label_11" value="RS232-4" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#2878BC;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="1288" y="1386" width="375" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="wire_label_13" value="RS232-5" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#2878BC;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="1288" y="1516" width="375" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="wire_label_17" value="DGPS · TTL 电平" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#168A8A;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="1288" y="1646" width="375" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="wire_label_2" value="采样信号 · 按匹配测量线接入" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#6B913C;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="1288" y="1801" width="375" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="power_section" value="" style="shape=rectangle;html=0;fillColor=#F3F6F9;strokeColor=#C7D4DE;strokeWidth=1.5;rounded=1;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="55" y="510" width="500" height="500" as="geometry" />
-        </mxCell>
-        <mxCell id="power_header" value="电源针组 · 拟分配待核" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="80" y="528" width="450" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="power_voltage" value="原图 4.5–9V；手册允许 DC 4.0–9.0V" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="80" y="569" width="450" height="27" as="geometry" />
-        </mxCell>
-        <mxCell id="power_bus_note" value="同名针内部共连：&#xa;VSER 20 / 22 / 23；PGND 1 / 3 / 4" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="80" y="905" width="450" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="power_condition" value="两路供电的隔离 / 切换方式按实际线束核对。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=17;fontColor=#A46B18;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="80" y="974" width="450" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_box" value="" style="shape=rectangle;html=0;fillColor=#F3F6F9;strokeColor=#C7D4DE;strokeWidth=1.5;rounded=1;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="55" y="1037" width="500" height="222" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_title" value="线色与状态" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1052" width="450" height="31" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_line_0" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#C84D4D;strokeWidth=3;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="85" y="1101" as="sourcePoint" />
-            <mxPoint x="123" y="1101" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="legend_label_0" value="VSER 电源" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="132" y="1087" width="170" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_line_1" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#374858;strokeWidth=3;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="1101" as="sourcePoint" />
-            <mxPoint x="358" y="1101" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="legend_label_1" value="PGND 公共地" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="367" y="1087" width="170" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_line_2" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#D58428;strokeWidth=3;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="85" y="1135" as="sourcePoint" />
-            <mxPoint x="123" y="1135" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="legend_label_2" value="PWM / DO" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="132" y="1121" width="170" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_line_3" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#2878BC;strokeWidth=3;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="1135" as="sourcePoint" />
-            <mxPoint x="358" y="1135" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="legend_label_3" value="RS232 / SBUS" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="367" y="1121" width="170" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_line_4" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#835AB5;strokeWidth=3;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="85" y="1169" as="sourcePoint" />
-            <mxPoint x="123" y="1169" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="legend_label_4" value="CAN 总线" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="132" y="1155" width="170" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_line_5" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#168A8A;strokeWidth=3;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="1169" as="sourcePoint" />
-            <mxPoint x="358" y="1169" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="legend_label_5" value="DGPS TTL" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="367" y="1155" width="170" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_line_6" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#6B913C;strokeWidth=3;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="85" y="1203" as="sourcePoint" />
-            <mxPoint x="123" y="1203" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="legend_label_6" value="ADC 采样" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="132" y="1189" width="170" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_line_7" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#A4B1BC;strokeWidth=3;endArrow=none;startArrow=none;endSize=10;startSize=10;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="1203" as="sourcePoint" />
-            <mxPoint x="358" y="1203" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="legend_label_7" value="空闲 / 保留" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=18;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="367" y="1189" width="170" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_pending" value="虚线：本次拟定的电源针组分配，待核。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=17;fontColor=#A46B18;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1230" width="450" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="install_box" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#C7D4DE;strokeWidth=1.5;rounded=1;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="55" y="1286" width="500" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="install_title" value="安装方向 · 沿用原图" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1301" width="450" height="31" as="geometry" />
-        </mxCell>
-        <mxCell id="install_text" value="以朝机头方向作为参考：&#xa;空速管：左动压，右静压&#xa;GPS 天线：左前右后，间距 &gt; 60cm" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#193B55;fontStyle=0;lineHeight=1.38;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1347" width="450" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="config_box" value="" style="shape=rectangle;html=0;fillColor=#FFF5E4;strokeColor=#D6B378;strokeWidth=1.5;rounded=1;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="55" y="1503" width="500" height="402" as="geometry" />
-        </mxCell>
-        <mxCell id="config_title" value="本机配置核对" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#A46B18;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1520" width="450" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="config_text" value="DO2 / DO3 → 外翼舵机：&#xa;需核对 PWM 复用配置。&#xa;&#xa;DO1 → 启动控制：&#xa;手册输出 4mA；核对控制驱动接口。&#xa;&#xa;ADC1 → 电池电压：&#xa;按测量模式使用匹配测量线 / 模块。&#xa;&#xa;18 / 37 → CAN：&#xa;需核对内部跳线已设为 CAN 模式。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#193B55;fontStyle=0;lineHeight=1.32;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1566" width="450" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="unused_box" value="" style="shape=rectangle;html=0;fillColor=#F3F6F9;strokeColor=#C7D4DE;strokeWidth=1.5;rounded=1;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="55" y="1940" width="2290" height="265" as="geometry" />
-        </mxCell>
-        <mxCell id="unused_header" value="未接入本机设备的针脚" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1958" width="1290" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="unused_header_note" value="未使用功能脚、NC、BOOT 与默认悬空分别标识；完整定义见第 2 页。" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=19;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="1960" width="1195" height="30" as="geometry" />
         </mxCell>
         <mxCell id="unused_final_note" value="18 / 37 已按 CAN 接线&#xa;串口 6 为同针复用定义" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#835AB5;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
           <mxGeometry x="2000" y="2110" width="310" height="57" as="geometry" />
