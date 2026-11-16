@@ -199,9 +199,6 @@
         <mxCell id="fc_CH10_GND" value="" style="shape=ellipse;html=0;fillColor=#FFFFFF;strokeColor=#AEBAC8;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="GND">
           <mxGeometry x="81.5" y="873.5" width="17" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="text_68" value="GND" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#AEBAC8;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
-          <mxGeometry x="50" y="909" width="80" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="fc_CH10_PWR" value="" style="shape=ellipse;html=0;fillColor=#FFFFFF;strokeColor=#AEBAC8;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="BEC IN">
           <mxGeometry x="161.5" y="873.5" width="17" height="17" as="geometry" />
         </mxCell>
@@ -220,20 +217,11 @@
         <mxCell id="fc_CH9_GND" value="" style="shape=ellipse;html=0;fillColor=#FFFFFF;strokeColor=#AEBAC8;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="GND">
           <mxGeometry x="81.5" y="965.5" width="17" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="text_74" value="GND" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#AEBAC8;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
-          <mxGeometry x="50" y="1001" width="80" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="fc_CH9_PWR" value="" style="shape=ellipse;html=0;fillColor=#FFFFFF;strokeColor=#AEBAC8;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="BEC IN">
           <mxGeometry x="161.5" y="965.5" width="17" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="text_75" value="BEC IN" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#AEBAC8;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
-          <mxGeometry x="130" y="1001" width="80" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="fc_CH9_S" value="" style="shape=ellipse;html=0;fillColor=#FFFFFF;strokeColor=#AEBAC8;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="S">
           <mxGeometry x="241.5" y="965.5" width="17" height="17" as="geometry" />
-        </mxCell>
-        <mxCell id="text_76" value="S" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#AEBAC8;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
-          <mxGeometry x="210" y="1001" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rect_77" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#D0D9E4;strokeWidth=1;" parent="flight_controller" vertex="1">
           <mxGeometry x="52" y="1047" width="240" height="84" as="geometry" />
