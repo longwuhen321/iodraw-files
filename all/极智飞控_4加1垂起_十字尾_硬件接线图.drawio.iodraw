@@ -1564,9 +1564,8 @@
         <mxCell id="gas_dynamic" value="" style="edgeStyle=none;html=0;rounded=0;orthogonalLoop=1;strokeColor=#6E899E;strokeWidth=4.5;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;" parent="2" source="pitot_dynamic" target="probe_dynamic" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2700" y="465" />
+              <mxPoint x="2697" y="598" />
               <mxPoint x="2929" y="605" />
-              <mxPoint x="3130" y="465" />
               <mxPoint x="3130" y="605" />
             </Array>
           </mxGeometry>
