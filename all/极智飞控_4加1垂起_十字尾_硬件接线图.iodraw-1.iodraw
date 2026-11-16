@@ -1030,8 +1030,8 @@
         <mxCell id="radio_reference_ground" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#000000;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" parent="2" source="fc_R4_3" target="radio_GND" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2823" y="1284" />
-              <mxPoint x="2823" y="1247" />
+              <mxPoint x="2829" y="1284" />
+              <mxPoint x="2829" y="1247" />
               <mxPoint x="3047" y="1247" />
             </Array>
           </mxGeometry>
@@ -1147,7 +1147,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2500" y="1155" />
-              <mxPoint x="3047" y="1155" />
+              <mxPoint x="2825" y="1155" />
+              <mxPoint x="2825" y="1140" />
             </Array>
           </mxGeometry>
         </mxCell>
