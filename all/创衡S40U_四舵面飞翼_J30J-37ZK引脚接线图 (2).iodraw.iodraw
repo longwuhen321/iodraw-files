@@ -1060,7 +1060,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YVpyZ_raPaorpIckj1Hr-5" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#374858;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;jumpStyle=arc;jumpSize=14;startArrow=none;startSize=10;endSize=10;curved=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="YVpyZ_raPaorpIckj1Hr-5" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;jumpStyle=arc;jumpSize=14;startArrow=none;startSize=10;endSize=10;curved=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1193" y="1084" as="sourcePoint" />
             <mxPoint x="1057" y="953" as="targetPoint" />
