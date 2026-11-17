@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" compressed="false" version="24.7.17" pages="2">
   <diagram id="s40u_j30_page_1" name="01_J30J-37ZK双侧镜像接线">
-    <mxGraphModel dx="1485" dy="693" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="4000" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1052" dy="491" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="4000" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" parent="0" />
@@ -1076,7 +1076,7 @@
           <mxGeometry x="2510" y="3926" width="430" height="32" as="geometry" />
         </mxCell>
         <mxCell id="rc_receiver_box" value="" style="shape=rectangle;html=0;fillColor=#F6C99F;strokeColor=#193B55;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="2280" y="1240" width="640" height="84" as="geometry" />
+          <mxGeometry x="2280" y="1238" width="640" height="86" as="geometry" />
         </mxCell>
         <mxCell id="rc_receiver_interface" value="" style="shape=rectangle;html=0;fillColor=#E8EEF4;strokeColor=#A9B8C4;strokeWidth=1.5;" parent="1" vertex="1">
           <mxGeometry x="2280" y="1238" width="220" height="86" as="geometry" />
