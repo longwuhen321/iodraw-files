@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="s40u_reference_replica" name="开拓者 S40U 电气接线图">
-    <mxGraphModel dx="1878" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1500" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1581" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1500" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="wires" value="连接线" parent="0" />
@@ -275,7 +275,7 @@
         <mxCell id="232-1_label" value="232-5" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" parent="labels" vertex="1">
           <mxGeometry x="660" y="732" width="132" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="adc1_label" value="ADC1" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" parent="labels" vertex="1">
+        <mxCell id="adc1_label" value="ADC2" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=14.5;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=right;verticalAlign=middle;spacing=0;rotation=0;" parent="labels" vertex="1">
           <mxGeometry x="660" y="798" width="132" height="18" as="geometry" />
         </mxCell>
         <mxCell id="artwork" value="原图标志" parent="0" />
