@@ -854,9 +854,6 @@
         <mxCell id="external_ins_title" value="中勍惯导" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#193B55;fontStyle=1;lineHeight=1.2;" parent="external_ins" vertex="1">
           <mxGeometry x="18" y="81" width="384" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="external_ins_sub" value="RS232-5 与 DGPS TTL&#xa;为两套独立接口" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#5C7082;fontStyle=0;lineHeight=1.2;" parent="external_ins" vertex="1">
-          <mxGeometry x="18" y="119" width="384" height="52" as="geometry" />
-        </mxCell>
         <mxCell id="ins_232_rx_row" value="" style="shape=rectangle;html=0;fillColor=#E8EEF4;strokeColor=#A9B8C4;strokeWidth=1.3;" parent="external_ins" vertex="1">
           <mxGeometry x="420" width="220" height="60" as="geometry" />
         </mxCell>
