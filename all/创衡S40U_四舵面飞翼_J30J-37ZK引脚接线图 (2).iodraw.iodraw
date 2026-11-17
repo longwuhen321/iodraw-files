@@ -1097,6 +1097,12 @@
         <mxCell id="YVpyZ_raPaorpIckj1Hr-9" value="采样2" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#6B913C;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
           <mxGeometry x="518" y="933" width="137" height="48" as="geometry" />
         </mxCell>
+        <mxCell id="YVpyZ_raPaorpIckj1Hr-10" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#718696;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="673" y="938" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="YVpyZ_raPaorpIckj1Hr-11" value="" style="shape=ellipse;html=0;fillColor=#6B913C;strokeColor=#6B913C;strokeWidth=2;" vertex="1" tooltip="电池电压 功能端口 采样输出；按原资料，设备实体针号未提供" parent="1">
+          <mxGeometry x="682" y="947" width="20" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="2" value="接线" parent="0" />
         <mxCell id="wire_power_1" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#FF0000;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;jumpStyle=arc;jumpSize=14;exitX=1;exitY=0.5;exitPerimeter=0;" parent="2" source="pow_ground" target="fc_pin_20" edge="1">
           <mxGeometry relative="1" as="geometry">
