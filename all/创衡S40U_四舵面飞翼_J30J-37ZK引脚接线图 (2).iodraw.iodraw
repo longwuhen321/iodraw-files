@@ -1072,6 +1072,15 @@
             <mxPoint x="943" y="732" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="YVpyZ_raPaorpIckj1Hr-4" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#FF0000;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;jumpStyle=arc;jumpSize=14;startArrow=none;startSize=10;endSize=10;curved=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1810" y="1148" as="sourcePoint" />
+            <mxPoint x="1919" y="886" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1919" y="1146" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2" value="接线" parent="0" />
         <mxCell id="wire_power_1" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#FF0000;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;jumpStyle=arc;jumpSize=14;exitX=1;exitY=0.5;exitPerimeter=0;" parent="2" source="pow_ground" target="fc_pin_20" edge="1">
           <mxGeometry relative="1" as="geometry">
