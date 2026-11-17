@@ -1074,7 +1074,7 @@
           <mxGeometry x="80" y="847" width="640" height="90" as="geometry" />
         </mxCell>
         <mxCell id="battery_measure_interface" value="" style="shape=rectangle;html=0;fillColor=#E8EEF4;strokeColor=#A9B8C4;strokeWidth=1.5;" parent="1" vertex="1">
-          <mxGeometry x="500" y="847" width="220" height="90" as="geometry" />
+          <mxGeometry x="500" y="847" width="220" height="178" as="geometry" />
         </mxCell>
         <mxCell id="battery_measure_title" value="电池电压" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#193B55;fontStyle=1;lineHeight=1.2;" parent="1" vertex="1">
           <mxGeometry x="98" y="859" width="384" height="34" as="geometry" />
