@@ -580,6 +580,16 @@
         <mxCell id="fc_pin_37" value="37" style="shape=ellipse;html=0;fillColor=#FFFFFF;strokeColor=#835AB5;strokeWidth=2.6;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#835AB5;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" parent="j30_physical_connector" vertex="1" tooltip="J30J-37ZK 37 号针 / CANH 或 RX232_6">
           <mxGeometry x="608" y="2410" width="40" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="YVpyZ_raPaorpIckj1Hr-3" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#FF0000;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;jumpStyle=arc;jumpSize=14;startArrow=none;startSize=10;endSize=10;curved=0;" edge="1" parent="j30_physical_connector">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="629" y="512" as="sourcePoint" />
+            <mxPoint x="757" y="252" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="784" y="512" />
+              <mxPoint x="784" y="462" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="pow" value="" style="group;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="80" y="670" width="640" height="124" as="geometry" />
         </mxCell>
@@ -1061,16 +1071,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="893" y="782" as="sourcePoint" />
             <mxPoint x="943" y="732" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YVpyZ_raPaorpIckj1Hr-3" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#FF0000;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;jumpStyle=arc;jumpSize=14;startArrow=none;startSize=10;endSize=10;curved=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1926" y="902" as="sourcePoint" />
-            <mxPoint x="1976" y="852" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1977" y="902" />
-              <mxPoint x="1977" y="852" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="2" value="接线" parent="0" />
