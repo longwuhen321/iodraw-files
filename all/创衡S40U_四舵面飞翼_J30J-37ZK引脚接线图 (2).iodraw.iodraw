@@ -1063,12 +1063,19 @@
             <mxPoint x="943" y="732" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="YVpyZ_raPaorpIckj1Hr-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1702" y="977" as="sourcePoint" />
+            <mxPoint x="1752" y="927" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2" value="接线" parent="0" />
         <mxCell id="wire_power_1" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#FF0000;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;jumpStyle=arc;jumpSize=14;exitX=1;exitY=0.5;exitPerimeter=0;" parent="2" source="pow_ground" target="fc_pin_20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="702" y="467" />
-              <mxPoint x="1788" y="467" />
+              <mxPoint x="1919" y="467" />
+              <mxPoint x="1919" y="764" />
             </Array>
           </mxGeometry>
         </mxCell>
