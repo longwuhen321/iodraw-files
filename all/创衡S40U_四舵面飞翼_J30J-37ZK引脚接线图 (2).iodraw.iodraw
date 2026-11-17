@@ -722,7 +722,7 @@
         <mxCell id="left_outer_title" value="左外翼" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#193B55;fontStyle=1;lineHeight=1.2;" parent="left_outer" vertex="1">
           <mxGeometry x="238" y="15" width="384" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="left_outer_sub" value="DO3 · PWM 复用配置待核" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#5C7082;fontStyle=0;lineHeight=1.2;" parent="left_outer" vertex="1">
+        <mxCell id="left_outer_sub" value="DO3" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#5C7082;fontStyle=0;lineHeight=1.2;" parent="left_outer" vertex="1">
           <mxGeometry x="238" y="53" width="384" height="28" as="geometry" />
         </mxCell>
         <mxCell id="left_outer_signal_row" value="" style="shape=rectangle;html=0;fillColor=#E8EEF4;strokeColor=#A9B8C4;strokeWidth=1.3;" parent="left_outer" vertex="1">
