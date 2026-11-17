@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" compressed="false" version="24.7.17" pages="2">
   <diagram id="s40u_j30_page_1" name="01_J30J-37ZK双侧镜像接线">
-    <mxGraphModel dx="3500" dy="1963" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="4000" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2100" dy="1178" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="4000" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" parent="0" />
@@ -749,7 +749,7 @@
         <mxCell id="right_outer_title" value="右外翼" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#193B55;fontStyle=1;lineHeight=1.2;" parent="right_outer" vertex="1">
           <mxGeometry x="238" y="15" width="384" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="right_outer_sub" value="DO2 · PWM 复用配置待核" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#5C7082;fontStyle=0;lineHeight=1.2;" parent="right_outer" vertex="1">
+        <mxCell id="right_outer_sub" value="DO2" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#5C7082;fontStyle=0;lineHeight=1.2;" parent="right_outer" vertex="1">
           <mxGeometry x="238" y="53" width="384" height="28" as="geometry" />
         </mxCell>
         <mxCell id="right_outer_signal_row" value="" style="shape=rectangle;html=0;fillColor=#E8EEF4;strokeColor=#A9B8C4;strokeWidth=1.3;" parent="right_outer" vertex="1">
