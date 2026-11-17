@@ -580,9 +580,9 @@
         <mxCell id="fc_pin_37" value="37" style="shape=ellipse;html=0;fillColor=#FFFFFF;strokeColor=#835AB5;strokeWidth=2.6;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#835AB5;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" parent="j30_physical_connector" vertex="1" tooltip="J30J-37ZK 37 号针 / CANH 或 RX232_6">
           <mxGeometry x="608" y="2410" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YVpyZ_raPaorpIckj1Hr-3" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#FF0000;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;jumpStyle=arc;jumpSize=14;startArrow=none;startSize=10;endSize=10;curved=0;exitX=0.97;exitY=0.537;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="j30_physical_connector">
+        <mxCell id="YVpyZ_raPaorpIckj1Hr-3" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#FF0000;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;jumpStyle=arc;jumpSize=14;startArrow=none;startSize=10;endSize=10;curved=0;" edge="1" parent="j30_physical_connector">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="641.7999999999997" y="511.48" as="sourcePoint" />
+            <mxPoint x="648" y="512" as="sourcePoint" />
             <mxPoint x="797" y="254" as="targetPoint" />
             <Array as="points">
               <mxPoint x="797" y="512" />
