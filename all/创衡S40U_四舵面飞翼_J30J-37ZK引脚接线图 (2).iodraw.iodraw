@@ -1088,7 +1088,7 @@
         <mxCell id="battery_sample" value="" style="shape=ellipse;html=0;fillColor=#6B913C;strokeColor=#6B913C;strokeWidth=2;" parent="1" vertex="1" tooltip="电池电压 功能端口 采样输出；按原资料，设备实体针号未提供">
           <mxGeometry x="682" y="882" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="battery_sample_label" value="采样输出" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#6B913C;fontStyle=1;lineHeight=1.3;" parent="1" vertex="1">
+        <mxCell id="battery_sample_label" value="采样1" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#6B913C;fontStyle=1;lineHeight=1.3;" parent="1" vertex="1">
           <mxGeometry x="518" y="868" width="137" height="48" as="geometry" />
         </mxCell>
         <mxCell id="YVpyZ_raPaorpIckj1Hr-8" value="" style="shape=rectangle;html=0;fillColor=#E8EEF4;strokeColor=#A9B8C4;strokeWidth=1.3;" vertex="1" parent="1">
