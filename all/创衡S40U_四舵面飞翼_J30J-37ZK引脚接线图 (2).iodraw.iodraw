@@ -1210,8 +1210,8 @@
         <mxCell id="wire_pin_5" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#D58428;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;jumpStyle=arc;jumpSize=14;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;" parent="2" source="fc_pin_5" target="starter_gpio" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="956" y="1212" />
-              <mxPoint x="956" y="3068" />
+              <mxPoint x="1048" y="1212" />
+              <mxPoint x="1048" y="3068" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1246,8 +1246,8 @@
         <mxCell id="wire_pin_17" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#168A8A;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;jumpStyle=arc;jumpSize=14;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;" parent="2" source="ins_dgps_tx" target="fc_pin_17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="920" y="2492" />
-              <mxPoint x="920" y="2748" />
+              <mxPoint x="1116" y="2492" />
+              <mxPoint x="1116" y="2748" />
             </Array>
           </mxGeometry>
         </mxCell>
