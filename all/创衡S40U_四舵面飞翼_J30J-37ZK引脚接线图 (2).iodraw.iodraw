@@ -1153,26 +1153,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wire_pin_23" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#C84D4D;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;jumpStyle=arc;jumpSize=14;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;" parent="2" source="fc_pin_23" target="rc_vser" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1980" y="1148" />
-              <mxPoint x="1980" y="1212" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="wire_pin_24" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#2878BC;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;jumpStyle=arc;jumpSize=14;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;" parent="2" source="rc_sbus_out" target="fc_pin_24" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wire_pin_4" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#374858;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;jumpStyle=arc;jumpSize=14;exitX=0;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;" parent="2" source="fc_pin_4" target="rc_pgnd" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="940" y="1084" />
-              <mxPoint x="940" y="450" />
-              <mxPoint x="2100" y="450" />
-              <mxPoint x="2100" y="1148" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="wire_pin_25" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#D58428;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;jumpStyle=arc;jumpSize=14;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;" parent="2" source="fc_pin_25" target="parachute_signal" edge="1">
           <mxGeometry relative="1" as="geometry" />
