@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" compressed="false" version="24.7.17" pages="2">
   <diagram id="s40u_j30_page_1" name="01_J30J-37ZK双侧镜像接线">
-    <mxGraphModel dx="1750" dy="982" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="4000" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="600" dy="337" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="4000" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" parent="0" />
@@ -585,7 +585,8 @@
             <mxPoint x="686" y="512" as="sourcePoint" />
             <mxPoint x="757" y="252" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="757" y="511" />
+              <mxPoint x="802" y="512" />
+              <mxPoint x="802" y="252" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1091,8 +1092,8 @@
             <Array as="points">
               <mxPoint x="1057" y="700" />
               <mxPoint x="1057" y="448" />
-              <mxPoint x="1919" y="448" />
-              <mxPoint x="1919" y="764" />
+              <mxPoint x="1957" y="448" />
+              <mxPoint x="1957" y="764" />
             </Array>
           </mxGeometry>
         </mxCell>
