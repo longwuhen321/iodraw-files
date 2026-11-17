@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" compressed="false" version="24.7.17" pages="2">
   <diagram id="s40u_j30_page_1" name="01_J30J-37ZK双侧镜像接线">
-    <mxGraphModel dx="2804" dy="1309" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="4000" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1328" dy="620" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="4000" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" parent="0" />
@@ -1096,10 +1096,10 @@
         <mxCell id="ins_dgps_rx_socket" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#718696;strokeWidth=1.7;" parent="external_ins" vertex="1">
           <mxGeometry x="593" y="139" width="38" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="ins_dgps_rx" value="" style="shape=ellipse;html=0;fillColor=#168A8A;strokeColor=#168A8A;strokeWidth=2;" parent="external_ins" vertex="1" tooltip="中勍惯导 功能端口 DGPS RX；按原资料，设备实体针号未提供">
+        <mxCell id="ins_dgps_rx" value="" style="shape=ellipse;html=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=2;fontColor=#ffffff;" parent="external_ins" vertex="1" tooltip="中勍惯导 功能端口 DGPS RX；按原资料，设备实体针号未提供">
           <mxGeometry x="602" y="148" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ins_dgps_rx_label" value="DGPS RX" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#168A8A;fontStyle=1;lineHeight=1.3;" parent="external_ins" vertex="1">
+        <mxCell id="ins_dgps_rx_label" value="DGPS RX" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#60A917;fontStyle=1;lineHeight=1.3;" parent="external_ins" vertex="1">
           <mxGeometry x="438" y="134" width="137" height="48" as="geometry" />
         </mxCell>
         <mxCell id="ins_dgps_tx_row" value="" style="shape=rectangle;html=0;fillColor=#E8EEF4;strokeColor=#A9B8C4;strokeWidth=1.3;" parent="external_ins" vertex="1">
@@ -1356,7 +1356,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wire_pin_35" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#168A8A;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;jumpStyle=arc;jumpSize=14;exitX=1;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;" parent="2" source="fc_pin_35" target="ins_dgps_rx" edge="1">
+        <mxCell id="wire_pin_35" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#2D7600;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;jumpStyle=arc;jumpSize=14;exitX=1;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;fillColor=#60a917;" parent="2" source="fc_pin_35" target="ins_dgps_rx" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2180" y="2684" />
