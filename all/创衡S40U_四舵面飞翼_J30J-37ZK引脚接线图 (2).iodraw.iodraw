@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" compressed="false" version="24.7.17" pages="2">
   <diagram id="s40u_j30_page_1" name="01_J30J-37ZK双侧镜像接线">
-    <mxGraphModel dx="3155" dy="1473" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="4000" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2103" dy="982" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="4000" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" parent="0" />
@@ -1058,16 +1058,6 @@
           <mxGeometry x="2345" y="1252" width="137" height="48" as="geometry" />
         </mxCell>
         <mxCell id="2" value="接线" parent="0" />
-        <mxCell id="wire_power_20" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#C84D4D;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;jumpStyle=arc;jumpSize=14;exitX=1;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;dashed=1;dashPattern=6 4;" parent="2" source="pow_positive" target="fc_pin_20" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1060" y="764" />
-              <mxPoint x="1060" y="370" />
-              <mxPoint x="1980" y="370" />
-              <mxPoint x="1980" y="764" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="wire_power_1" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#374858;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;jumpStyle=arc;jumpSize=14;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;" parent="2" source="pow_ground" target="fc_pin_1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
