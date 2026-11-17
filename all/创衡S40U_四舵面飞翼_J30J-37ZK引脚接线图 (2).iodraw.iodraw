@@ -616,7 +616,7 @@
         <mxCell id="pow_positive" value="" style="shape=ellipse;html=0;fillColor=#C84D4D;strokeColor=#C84D4D;strokeWidth=2;" parent="pow" vertex="1" tooltip="Pow 功能端口 正极 +；按原资料，设备实体针号未提供">
           <mxGeometry x="602" y="84" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pow_positive_label" value="正极 +" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#C84D4D;fontStyle=1;lineHeight=1.3;" parent="pow" vertex="1">
+        <mxCell id="pow_positive_label" value="负极 +" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#C84D4D;fontStyle=1;lineHeight=1.3;" parent="pow" vertex="1">
           <mxGeometry x="438" y="70" width="137" height="48" as="geometry" />
         </mxCell>
         <mxCell id="battery_measure" value="" style="group;" parent="1" vertex="1" connectable="0">
