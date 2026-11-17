@@ -1076,8 +1076,8 @@
         <mxCell id="wire_power_1" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#FF0000;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;jumpStyle=arc;jumpSize=14;exitX=1;exitY=0.5;exitPerimeter=0;" parent="2" source="pow_ground" target="fc_pin_20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="692" y="700" />
-              <mxPoint x="692" y="467" />
+              <mxPoint x="1109" y="700" />
+              <mxPoint x="1109" y="467" />
               <mxPoint x="1919" y="467" />
               <mxPoint x="1919" y="764" />
             </Array>
