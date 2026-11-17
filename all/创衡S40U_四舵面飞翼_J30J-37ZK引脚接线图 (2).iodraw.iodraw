@@ -1,110 +1,11 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" compressed="false" version="24.7.17" pages="2">
   <diagram id="s40u_j30_page_1" name="01_J30J-37ZK双侧镜像接线">
-    <mxGraphModel dx="2804" dy="1309" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="4000" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="5048" dy="2356" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="4000" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" parent="0" />
         <mxCell id="title" value="KC10D · 创衡 S40U · 四舵面飞翼" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=44;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="60" y="32" width="2580" height="68" as="geometry" />
-        </mxCell>
-        <mxCell id="subtitle" value="J30J-37ZK 双侧镜像针位 / J30J-37 转换板 / 杜邦式接线" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=32;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="60" y="110" width="2700" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="subtitle_note" value="按手册图 2.3 顺时针旋转 90°竖排；编号朝外、定义朝内；连接关系沿用原资料。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="60" y="173" width="2840" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="header_rule" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#193B55;strokeWidth=2.2;endArrow=none;startArrow=none;endSize=10;startSize=10;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="230" as="sourcePoint" />
-            <mxPoint x="2940" y="230" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="legend_line_0" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#C84D4D;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="65" y="269" as="sourcePoint" />
-            <mxPoint x="111" y="269" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="legend_label_0" value="VSER 电源" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="126" y="251" width="245" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_line_1" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#374858;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="385" y="269" as="sourcePoint" />
-            <mxPoint x="431" y="269" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="legend_label_1" value="PGND 公共地" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="446" y="251" width="245" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_line_2" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#D58428;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="705" y="269" as="sourcePoint" />
-            <mxPoint x="751" y="269" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="legend_label_2" value="PWM / DO" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="766" y="251" width="245" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_line_3" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#2878BC;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1025" y="269" as="sourcePoint" />
-            <mxPoint x="1071" y="269" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="legend_label_3" value="RS232 / SBUS" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="1086" y="251" width="245" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_line_4" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#835AB5;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1345" y="269" as="sourcePoint" />
-            <mxPoint x="1391" y="269" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="legend_label_4" value="CAN 总线" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="1406" y="251" width="245" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_line_5" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#168A8A;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1665" y="269" as="sourcePoint" />
-            <mxPoint x="1711" y="269" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="legend_label_5" value="DGPS TTL" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="1726" y="251" width="245" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_line_6" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#6B913C;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1985" y="269" as="sourcePoint" />
-            <mxPoint x="2031" y="269" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="legend_label_6" value="ADC 采样" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="2046" y="251" width="245" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_line_7" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#738291;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2305" y="269" as="sourcePoint" />
-            <mxPoint x="2351" y="269" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="legend_label_7" value="RPM 输入" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="2366" y="251" width="245" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_line_8" value="" style="edgeStyle=none;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#A4B1BC;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2625" y="269" as="sourcePoint" />
-            <mxPoint x="2671" y="269" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="legend_label_8" value="NC" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="2686" y="251" width="245" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="legend_pending" value="虚线：电源针组拟分配，待核" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#A46B18;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="60" y="293" width="1250" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="port_style_note" value="外设端按功能标注 · 杜邦式端子示意" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#5C7082;fontStyle=0;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="1830" y="293" width="1110" height="33" as="geometry" />
+          <mxGeometry x="1164" y="68" width="724" height="68" as="geometry" />
         </mxCell>
         <mxCell id="j30_physical_connector" value="" style="group;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1160" y="510" width="680" height="2554" as="geometry" />
