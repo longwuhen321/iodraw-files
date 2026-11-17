@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" compressed="false" version="24.7.17" pages="2">
   <diagram id="s40u_j30_page_1" name="01_J30J-37ZK双侧镜像接线">
-    <mxGraphModel dx="1050" dy="589" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="4000" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="913" dy="512" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="4000" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" parent="0" />
@@ -1094,7 +1094,7 @@
         <mxCell id="YVpyZ_raPaorpIckj1Hr-8" value="" style="shape=rectangle;html=0;fillColor=#E8EEF4;strokeColor=#A9B8C4;strokeWidth=1.3;" vertex="1" parent="1">
           <mxGeometry x="500" y="927" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YVpyZ_raPaorpIckj1Hr-9" value="采样输出" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#6B913C;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
+        <mxCell id="YVpyZ_raPaorpIckj1Hr-9" value="采样2" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#6B913C;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
           <mxGeometry x="518" y="933" width="137" height="48" as="geometry" />
         </mxCell>
         <mxCell id="2" value="接线" parent="0" />
