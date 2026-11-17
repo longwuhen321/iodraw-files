@@ -1087,13 +1087,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YVpyZ_raPaorpIckj1Hr-5" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#374858;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;jumpStyle=arc;jumpSize=14;startArrow=none;startSize=10;endSize=10;curved=0;" edge="1" parent="1">
+        <mxCell id="YVpyZ_raPaorpIckj1Hr-5" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#374858;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;jumpStyle=arc;jumpSize=14;startArrow=none;startSize=10;endSize=10;curved=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fc_pin_4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1005" y="1049" as="sourcePoint" />
-            <mxPoint x="1055" y="999" as="targetPoint" />
+            <mxPoint x="1111" y="951" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1056" y="1050" />
-              <mxPoint x="1056" y="999" />
+              <mxPoint x="1192" y="1050" />
+              <mxPoint x="1111" y="1050" />
             </Array>
           </mxGeometry>
         </mxCell>
