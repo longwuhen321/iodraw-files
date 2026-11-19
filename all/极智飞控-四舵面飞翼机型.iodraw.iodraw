@@ -678,12 +678,13 @@
             <mxPoint x="1460" y="1690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZxosM72mHNChLnxPJgvF-299" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#159779;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" edge="1" parent="flight_controller">
+        <mxCell id="ZxosM72mHNChLnxPJgvF-299" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#159779;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;entryX=0.5;entryY=0;jettySize=0;entryDx=0;entryDy=0;" edge="1" parent="flight_controller" target="ZxosM72mHNChLnxPJgvF-262">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1068" y="1752" />
               <mxPoint x="1234" y="1752" />
               <mxPoint x="1234" y="1742" />
+              <mxPoint x="1834" y="1742" />
+              <mxPoint x="1834" y="1492" />
             </Array>
             <mxPoint x="1068" y="1753" as="sourcePoint" />
             <mxPoint x="1455" y="1742" as="targetPoint" />
