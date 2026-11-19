@@ -906,6 +906,27 @@
         <mxCell id="ZxosM72mHNChLnxPJgvF-267" value="GPIO IN" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#D58428;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
           <mxGeometry x="3743" y="2121" width="137" height="48" as="geometry" />
         </mxCell>
+        <mxCell id="ZxosM72mHNChLnxPJgvF-272" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#D0D9E4;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="1173" width="240" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxosM72mHNChLnxPJgvF-273" value="UART" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=29;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="2282" y="1191" width="175" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxosM72mHNChLnxPJgvF-274" value="" style="shape=ellipse;html=0;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=2;fontColor=#ffffff;" vertex="1" tooltip="RX" parent="1">
+          <mxGeometry x="2500" y="1186" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxosM72mHNChLnxPJgvF-275" value="RX" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#AEBAC8;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="1214" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxosM72mHNChLnxPJgvF-276" value="" style="shape=ellipse;html=0;fillColor=#FFFFFF;strokeColor=#AEBAC8;strokeWidth=2;" vertex="1" tooltip="NC" parent="1">
+          <mxGeometry x="2580" y="1186" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxosM72mHNChLnxPJgvF-277" value="" style="shape=ellipse;html=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=2;fontColor=#ffffff;" vertex="1" tooltip="TX" parent="1">
+          <mxGeometry x="2660" y="1186" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxosM72mHNChLnxPJgvF-278" value="TX" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#AEBAC8;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
+          <mxGeometry x="2630" y="1214" width="80" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="2" value="接线" parent="0" />
         <mxCell id="ctrl_CH3_GND" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#30363D;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" parent="2" source="fc_CH3_GND" target="esc_CH3_GND" edge="1">
           <mxGeometry relative="1" as="geometry">
