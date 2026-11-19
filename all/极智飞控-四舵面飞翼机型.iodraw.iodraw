@@ -976,6 +976,17 @@
             <mxPoint x="3050" y="1377" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ZxosM72mHNChLnxPJgvF-292" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#159779;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2680" y="1206" />
+              <mxPoint x="2846" y="1206" />
+              <mxPoint x="2846" y="1196" />
+            </Array>
+            <mxPoint x="2680" y="1207" as="sourcePoint" />
+            <mxPoint x="3067" y="1196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2" value="接线" parent="0" />
         <mxCell id="ctrl_CH3_GND" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#30363D;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" parent="2" source="fc_CH3_GND" target="esc_CH3_GND" edge="1">
           <mxGeometry relative="1" as="geometry">
