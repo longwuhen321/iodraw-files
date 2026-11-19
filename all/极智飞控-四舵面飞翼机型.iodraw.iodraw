@@ -676,45 +676,6 @@
         <mxCell id="text_205" value="5V IN" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#D9343A;fontStyle=0;lineHeight=1.3;" parent="receiver" vertex="1">
           <mxGeometry x="362" y="100" width="110" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="esc_CH13" value="" style="group;fillColor=none;strokeColor=none;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="300" y="1010" width="500" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="text_207" value="右后电机-顺" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="esc_CH13" vertex="1">
-          <mxGeometry x="26" y="41" width="310" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="esc_CH13_S" value="" style="shape=ellipse;html=0;fillColor=#E58C31;strokeColor=#E58C31;strokeWidth=2;" parent="esc_CH13" vertex="1" tooltip="S">
-          <mxGeometry x="490" y="28" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="text_210" value="S" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#E58C31;fontStyle=0;lineHeight=1.3;" parent="esc_CH13" vertex="1">
-          <mxGeometry x="362" y="19" width="110" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="esc_CH13_GND" value="" style="shape=ellipse;html=0;fillColor=#30363D;strokeColor=#30363D;strokeWidth=2;" parent="esc_CH13" vertex="1" tooltip="GND">
-          <mxGeometry x="490" y="78" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="text_211" value="GND" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#30363D;fontStyle=0;lineHeight=1.3;" parent="esc_CH13" vertex="1">
-          <mxGeometry x="362" y="69" width="110" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="esc_CH12" value="" style="group;fillColor=none;strokeColor=none;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="300" y="1170" width="500" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="rect_212" value="" style="shape=rectangle;html=0;fillColor=#FBE5CF;strokeColor=#96A6B7;strokeWidth=2;rounded=1;arcSize=20;absoluteArcSize=1;" parent="esc_CH12" vertex="1">
-          <mxGeometry width="500" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="text_213" value="左前电机-顺" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="esc_CH12" vertex="1">
-          <mxGeometry x="26" y="41" width="310" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="esc_CH12_S" value="" style="shape=ellipse;html=0;fillColor=#E58C31;strokeColor=#E58C31;strokeWidth=2;" parent="esc_CH12" vertex="1" tooltip="S">
-          <mxGeometry x="490" y="28" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="text_216" value="S" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#E58C31;fontStyle=0;lineHeight=1.3;" parent="esc_CH12" vertex="1">
-          <mxGeometry x="362" y="19" width="110" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="esc_CH12_GND" value="" style="shape=ellipse;html=0;fillColor=#30363D;strokeColor=#30363D;strokeWidth=2;" parent="esc_CH12" vertex="1" tooltip="GND">
-          <mxGeometry x="490" y="78" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="text_217" value="GND" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=25;fontColor=#30363D;fontStyle=0;lineHeight=1.3;" parent="esc_CH12" vertex="1">
-          <mxGeometry x="362" y="69" width="110" height="38" as="geometry" />
-        </mxCell>
         <mxCell id="esc_CH7" value="" style="group;fillColor=none;strokeColor=none;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="300" y="1415" width="500" height="130" as="geometry" />
         </mxCell>
@@ -915,12 +876,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ctrl_CH13_GND" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#30363D;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" parent="2" source="fc_CH13_GND" target="esc_CH13_GND" edge="1">
+        <mxCell id="ctrl_CH13_GND" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#30363D;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" parent="2" source="fc_CH13_GND" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1096" y="1106" />
               <mxPoint x="1096" y="1098" />
             </Array>
+            <mxPoint x="800" y="1098" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ctrl_CH7_GND" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#30363D;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" parent="2" source="fc_CH7_GND" target="esc_CH7_GND" edge="1">
@@ -947,12 +909,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ctrl_CH12_GND" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#30363D;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" parent="2" source="fc_CH12_GND" target="esc_CH12_GND" edge="1">
+        <mxCell id="ctrl_CH12_GND" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#30363D;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" parent="2" source="fc_CH12_GND" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1120" y="1198" />
               <mxPoint x="1120" y="1258" />
             </Array>
+            <mxPoint x="800" y="1258" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ctrl_CH4_GND" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#30363D;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" parent="2" source="fc_CH4_GND" target="servo_CH4_GND" edge="1">
@@ -1013,15 +976,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ctrl_CH13_S" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#E58C31;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" parent="2" source="fc_CH13_S" target="esc_CH13_S" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1410" y="1082" />
-              <mxPoint x="1120" y="1082" />
-              <mxPoint x="1120" y="1048" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ctrl_CH7_S" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#E58C31;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" parent="2" source="fc_CH7_S" target="esc_CH7_S" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -1049,13 +1003,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ctrl_CH12_S" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#E58C31;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" parent="2" source="fc_CH12_S" target="esc_CH12_S" edge="1">
+        <mxCell id="ctrl_CH12_S" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#E58C31;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" parent="2" source="fc_CH12_S" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1410" y="1174" />
               <mxPoint x="1096" y="1174" />
               <mxPoint x="1096" y="1208" />
             </Array>
+            <mxPoint x="800" y="1208" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ctrl_CH4_S" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#E58C31;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" parent="2" source="fc_CH4_S" target="servo_CH4_S" edge="1">
