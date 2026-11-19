@@ -885,7 +885,7 @@
         <mxCell id="ZxosM72mHNChLnxPJgvF-252" value="" style="shape=rectangle;html=0;fillColor=#F6C99F;strokeColor=#193B55;strokeWidth=2;" vertex="1" parent="ZxosM72mHNChLnxPJgvF-251">
           <mxGeometry x="-3" width="640" height="252" as="geometry" />
         </mxCell>
-        <mxCell id="ZxosM72mHNChLnxPJgvF-254" value="发动机 · 宗申 CA100I" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#193B55;fontStyle=1;lineHeight=1.2;" vertex="1" parent="ZxosM72mHNChLnxPJgvF-251">
+        <mxCell id="ZxosM72mHNChLnxPJgvF-254" value="发动机 · 光华" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#193B55;fontStyle=1;lineHeight=1.2;" vertex="1" parent="ZxosM72mHNChLnxPJgvF-251">
           <mxGeometry x="253" y="81" width="384" height="34" as="geometry" />
         </mxCell>
         <mxCell id="ZxosM72mHNChLnxPJgvF-255" value="ECU · CAN 1 Mbps&#xa;启动机继电器 · GPIO 高有效" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#5C7082;fontStyle=0;lineHeight=1.2;" vertex="1" parent="ZxosM72mHNChLnxPJgvF-251">
