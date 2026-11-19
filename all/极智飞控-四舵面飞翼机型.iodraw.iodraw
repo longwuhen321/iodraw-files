@@ -823,6 +823,15 @@
         <mxCell id="ZxosM72mHNChLnxPJgvF-242" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=1;" vertex="1" parent="1">
           <mxGeometry x="3047" y="952" width="392" height="142" as="geometry" />
         </mxCell>
+        <mxCell id="ZxosM72mHNChLnxPJgvF-248" value="" style="shape=ellipse;html=0;fillColor=#2C7FC1;strokeColor=#2C7FC1;strokeWidth=2;" vertex="1" tooltip="TX" parent="ZxosM72mHNChLnxPJgvF-242">
+          <mxGeometry x="-10" y="16" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxosM72mHNChLnxPJgvF-249" value="" style="shape=ellipse;html=0;fillColor=#159779;strokeColor=#159779;strokeWidth=2;" vertex="1" tooltip="RX" parent="ZxosM72mHNChLnxPJgvF-242">
+          <mxGeometry x="-10" y="52" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxosM72mHNChLnxPJgvF-250" value="" style="shape=ellipse;html=0;fillColor=#30363D;strokeColor=#30363D;strokeWidth=2;" vertex="1" tooltip="GND" parent="ZxosM72mHNChLnxPJgvF-242">
+          <mxGeometry x="-10" y="88" width="20" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="ZxosM72mHNChLnxPJgvF-243" value="GND" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#30363D;fontStyle=0;lineHeight=1.3;" vertex="1" parent="1">
           <mxGeometry x="3072" y="1043" width="120" height="40" as="geometry" />
         </mxCell>
@@ -845,15 +854,6 @@
             <mxPoint x="2500" y="991" as="sourcePoint" />
             <mxPoint x="3047" y="955" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="ZxosM72mHNChLnxPJgvF-248" value="" style="shape=ellipse;html=0;fillColor=#2C7FC1;strokeColor=#2C7FC1;strokeWidth=2;" vertex="1" tooltip="TX" parent="1">
-          <mxGeometry x="3047" y="1140" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="ZxosM72mHNChLnxPJgvF-249" value="" style="shape=ellipse;html=0;fillColor=#159779;strokeColor=#159779;strokeWidth=2;" vertex="1" tooltip="RX" parent="1">
-          <mxGeometry x="3047" y="1176" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="ZxosM72mHNChLnxPJgvF-250" value="" style="shape=ellipse;html=0;fillColor=#30363D;strokeColor=#30363D;strokeWidth=2;" vertex="1" tooltip="GND" parent="1">
-          <mxGeometry x="3047" y="1212" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2" value="接线" parent="0" />
         <mxCell id="ctrl_CH3_GND" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#30363D;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" parent="2" source="fc_CH3_GND" target="esc_CH3_GND" edge="1">
