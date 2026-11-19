@@ -667,6 +667,17 @@
             <mxPoint x="1876" y="909" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ZxosM72mHNChLnxPJgvF-298" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#2C7FC1;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;entryX=0;entryY=0.5;jettySize=0;entryDx=0;entryDy=0;" edge="1" parent="flight_controller">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="1731" />
+              <mxPoint x="1245" y="1731" />
+              <mxPoint x="1245" y="1690" />
+            </Array>
+            <mxPoint x="920" y="1752" as="sourcePoint" />
+            <mxPoint x="1460" y="1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="esc_CH3" value="" style="group;fillColor=none;strokeColor=none;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="300" y="650" width="500" height="130" as="geometry" />
         </mxCell>
