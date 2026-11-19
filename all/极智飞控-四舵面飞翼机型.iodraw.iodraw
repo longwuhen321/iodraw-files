@@ -655,13 +655,13 @@
         <mxCell id="ZxosM72mHNChLnxPJgvF-279" value="NC" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#AEBAC8;fontStyle=0;lineHeight=1.3;" vertex="1" parent="flight_controller">
           <mxGeometry x="958" y="1770" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZxosM72mHNChLnxPJgvF-293" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#000000;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;entryX=0.5;entryY=1;jettySize=0;entryDx=0;entryDy=0;" edge="1" parent="flight_controller" target="ZxosM72mHNChLnxPJgvF-285">
+        <mxCell id="ZxosM72mHNChLnxPJgvF-293" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#000000;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;jettySize=0;" edge="1" parent="flight_controller" target="ZxosM72mHNChLnxPJgvF-285">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1678" y="981" />
               <mxPoint x="1678" y="898" />
               <mxPoint x="1876" y="898" />
-              <mxPoint x="1876" y="901" />
+              <mxPoint x="1876" y="891" />
             </Array>
             <mxPoint x="1499" y="981" as="sourcePoint" />
             <mxPoint x="1876" y="909" as="targetPoint" />
