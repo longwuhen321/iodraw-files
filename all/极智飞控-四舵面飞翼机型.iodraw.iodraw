@@ -993,10 +993,21 @@
             <Array as="points">
               <mxPoint x="2816" y="991" />
               <mxPoint x="2816" y="981" />
-              <mxPoint x="3037" y="981" />
+              <mxPoint x="2821" y="981" />
+              <mxPoint x="2821" y="1014" />
             </Array>
             <mxPoint x="2650" y="992" as="sourcePoint" />
             <mxPoint x="3037" y="981" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZxosM72mHNChLnxPJgvF-295" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#000000;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2839" y="1294" />
+              <mxPoint x="2839" y="1222" />
+            </Array>
+            <mxPoint x="2680" y="1294" as="sourcePoint" />
+            <mxPoint x="3057" y="1222" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2" value="接线" parent="0" />
