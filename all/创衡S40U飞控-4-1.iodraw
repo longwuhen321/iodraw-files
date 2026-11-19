@@ -161,7 +161,7 @@
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-46" value="J30J-37" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=15;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=90;" parent="mE4VjG2YgsgjTHfdD5Ki-45" vertex="1">
           <mxGeometry x="-44" y="60" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-76" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#B20000;fillColor=#e51400;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#ffffff;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-76" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#A50040;fillColor=#d80073;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#ffffff;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
           <mxGeometry x="65" y="130" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-77" value="Pow" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="mE4VjG2YgsgjTHfdD5Ki-76" vertex="1">
