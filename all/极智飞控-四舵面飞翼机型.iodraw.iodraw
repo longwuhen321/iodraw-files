@@ -670,10 +670,8 @@
         <mxCell id="ZxosM72mHNChLnxPJgvF-298" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#2C7FC1;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;entryX=0;entryY=0.5;jettySize=0;entryDx=0;entryDy=0;" edge="1" parent="flight_controller" target="ZxosM72mHNChLnxPJgvF-258">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="920" y="1731" />
-              <mxPoint x="1245" y="1731" />
-              <mxPoint x="1245" y="1690" />
-              <mxPoint x="1679" y="1690" />
+              <mxPoint x="920" y="1704" />
+              <mxPoint x="1679" y="1704" />
               <mxPoint x="1679" y="1442" />
             </Array>
             <mxPoint x="920" y="1752" as="sourcePoint" />
