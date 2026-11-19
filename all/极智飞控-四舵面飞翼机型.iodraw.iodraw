@@ -7,7 +7,7 @@
         <mxCell id="ZxosM72mHNChLnxPJgvF-208" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="3075" y="830" width="392" height="142" as="geometry" />
         </mxCell>
-        <mxCell id="7dAObo-od7bCV0ytTK1Q-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="7dAObo-od7bCV0ytTK1Q-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=1;" parent="1" vertex="1">
           <mxGeometry x="3047" y="1120" width="392" height="142" as="geometry" />
         </mxCell>
         <mxCell id="flight_controller" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=none;strokeColor=none;" parent="1" vertex="1" connectable="0">
