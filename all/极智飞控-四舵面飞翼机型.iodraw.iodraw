@@ -988,15 +988,15 @@
             <mxPoint x="3050" y="1377" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZxosM72mHNChLnxPJgvF-294" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#159779;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" edge="1" parent="1">
+        <mxCell id="ZxosM72mHNChLnxPJgvF-294" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#159779;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;entryX=0;entryY=0.5;jettySize=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZxosM72mHNChLnxPJgvF-249">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2670" y="1196" />
-              <mxPoint x="2836" y="1196" />
-              <mxPoint x="2836" y="1186" />
+              <mxPoint x="2816" y="991" />
+              <mxPoint x="2816" y="981" />
+              <mxPoint x="3037" y="981" />
             </Array>
-            <mxPoint x="2670" y="1197" as="sourcePoint" />
-            <mxPoint x="3057" y="1186" as="targetPoint" />
+            <mxPoint x="2650" y="992" as="sourcePoint" />
+            <mxPoint x="3037" y="981" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2" value="接线" parent="0" />
