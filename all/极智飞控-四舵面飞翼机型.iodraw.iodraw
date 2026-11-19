@@ -880,7 +880,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZxosM72mHNChLnxPJgvF-251" value="" style="group;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="3082" y="1912" width="640" height="252" as="geometry" />
+          <mxGeometry x="3082" y="1912" width="640" height="257" as="geometry" />
         </mxCell>
         <mxCell id="ZxosM72mHNChLnxPJgvF-252" value="" style="shape=rectangle;html=0;fillColor=#F6C99F;strokeColor=#193B55;strokeWidth=2;" vertex="1" parent="ZxosM72mHNChLnxPJgvF-251">
           <mxGeometry x="-3" width="640" height="252" as="geometry" />
@@ -890,6 +890,9 @@
         </mxCell>
         <mxCell id="ZxosM72mHNChLnxPJgvF-255" value="ECU · CAN 1 Mbps&#xa;启动机继电器 · GPIO 高有效" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#5C7082;fontStyle=0;lineHeight=1.2;" vertex="1" parent="ZxosM72mHNChLnxPJgvF-251">
           <mxGeometry x="253" y="119" width="384" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxosM72mHNChLnxPJgvF-253" value="" style="shape=rectangle;html=0;fillColor=#E8EEF4;strokeColor=#A9B8C4;strokeWidth=1.5;" vertex="1" parent="ZxosM72mHNChLnxPJgvF-251">
+          <mxGeometry x="180" y="5" width="220" height="252" as="geometry" />
         </mxCell>
         <mxCell id="ZxosM72mHNChLnxPJgvF-257" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#718696;strokeWidth=1.7;" vertex="1" parent="1">
           <mxGeometry x="3898" y="1934" width="38" height="38" as="geometry" />
@@ -926,9 +929,6 @@
         </mxCell>
         <mxCell id="ZxosM72mHNChLnxPJgvF-264" value="" style="shape=rectangle;html=0;fillColor=#E8EEF4;strokeColor=#A9B8C4;strokeWidth=1.3;" vertex="1" parent="1">
           <mxGeometry x="3152" y="2309" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZxosM72mHNChLnxPJgvF-253" value="" style="shape=rectangle;html=0;fillColor=#E8EEF4;strokeColor=#A9B8C4;strokeWidth=1.5;" vertex="1" parent="1">
-          <mxGeometry x="4016" y="2125" width="220" height="252" as="geometry" />
         </mxCell>
         <mxCell id="2" value="接线" parent="0" />
         <mxCell id="ctrl_CH3_GND" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;orthogonalLoop=1;strokeColor=#30363D;strokeWidth=3.6;endArrow=none;startArrow=none;endSize=14;startSize=14;jumpStyle=arc;jumpSize=14;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;jettySize=0;" parent="2" source="fc_CH3_GND" target="esc_CH3_GND" edge="1">
