@@ -125,13 +125,13 @@
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-11" value="RC 接收机" style="shape=text;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="mE4VjG2YgsgjTHfdD5Ki-10" vertex="1">
           <mxGeometry x="5" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-25" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-25" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#d6b656;fillColor=#fff2cc;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
           <mxGeometry x="810" y="690" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-26" value="光电吊舱" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="mE4VjG2YgsgjTHfdD5Ki-25" vertex="1">
           <mxGeometry x="5" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-27" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-27" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#d6b656;fillColor=#fff2cc;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
           <mxGeometry x="810" y="634" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-28" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" parent="mE4VjG2YgsgjTHfdD5Ki-27" vertex="1">
@@ -143,13 +143,13 @@
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-30" value="UAV_GCS50" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=16;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="mE4VjG2YgsgjTHfdD5Ki-28" vertex="1">
           <mxGeometry y="20" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-33" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-33" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#d6b656;fillColor=#fff2cc;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
           <mxGeometry x="810" y="802" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-34" value="固定翼电压" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="mE4VjG2YgsgjTHfdD5Ki-33" vertex="1">
           <mxGeometry x="5" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-35" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
+        <mxCell id="mE4VjG2YgsgjTHfdD5Ki-35" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#d6b656;fillColor=#fff2cc;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
           <mxGeometry x="810" y="858" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-36" value="多旋翼电压" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="mE4VjG2YgsgjTHfdD5Ki-35" vertex="1">
@@ -218,25 +218,25 @@
         <mxCell id="pwm5_device_text" value="电机 4/右下/顺" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="pwm5_device" vertex="1">
           <mxGeometry x="5" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="pwm6_device" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
+        <mxCell id="pwm6_device" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#d6b656;fillColor=#fff2cc;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
           <mxGeometry x="810" y="466" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pwm6_device_text" value="电机 1/右上/逆" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="pwm6_device" vertex="1">
           <mxGeometry x="5" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="pwm7_device" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
+        <mxCell id="pwm7_device" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#d6b656;fillColor=#fff2cc;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
           <mxGeometry x="810" y="522" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pwm7_device_text" value="电机 2/左下/逆" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="pwm7_device" vertex="1">
           <mxGeometry x="5" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="pwm8_device" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
+        <mxCell id="pwm8_device" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#d6b656;fillColor=#fff2cc;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
           <mxGeometry x="810" y="578" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="pwm8_device_text" value="电机 3/左上/顺" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="pwm8_device" vertex="1">
           <mxGeometry x="5" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="ground_station" value="外部惯导" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
+        <mxCell id="ground_station" value="外部惯导" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#d6b656;fillColor=#fff2cc;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
           <mxGeometry x="810" y="746" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="junctions" value="电源连接点" parent="0" />
