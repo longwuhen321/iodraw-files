@@ -924,7 +924,7 @@
         <mxCell id="ZxosM72mHNChLnxPJgvF-261" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#718696;strokeWidth=1.7;" vertex="1" parent="ZxosM72mHNChLnxPJgvF-251">
           <mxGeometry x="10" y="71" width="38" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="ZxosM72mHNChLnxPJgvF-262" value="" style="shape=ellipse;html=0;fillColor=#835AB5;strokeColor=#835AB5;strokeWidth=2;" vertex="1" tooltip="发动机 · 宗申 CA100I 功能端口 CANH；按原资料，设备实体针号未提供" parent="ZxosM72mHNChLnxPJgvF-251">
+        <mxCell id="ZxosM72mHNChLnxPJgvF-262" value="" style="shape=ellipse;html=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=2;fontColor=#ffffff;" vertex="1" tooltip="发动机 · 宗申 CA100I 功能端口 CANH；按原资料，设备实体针号未提供" parent="ZxosM72mHNChLnxPJgvF-251">
           <mxGeometry x="19" y="80" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZxosM72mHNChLnxPJgvF-265" value="" style="shape=rectangle;html=0;fillColor=#FFFFFF;strokeColor=#718696;strokeWidth=1.7;" vertex="1" parent="ZxosM72mHNChLnxPJgvF-251">
