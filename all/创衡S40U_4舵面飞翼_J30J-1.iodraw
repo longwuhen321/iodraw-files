@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" compressed="false" version="24.7.17" pages="2">
   <diagram id="s40u_j30_page_1" name="01_J30J-37ZK双侧镜像接线">
-    <mxGraphModel dx="3715" dy="2085" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="4000" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1238" dy="695" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="4000" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" parent="0" />
@@ -952,9 +952,6 @@
         </mxCell>
         <mxCell id="starter_gpio" value="" style="shape=ellipse;html=0;fillColor=#D58428;strokeColor=#D58428;strokeWidth=2;" parent="engine_group" vertex="1" tooltip="发动机 · 宗申 CA100I 功能端口 GPIO IN；按原资料，设备实体针号未提供">
           <mxGeometry x="602" y="212" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="ULo3okkpFc0W557Jzovk-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="engine_group" source="starter_gpio_label" target="ecu_canh_label" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="starter_gpio_label" value="GPIO IN" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=22;fontColor=#D58428;fontStyle=1;lineHeight=1.3;" parent="engine_group" vertex="1">
           <mxGeometry x="438" y="198" width="137" height="48" as="geometry" />
