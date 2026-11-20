@@ -192,7 +192,7 @@
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-80" value="Pow2" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=Times New Roman;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="mE4VjG2YgsgjTHfdD5Ki-79" vertex="1">
           <mxGeometry x="5" width="220" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="flight_controller" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
+        <mxCell id="flight_controller" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#d79b00;fillColor=#ffe6cc;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
           <mxGeometry x="65" y="426" width="230" height="180" as="geometry" />
         </mxCell>
         <mxCell id="controller_title" value="" style="group;strokeColor=none;fillColor=none;connectable=0;" parent="flight_controller" vertex="1">
