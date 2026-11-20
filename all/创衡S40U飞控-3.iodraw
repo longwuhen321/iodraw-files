@@ -207,7 +207,7 @@
         <mxCell id="controller_title_line_3" value="飞行控制及导航系统" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=20;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="controller_title" vertex="1">
           <mxGeometry y="56" width="210" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="connector" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#222222;fillColor=#FFFFFF;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
+        <mxCell id="connector" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#d79b00;fillColor=#ffe6cc;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
           <mxGeometry x="440" y="160" width="120" height="720" as="geometry" />
         </mxCell>
         <mxCell id="connector_label" value="J30J-37&#xa;转换板" style="shape=text;rounded=0;strokeColor=none;fillColor=none;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontColor=#111111;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="connector" vertex="1">
