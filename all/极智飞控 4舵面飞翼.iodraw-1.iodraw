@@ -53,7 +53,7 @@
           <mxGeometry x="20" y="125" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="flight_controller" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=none;strokeColor=none;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1160" y="500" width="1650" height="1850" as="geometry" />
+          <mxGeometry x="1154" y="500" width="1650" height="1850" as="geometry" />
         </mxCell>
         <mxCell id="rect_7" value="" style="shape=rectangle;html=0;fillColor=#DCE3EA;strokeColor=#74889C;strokeWidth=3;rounded=1;arcSize=144;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;absoluteArcSize=1;" parent="flight_controller" vertex="1">
           <mxGeometry width="1650" height="1850" as="geometry" />
