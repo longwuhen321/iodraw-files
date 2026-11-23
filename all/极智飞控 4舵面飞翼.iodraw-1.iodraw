@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36" compressed="false" version="24.7.17">
   <diagram id="vtol_page_1" name="接线图">
-    <mxGraphModel dx="929" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2828" math="0" shadow="0">
+    <mxGraphModel dx="2972" dy="1668" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2828" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" style="" parent="0" />
@@ -1170,6 +1170,9 @@
             <mxPoint x="2126" y="2249" as="sourcePoint" />
             <mxPoint x="3130" y="2228" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nKLWtDQ8qHmeruZaepJO-220" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1787" y="2581" width="40" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2" value="接线" parent="0" />
         <mxCell id="ZxosM72mHNChLnxPJgvF-293" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;curved=0;orthogonalLoop=1;strokeColor=#30363D;strokeWidth=4;endArrow=none;startArrow=none;jumpStyle=arc;jumpSize=12;jettySize=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;movable=1;bendable=1;disconnectable=1;" parent="2" source="fc_R6_3" target="ZxosM72mHNChLnxPJgvF-285" edge="1">
