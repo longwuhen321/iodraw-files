@@ -1161,10 +1161,10 @@
         <mxCell id="nKLWtDQ8qHmeruZaepJO-219" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;curved=0;orthogonalLoop=1;strokeColor=#2C7FC1;strokeWidth=4;endArrow=none;startArrow=none;jumpStyle=arc;jumpSize=12;jettySize=0;exitX=0.5;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0.5;entryPerimeter=0;movable=1;bendable=1;disconnectable=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2510" y="1562" />
+              <mxPoint x="2500" y="2228" />
             </Array>
-            <mxPoint x="2510" y="1588" as="sourcePoint" />
-            <mxPoint x="3140" y="1562" as="targetPoint" />
+            <mxPoint x="2500" y="2254" as="sourcePoint" />
+            <mxPoint x="3130" y="2228" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2" value="接线" parent="0" />
