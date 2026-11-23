@@ -1025,7 +1025,7 @@
           <mxGeometry x="236" y="109" width="388" height="58" as="geometry" />
         </mxCell>
         <mxCell id="ZxosM72mHNChLnxPJgvF-267" value="GPIO IN" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#D58428;fontStyle=1;lineHeight=1.22;" parent="ZxosM72mHNChLnxPJgvF-251" vertex="1">
-          <mxGeometry x="69" y="162" width="137" height="54" as="geometry" />
+          <mxGeometry x="61" y="173" width="137" height="54" as="geometry" />
         </mxCell>
         <mxCell id="ZxosM72mHNChLnxPJgvF-296" value="TX" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=26;fontColor=#2C7FC1;fontStyle=0;lineHeight=1.22;" parent="ZxosM72mHNChLnxPJgvF-251" vertex="1">
           <mxGeometry x="69" width="137" height="54" as="geometry" />
