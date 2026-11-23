@@ -694,7 +694,7 @@
         <mxCell id="ZxosM72mHNChLnxPJgvF-277" value="" style="shape=ellipse;html=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=2;fontColor=#ffffff;" parent="flight_controller" vertex="1" tooltip="TX">
           <mxGeometry x="885" y="1742" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZxosM72mHNChLnxPJgvF-278" value="TX" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#AEBAC8;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
+        <mxCell id="ZxosM72mHNChLnxPJgvF-278" value="TX" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#000000;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="857" y="1771" width="80" height="29" as="geometry" />
         </mxCell>
         <mxCell id="ZxosM72mHNChLnxPJgvF-279" value="GND" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#AEBAC8;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
