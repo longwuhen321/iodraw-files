@@ -704,7 +704,7 @@
           <mxGeometry x="1060" y="1729" width="240" height="84" as="geometry" />
         </mxCell>
         <mxCell id="nKLWtDQ8qHmeruZaepJO-217" value="TX" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#AEBAC8;fontStyle=0;lineHeight=1.3;" vertex="1" parent="flight_controller">
-          <mxGeometry x="921" y="1770" width="80" height="30" as="geometry" />
+          <mxGeometry x="927" y="1770" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nKLWtDQ8qHmeruZaepJO-216" value="" style="shape=ellipse;html=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=2;fontColor=#ffffff;" vertex="1" tooltip="TX" parent="flight_controller">
           <mxGeometry x="956" y="1742" width="20" height="20" as="geometry" />
