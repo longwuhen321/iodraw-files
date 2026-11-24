@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" parent="0" />
         <mxCell id="title" value="KC10D · 创衡 S40U · 4舵面飞翼" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=60;fontColor=#193B55;fontStyle=1;lineHeight=1.3;" parent="1" vertex="1">
-          <mxGeometry x="1005" y="173" width="990" height="68" as="geometry" />
+          <mxGeometry x="1005" y="173" width="996" height="112" as="geometry" />
         </mxCell>
         <mxCell id="j30_physical_connector" value="" style="group;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1160" y="510" width="680" height="2554" as="geometry" />
