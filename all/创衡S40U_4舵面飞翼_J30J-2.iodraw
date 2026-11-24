@@ -574,7 +574,7 @@
             <mxPoint x="596" y="2460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fc_signal_37" value="CANH&#xa;RX232_6" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#835AB5;fontStyle=1;lineHeight=1.14;" parent="j30_physical_connector" vertex="1">
+        <mxCell id="fc_signal_37" value="RX232_6\CANH" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#835AB5;fontStyle=1;lineHeight=1.14;" parent="j30_physical_connector" vertex="1">
           <mxGeometry x="396" y="2403" width="188" height="54" as="geometry" />
         </mxCell>
         <mxCell id="fc_pin_37" value="37" style="shape=ellipse;html=0;fillColor=#FFFFFF;strokeColor=#835AB5;strokeWidth=2.6;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#835AB5;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" parent="j30_physical_connector" vertex="1" tooltip="J30J-37ZK 37 号针 / CANH 或 RX232_6">
