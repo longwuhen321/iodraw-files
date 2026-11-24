@@ -1066,7 +1066,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FRvgbitfKwrVvQShEPI7-3" value="" style="shape=rectangle;html=0;fillColor=#E8EEF4;strokeColor=#A9B8C4;strokeWidth=1.3;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1704" width="220" height="60" as="geometry" />
+          <mxGeometry x="540" y="1840" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2" value="接线" parent="0" />
         <mxCell id="wire_power_1" value="" style="edgeStyle=orthogonalEdgeStyle;html=0;rounded=0;curved=0;orthogonalLoop=1;jettySize=auto;strokeColor=#FF0000;strokeWidth=5;endArrow=none;startArrow=none;endSize=10;startSize=10;jumpStyle=arc;jumpSize=14;exitX=1;exitY=0.5;exitPerimeter=0;" parent="2" source="pow_ground" target="fc_pin_20" edge="1">
