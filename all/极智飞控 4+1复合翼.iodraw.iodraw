@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="接线图" id="9TnzROw1esrq02AY98cA">
-    <mxGraphModel dx="708" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2828" math="0" shadow="0">
+    <mxGraphModel dx="2477" dy="1390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="2828" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="图形与标注" style="" parent="0" />
@@ -1027,7 +1027,7 @@
         <mxCell id="servo_CH1_GND" value="" style="shape=ellipse;html=0;fillColor=#30363D;strokeColor=#30363D;strokeWidth=1.8;movable=1;resizable=1;connectable=1;" parent="servo_CH1" vertex="1" tooltip="GND">
           <mxGeometry x="600" y="71" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="text_1" value="开拓者-极智复合翼电气接线示意图" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=62;fontColor=#193B55;fontStyle=1;lineHeight=1.22;" parent="1" vertex="1">
+        <mxCell id="text_1" value="开拓者-A2PRO-复合翼电气接线示意图" style="text;html=0;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=62;fontColor=#193B55;fontStyle=1;lineHeight=1.22;" parent="1" vertex="1">
           <mxGeometry x="1510" y="240" width="1120" height="115" as="geometry" />
         </mxCell>
         <mxCell id="text_296" value="01 / 02" style="text;html=0;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=34;fontColor=#163A5F;fontStyle=1;lineHeight=1.3;" parent="1" vertex="1">
