@@ -289,7 +289,7 @@
             <mxPoint x="84" y="2396" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fc_signal_18" value="CANL&#xa;TX232_6" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#835AB5;fontStyle=1;lineHeight=1.14;" parent="j30_physical_connector" vertex="1">
+        <mxCell id="fc_signal_18" value="CANL\TX232_6" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=20;fontColor=#835AB5;fontStyle=1;lineHeight=1.14;" parent="j30_physical_connector" vertex="1">
           <mxGeometry x="96" y="2339" width="188" height="54" as="geometry" />
         </mxCell>
         <mxCell id="fc_pin_18" value="18" style="shape=ellipse;html=0;fillColor=#FFFFFF;strokeColor=#835AB5;strokeWidth=2.6;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=21;fontColor=#835AB5;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" parent="j30_physical_connector" vertex="1" tooltip="J30J-37ZK 18 号针 / CANL 或 TX232_6">
