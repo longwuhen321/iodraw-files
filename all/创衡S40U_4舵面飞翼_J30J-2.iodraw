@@ -1058,10 +1058,10 @@
         </mxCell>
         <mxCell id="FRvgbitfKwrVvQShEPI7-2" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeColor=#000000;strokeWidth=5;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;jumpStyle=arc;jumpSize=14;startArrow=none;startSize=10;endSize=10;curved=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1203" y="1094" as="sourcePoint" />
-            <mxPoint x="1067" y="963" as="targetPoint" />
+            <mxPoint x="1193" y="699" as="sourcePoint" />
+            <mxPoint x="1057" y="568" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1067" y="1094" />
+              <mxPoint x="1057" y="699" />
             </Array>
           </mxGeometry>
         </mxCell>
