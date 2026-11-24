@@ -123,7 +123,7 @@
           <mxGeometry x="810" y="130" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-11" value="RC 接收机" style="shape=text;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;strokeWidth=0;fontFamily=SimSun;fontSize=17;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;rotation=0;" parent="mE4VjG2YgsgjTHfdD5Ki-10" vertex="1">
-          <mxGeometry x="5" width="225" height="44" as="geometry" />
+          <mxGeometry width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="mE4VjG2YgsgjTHfdD5Ki-25" value="" style="shape=rectangle;rounded=0;shadow=0;strokeColor=#d6b656;fillColor=#fff2cc;strokeWidth=1.2;fontFamily=SimSun;fontSize=17;fontStyle=0;html=0;whiteSpace=nowrap;overflow=visible;align=center;verticalAlign=middle;spacing=0;" parent="frames" vertex="1">
           <mxGeometry x="810" y="690" width="230" height="44" as="geometry" />
