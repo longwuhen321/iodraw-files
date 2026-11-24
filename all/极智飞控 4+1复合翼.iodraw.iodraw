@@ -160,9 +160,6 @@
         <mxCell id="text_42" value="CH14" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=33;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="320" y="490" width="140" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="text_43" value="第二升降舵 · 选配" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#637B96;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
-          <mxGeometry x="470" y="491.5" width="310" height="45" as="geometry" />
-        </mxCell>
         <mxCell id="fc_CH14_GND" value="" style="shape=ellipse;html=0;fillColor=#76608a;strokeColor=#432D57;strokeWidth=2;fontColor=#ffffff;" parent="flight_controller" vertex="1" tooltip="GND">
           <mxGeometry x="80" y="504" width="20" height="20" as="geometry" />
         </mxCell>
@@ -178,9 +175,6 @@
         <mxCell id="text_48" value="CH13" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=33;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="320" y="582" width="140" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="text_49" value="右后电机" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
-          <mxGeometry x="470" y="583.5" width="310" height="45" as="geometry" />
-        </mxCell>
         <mxCell id="fc_CH13_GND" value="" style="shape=ellipse;html=0;fillColor=#30363D;strokeColor=#30363D;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="GND">
           <mxGeometry x="80" y="596" width="20" height="20" as="geometry" />
         </mxCell>
@@ -195,9 +189,6 @@
         </mxCell>
         <mxCell id="text_54" value="CH12" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=33;fontColor=#183B56;fontStyle=1;lineHeight=1.3;" parent="flight_controller" vertex="1">
           <mxGeometry x="320" y="674" width="140" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="text_55" value="左前电机" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=fill;spacing=0;fontFamily=Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif;fontSize=24;fontColor=#243447;fontStyle=0;lineHeight=1.3;" parent="flight_controller" vertex="1">
-          <mxGeometry x="470" y="675.5" width="310" height="45" as="geometry" />
         </mxCell>
         <mxCell id="fc_CH12_GND" value="" style="shape=ellipse;html=0;fillColor=#30363D;strokeColor=#30363D;strokeWidth=2;" parent="flight_controller" vertex="1" tooltip="GND">
           <mxGeometry x="80" y="688" width="20" height="20" as="geometry" />
